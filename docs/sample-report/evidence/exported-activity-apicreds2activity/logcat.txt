@@ -1,0 +1,870 @@
+--------- beginning of main
+11-10 19:31:03.738 15144 15314 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+11-10 19:31:03.738 15144 15314 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-10 19:31:03.740  1240  1240 D CarrierSvcBindHelper: No carrier app for: 0
+11-10 19:31:03.747 15144 15144 W Glide   : Failed to find GeneratedAppGlideModule. You should include an annotationProcessor compile dependency on com.github.bumptech.glide:compiler in your application and a @GlideModule annotated AppGlideModule implementation or LibraryGlideModules will be silently ignored
+11-10 19:31:03.749   471   471 I Zygote  : Process 15164 exited due to signal 9 (Killed)
+11-10 19:31:03.765 14476 14535 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=506: unexpected standardMetadataType=21
+11-10 19:31:03.782 14476 14532 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=502: unexpected standardMetadataType=21
+11-10 19:31:03.785 15144 15292 I AmazonVideo: BackgroundThreadWriteSharedPreferences for com.amazon.avod.thirdpartyclient_preferences initializeMemCache() took 0 ms
+11-10 19:31:03.787 15144 15144 I AmazonVideo: Entered initialize for StringInjectingViewDecorator
+11-10 19:31:03.788 15144 15144 I AmazonVideo: Completed initialize for StringInjectingViewDecorator
+11-10 19:31:03.816 14476 14535 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=501: unexpected standardMetadataType=21
+11-10 19:31:03.833 14476 14535 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=499: unexpected standardMetadataType=21
+11-10 19:31:03.838 15144 15144 I AmazonVideo: LoadingTimeout(DetailPageActivity): starting 30s timer
+11-10 19:31:03.840   687   720 I libprocessgroup: Removed cgroup /sys/fs/cgroup/apps/uid_10219/pid_15164
+11-10 19:31:03.850 15144 15144 I AmazonVideo: Entered initialize for DetailPageActivity
+11-10 19:31:03.866 14476 14535 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=497: unexpected standardMetadataType=21
+11-10 19:31:03.868 15144 15144 I AmazonVideo: Entered initialize for DI:DetailPageActivity
+11-10 19:31:03.869 15144 15144 I AmazonVideo: Entered initialize for DefaultAccountChangeWatcher
+11-10 19:31:03.870 15144 15144 I AmazonVideo: Completed initialize for DefaultAccountChangeWatcher
+11-10 19:31:03.870 15144 15144 I AmazonVideo: Locale Information determined by localization type IN_APP: LocaleInfo{locale=en_US, localeResolutionReason=OS_LANGUAGE, supportedLocales=[es_419, es_ES, fr_FR, it_IT, pt_BR, en_US, de_DE, nl_NL, pl_PL, hi_IN, sv_SE, nb_NO, da_DK, ta_IN, te_IN, fi_FI, tr_TR, id_ID, zh_CN, zh_TW, ru_RU, ko_KR, th_TH, pt_PT, ja_JP, fil_PH, ms_MY, ar_AE, he_IL, el_GR, ro_RO, hu_HU, cs_CZ], localizationErrorCode=Optional.absent()} . Is locale selection by user required?: false 
+11-10 19:31:03.872 15144 15323 I AmazonVideo: Entered initialize for PurchaseComponents
+11-10 19:31:03.873 15144 15323 I AmazonVideo: Completed initialize for PurchaseComponents
+--------- beginning of system
+11-10 19:31:03.873   687  1760 V WindowManager: DesktopModeLaunchParamsModifier: phase= 0 task=null activity=null display-area-from-source=DefaultTaskDisplayArea@221920 display-id=0 task-display-area-windowing-mode=1 suggested-display-area=DefaultTaskDisplayArea@221920 task null, skipping
+11-10 19:31:03.873   687  1760 V WindowManager: TaskLaunchParamsModifier:phase=0 task=null activity=null display-area-from-source=DefaultTaskDisplayArea@221920 display-id=0 task-display-area-windowing-mode=1 suggested-display-area=DefaultTaskDisplayArea@221920
+11-10 19:31:03.873   687  1760 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@a4b3185d does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-10 19:31:03.874 15144 15324 I AmazonVideo: Entered initialize for DownloadPersistenceInitializationTask
+11-10 19:31:03.874 15144 15324 I AmazonVideo: Entered initialize for AppUidManager
+11-10 19:31:03.875 15144 15326 I AmazonVideo: Entered initialize for QueuedActionProcessor
+11-10 19:31:03.876 15144 15326 I AmazonVideo: Entered initialize for WatchlistQueueProcessor
+11-10 19:31:03.876   687  1760 V WindowManager: DesktopModeLaunchParamsModifier: phase= 0 task=null activity=ActivityRecord{234666533 u0 com.amazon.avod.thirdpartyclient/com.amazon.avod.auth.RegistrationActivity display-area-from-source=DefaultTaskDisplayArea@221920 display-id=0 task-display-area-windowing-mode=1 suggested-display-area=DefaultTaskDisplayArea@221920 task null, skipping
+11-10 19:31:03.876   687  1760 V WindowManager: TaskLaunchParamsModifier:phase=0 task=null activity=ActivityRecord{234666533 u0 com.amazon.avod.thirdpartyclient/com.amazon.avod.auth.RegistrationActivity t-1} display-area-from-source=DefaultTaskDisplayArea@221920 display-id=0 task-display-area-windowing-mode=1 suggested-display-area=DefaultTaskDisplayArea@221920
+11-10 19:31:03.876   687  1760 V WindowManager: DesktopModeLaunchParamsModifier: phase= 3 task=Task{c68f152 #12 type=standard A=10217:com.amazon.avod.thirdpartyclient} activity=ActivityRecord{234666533 u0 com.amazon.avod.thirdpartyclient/com.amazon.avod.auth.RegistrationActivity t-1} display-area-from-source=DefaultTaskDisplayArea@221920 display-id=0 task-display-area-windowing-mode=1 suggested-display-area=DefaultTaskDisplayArea@221920 not entering desktop mode, skipping
+11-10 19:31:03.876   687  1760 V WindowManager: TaskLaunchParamsModifier:phase=3 task=Task{c68f152 #12 type=standard A=10217:com.amazon.avod.thirdpartyclient} activity=ActivityRecord{234666533 u0 com.amazon.avod.thirdpartyclient/com.amazon.avod.auth.RegistrationActivity t-1} display-area-from-source=DefaultTaskDisplayArea@221920 display-id=0 task-display-area-windowing-mode=1 suggested-display-area=DefaultTaskDisplayArea@221920 inherit-from-source=fullscreen non-freeform-task-display-area display-area=DefaultTaskDisplayArea@221920 skip-bounds-fullscreen
+11-10 19:31:03.876   687  1760 V WindowManager: DesktopModeLaunchParamsModifier: phase= 3 task=Task{c68f152 #12 type=standard A=10217:com.amazon.avod.thirdpartyclient} activity=ActivityRecord{234666533 u0 com.amazon.avod.thirdpartyclient/com.amazon.avod.auth.RegistrationActivity t-1} display-area-from-source=DefaultTaskDisplayArea@221920 display-id=0 task-display-area-windowing-mode=1 suggested-display-area=DefaultTaskDisplayArea@221920 not entering desktop mode, skipping
+11-10 19:31:03.876   687  1760 V WindowManager: TaskLaunchParamsModifier:phase=3 task=Task{c68f152 #12 type=standard A=10217:com.amazon.avod.thirdpartyclient} activity=ActivityRecord{234666533 u0 com.amazon.avod.thirdpartyclient/com.amazon.avod.auth.RegistrationActivity t-1} display-area-from-source=DefaultTaskDisplayArea@221920 display-id=0 task-display-area-windowing-mode=1 suggested-display-area=DefaultTaskDisplayArea@221920 inherit-from-source=fullscreen non-freeform-task-display-area display-area=DefaultTaskDisplayArea@221920 skip-bounds-fullscreen
+11-10 19:31:03.877 15144 15326 I AmazonVideo: Completed initialize for WatchlistQueueProcessor
+11-10 19:31:03.877 15144 15326 I AmazonVideo: Entered initialize for TitleReactionQueueProcessor
+11-10 19:31:03.877 15144 15326 I AmazonVideo: Completed initialize for TitleReactionQueueProcessor
+11-10 19:31:03.877 15144 15326 I AmazonVideo: Entered initialize for FeedbackQueueProcessor
+11-10 19:31:03.877 15144 15326 I AmazonVideo: Completed initialize for FeedbackQueueProcessor
+11-10 19:31:03.878   687   793 W UsageStatsService: Unexpected activity event reported! (com.amazon.avod.thirdpartyclient/com.amazon.avod.app.MainActivity event : 23 instanceId : 61910680)
+11-10 19:31:03.878   545   649 I libbinder.BpBinder: onLastStrongRef automatically unlinking death recipients for descriptor: '(not cached)'
+11-10 19:31:03.879 15144 15326 I AmazonVideo: Completed initialize for QueuedActionProcessor
+11-10 19:31:03.879 15144 15325 I AmazonVideo: Entered initialize for BookmarkCacheProxy
+11-10 19:31:03.879 15144 15324 W AmazonVideo: Warning: Cannot find application info for com.amazon.tahoe
+11-10 19:31:03.879 15144 15327 I AmazonVideo: Entered initialize for PlayerImpressionEventReporter
+11-10 19:31:03.879   687   793 W UsageStatsService: Unexpected activity event reported! (com.amazon.avod.thirdpartyclient/com.amazon.avod.client.activity.SearchQueryActivity event : 23 instanceId : 142762188)
+11-10 19:31:03.879   687   793 W UsageStatsService: Unexpected activity event reported! (com.amazon.avod.thirdpartyclient/com.amazon.avod.app.MainActivity event : 23 instanceId : 104202813)
+11-10 19:31:03.880 15144 15327 I AmazonVideo: Completed initialize for PlayerImpressionEventReporter
+11-10 19:31:03.880 15144 15327 I AmazonVideo: Entered initialize for UIPlayerAppVisibilityTracker
+11-10 19:31:03.880 15144 15324 W AmazonVideo: Warning: Cannot find application info for com.amazon.asxr
+11-10 19:31:03.900 14476 14535 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=509: unexpected standardMetadataType=21
+11-10 19:31:03.902 15144 15325 I AmazonVideo: Completed initialize for BookmarkCacheProxy
+11-10 19:31:03.902 15144 15149 W hirdpartyclient: userfaultfd: MOVE ioctl seems unsupported: Connection timed out
+11-10 19:31:03.906   687  1760 V WindowManager: DesktopModeLaunchParamsModifier: phase= 3 task=Task{c68f152 #12 type=standard A=10217:com.amazon.avod.thirdpartyclient} activity=ActivityRecord{234666533 u0 com.amazon.avod.thirdpartyclient/com.amazon.avod.auth.RegistrationActivity t-1} display-area-from-source=DefaultTaskDisplayArea@221920 display-id=0 task-display-area-windowing-mode=1 suggested-display-area=DefaultTaskDisplayArea@221920 not entering desktop mode, skipping
+11-10 19:31:03.906   687  1760 V WindowManager: TaskLaunchParamsModifier:phase=3 task=Task{c68f152 #12 type=standard A=10217:com.amazon.avod.thirdpartyclient} activity=ActivityRecord{234666533 u0 com.amazon.avod.thirdpartyclient/com.amazon.avod.auth.RegistrationActivity t-1} display-area-from-source=DefaultTaskDisplayArea@221920 display-id=0 task-display-area-windowing-mode=1 suggested-display-area=DefaultTaskDisplayArea@221920 inherit-from-source=fullscreen non-freeform-task-display-area display-area=DefaultTaskDisplayArea@221920 skip-bounds-fullscreen
+11-10 19:31:03.907 15144 15327 I AmazonVideo: Completed initialize for UIPlayerAppVisibilityTracker
+11-10 19:31:03.907 15144 15327 I AmazonVideo: App mode is already set and known.
+11-10 19:31:03.908  1054  1136 V WindowManagerShell: Transition requested (#69): android.os.BinderProxy@fec54b3 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=12 effectiveUid=10217 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.amazon.avod.thirdpartyclient/.LauncherActivity } baseActivity=ComponentInfo{com.amazon.avod.thirdpartyclient/com.amazon.avod.auth.RegistrationActivity} topActivity=ComponentInfo{com.amazon.avod.thirdpartyclient/com.amazon.avod.auth.RegistrationActivity} origActivity=ComponentInfo{com.amazon.avod.thirdpartyclient/com.amazon.avod.thirdpartyclient.LauncherActivity} realActivity=ComponentInfo{com.amazon.avod.thirdpartyclient/com.amazon.avod.client.activity.SplashScreenActivity} numActivities=1 lastActiveTime=20163819 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.os.BinderProxy@205398} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{ee0ca70 com.amazon.avod.auth.RegistrationActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=null capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=503 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false isLeafTask= true eligibleForLetterboxEducation= false isLetterboxEducationEnabled= true isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 1080, 2337) isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatMode=inactive0} topNonResizableActivityAspectRatio=-1.0} topActivityMainWindowFrame=null isAppBubble=false}, pipChange = null, remoteTransition = null, displayChange = null, requestedLocation = null, userChange = null, windowingLayerChange = null, flags = 0, debugId = 69 }
+11-10 19:31:03.908  1054  1136 D ShellSplitScreen: logExit: no-op, mLoggerSessionId is null
+11-10 19:31:03.908 15144 15324 W AmazonVideo: Warning: Cannot find application info for com.amazon.avod.sdk.example
+11-10 19:31:03.908 15144 15324 W AmazonVideo: Warning: Cannot find application info for com.amazon.storagemanager
+11-10 19:31:03.908 15144 15324 W AmazonVideo: Warning: Cannot find application info for com.amazon.fawkes
+11-10 19:31:03.909 15144 15324 W AmazonVideo: Warning: Cannot find application info for com.amazon.kindle.unifiedSearch
+11-10 19:31:03.909 15144 15324 W AmazonVideo: Warning: Cannot find application info for com.amazon.tablet.voyager
+11-10 19:31:03.909   687  1760 I ActivityTaskManager: START u0 {flg=0x10008000 xflg=0x4 cmp=com.amazon.avod.thirdpartyclient/com.amazon.avod.auth.RegistrationActivity (has extras)} with LAUNCH_MULTIPLE from uid 10217 (com.amazon.avod.thirdpartyclient) (sr=168796734) (BAL_ALLOW_VISIBLE_WINDOW) result code=0
+11-10 19:31:03.909 15144 15324 W AmazonVideo: Warning: Cannot find application info for com.amazon.firebat
+11-10 19:31:03.909 15144 15331 I AmazonVideo: Entered initialize for PlaybackDownloads
+11-10 19:31:03.910   687  1972 W ActivityTaskManager: Duplicate finish request for r=ActivityRecord{168796734 u0 com.amazon.avod.thirdpartyclient/com.amazon.avod.detailpage.ui.core.DetailPageActivity t12 f}}
+11-10 19:31:03.913 15144 15331 I AmazonVideo: Completed initialize for PlaybackDownloads
+11-10 19:31:03.913 15144 15331 I AmazonVideo: Entered initialize for MediaSystem:Dependencies
+11-10 19:31:03.913 15144 15324 W AmazonVideo: Warning: Cannot find application info for com.amazon.readynowcore
+11-10 19:31:03.913 15144 15324 I AmazonVideo: Completed initialize for AppUidManager
+11-10 19:31:03.913 15144 15324 I AmazonVideo: Entered initialize for DownloadNotificationListener
+11-10 19:31:03.914   687  2170 W ActivityTaskManager: callingPackage for (uid=2000, pid=15328) has no WPC
+11-10 19:31:03.915   687  2170 V WindowManager: DesktopModeLaunchParamsModifier: phase= 0 task=null activity=null display-area-from-current-params=null display-area-from-default-fallback=DefaultTaskDisplayArea@221920 display-id=0 task-display-area-windowing-mode=1 suggested-display-area=DefaultTaskDisplayArea@221920 task null, skipping
+11-10 19:31:03.915   687  2170 V WindowManager: TaskLaunchParamsModifier:phase=0 task=null activity=null display-area-from-current-params=null display-area-from-default-fallback=DefaultTaskDisplayArea@221920 display-id=0 task-display-area-windowing-mode=1 suggested-display-area=DefaultTaskDisplayArea@221920
+11-10 19:31:03.915   687  2170 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@a81cc99b does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-10 19:31:03.916 15144 15144 E AmazonVideo: WTF EXCEPTION : Activity unusable. VCR: Optional.of(IN), Current user: HouseholdInfo{users=Users{current=null, isOwner=true, device=null, externalMarketplace=null}, profiles=Profiles{currentProfile=null, numProfiles=0, canCreate=false, status=UNAVAILABLE_NOT_REGISTERED}, videoRegion=VideoRegion{vcr=IN, avMarketplace=A2MFUE2XK8ZSSY, currentCountry=IN, homeRegion=EU}}
+11-10 19:31:03.916 15144 15144 E DetailPageActivity: Activity unusable. VCR: Optional.of(IN), Current user: HouseholdInfo{users=Users{current=null, isOwner=true, device=null, externalMarketplace=null}, profiles=Profiles{currentProfile=null, numProfiles=0, canCreate=false, status=UNAVAILABLE_NOT_REGISTERED}, videoRegion=VideoRegion{vcr=IN, avMarketplace=A2MFUE2XK8ZSSY, currentCountry=IN, homeRegion=EU}}
+11-10 19:31:03.916 15144 15324 I AmazonVideo: Completed initialize for DownloadNotificationListener
+11-10 19:31:03.916 15144 15324 I AmazonVideo: Entered initialize for DownloadConnectionEventListener
+11-10 19:31:03.916 15144 15332 I AmazonVideo: Entered initialize for StorageHelper:ExternalStorage
+11-10 19:31:03.916 15144 15332 I AmazonVideo: Completed initialize for StorageHelper:ExternalStorage
+11-10 19:31:03.916 15144 15324 I AmazonVideo: Completed initialize for DownloadConnectionEventListener
+11-10 19:31:03.917 15144 15333 I AmazonVideo: StorageHelper: Updated SD card path: xxaivxx (Read-Only)
+11-10 19:31:03.934 14476 14535 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=511: unexpected standardMetadataType=21
+11-10 19:31:03.934 15144 15331 I AmazonVideo: Entered initialize for MediaSystemSharedDependencies
+11-10 19:31:03.934 15144 15331 I AmazonVideo: Completed initialize for MediaSystemSharedDependencies
+11-10 19:31:03.939 15144 15331 I AmazonVideo: Completed initialize for MediaSystem:Dependencies
+11-10 19:31:03.939 15144 15331 I AmazonVideo: Waiting for MediaSystem:Initialization to initialize, current state NotInitialized
+11-10 19:31:03.939 15144 15334 I AmazonVideo: Entered initialize for MediaSystem:Initialization
+11-10 19:31:03.940 15144 15334 E AmazonVideo: EXCEPTION JsonContractException in ApplicationComponentsBase$ServiceTypesFrameworkProxy.exception: Encountered JsonContractException parsing map entry; will drop from the map: value UHD_DOVI didn't resolve to ThirdPartyProfileName enum
+11-10 19:31:03.943 15144 15144 E AmazonVideo: ERROR: Cannot launch detail page from received intent, missing critical launch information
+11-10 19:31:03.944 15144 15149 I hirdpartyclient: Background concurrent mark compact GC freed 21MB AllocSpace bytes, 159(9720KB) LOS objects, 49% free, 9185KB/17MB, paused 17.953ms,610us total 295.899ms
+11-10 19:31:03.946   687  2170 W TransitionChain: Combining startAct into #69(OPEN|R|0x0) from startAct
+11-10 19:31:03.946   687  2170 V WindowManager: DesktopModeLaunchParamsModifier: phase= 0 task=null activity=ActivityRecord{232610715 u0 jakhar.aseem.diva/.APICreds2Activity display-area-from-current-params=null display-area-from-default-fallback=DefaultTaskDisplayArea@221920 display-id=0 task-display-area-windowing-mode=1 suggested-display-area=DefaultTaskDisplayArea@221920 task null, skipping
+11-10 19:31:03.946   687  2170 V WindowManager: TaskLaunchParamsModifier:phase=0 task=null activity=ActivityRecord{232610715 u0 jakhar.aseem.diva/.APICreds2Activity t-1} display-area-from-current-params=null display-area-from-default-fallback=DefaultTaskDisplayArea@221920 display-id=0 task-display-area-windowing-mode=1 suggested-display-area=DefaultTaskDisplayArea@221920
+11-10 19:31:03.947   687  2170 V WindowManager: DesktopModeLaunchParamsModifier: phase= 3 task=null activity=ActivityRecord{232610715 u0 jakhar.aseem.diva/.APICreds2Activity t-1} display-area-from-current-params=null display-area-from-default-fallback=DefaultTaskDisplayArea@221920 display-id=0 task-display-area-windowing-mode=1 suggested-display-area=DefaultTaskDisplayArea@221920 task null, skipping
+11-10 19:31:03.947   687  2170 V WindowManager: TaskLaunchParamsModifier:phase=3 task=null activity=ActivityRecord{232610715 u0 jakhar.aseem.diva/.APICreds2Activity t-1} display-area-from-current-params=null display-area-from-default-fallback=DefaultTaskDisplayArea@221920 display-id=0 task-display-area-windowing-mode=1 suggested-display-area=DefaultTaskDisplayArea@221920 non-freeform-task-display-area display-area=DefaultTaskDisplayArea@221920 skip-bounds-fullscreen
+11-10 19:31:03.950   687  2170 V WindowManager: DesktopModeLaunchParamsModifier: phase= 3 task=Task{ad7e711 #16 type=standard A=10219:jakhar.aseem.diva} activity=ActivityRecord{232610715 u0 jakhar.aseem.diva/.APICreds2Activity t-1} display-from-task=0 display-id=0 task-display-area-windowing-mode=1 suggested-display-area=DefaultTaskDisplayArea@221920 not entering desktop mode, skipping
+11-10 19:31:03.967 14476 14535 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=510: unexpected standardMetadataType=21
+11-10 19:31:03.968   687  2170 V WindowManager: TaskLaunchParamsModifier:phase=3 task=Task{ad7e711 #16 type=standard A=10219:jakhar.aseem.diva} activity=ActivityRecord{232610715 u0 jakhar.aseem.diva/.APICreds2Activity t-1} display-from-task=0 display-id=0 task-display-area-windowing-mode=1 suggested-display-area=DefaultTaskDisplayArea@221920 inherit-from-task=fullscreen non-freeform-task-display-area display-area=DefaultTaskDisplayArea@221920 skip-bounds-fullscreen
+11-10 19:31:03.971   687  2170 I ActivityTaskManager: Add Task{b9bbb1e #15 type=standard A=10219:jakhar.aseem.diva} to hidden list because adding Task{ad7e711 #16 type=standard A=10219:jakhar.aseem.diva}
+11-10 19:31:03.971   687  2170 I ActivityTaskManager: START u0 {flg=0x10000000 xflg=0x5 cmp=jakhar.aseem.diva/.APICreds2Activity} with LAUNCH_MULTIPLE from uid 2000 (com.android.shell) (BAL_ALLOW_PERMISSION) result code=0
+11-10 19:31:03.972  1311  1311 D RecentsView: onTaskDisplayChanged: 16, new displayId = 0
+11-10 19:31:03.972  1311  1311 D b/417220811: invalidateLoadedTasks - previous requestLoadId: -1
+11-10 19:31:03.972  1311  1311 D b/417220811: invalidateLoadedTasks - previous requestLoadId: -1
+11-10 19:31:03.972   687  1120 W ActivityTaskManager: Duplicate finish request for r=ActivityRecord{168796734 u0 com.amazon.avod.thirdpartyclient/com.amazon.avod.detailpage.ui.core.DetailPageActivity t12 f}}
+11-10 19:31:03.972 15144 15144 I AmazonVideo: Completed initialize for DI:DetailPageActivity
+11-10 19:31:03.973 15144 15144 I AmazonVideo: Completed initialize for DetailPageActivity
+11-10 19:31:04.001 14476 14535 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=512: unexpected standardMetadataType=21
+11-10 19:31:04.002  7246 14346 I NearbyMediums: No BLE Fast/GATT advertisements found in the latest cycle.
+11-10 19:31:04.005 15144 15336 I DrmHalHidl: No hidl drm factories found
+11-10 19:31:04.005   192   192 I hwservicemanager: getTransport: Cannot find entry android.hardware.drm@1.0::IDrmFactory/default in either framework or device VINTF manifest.
+11-10 19:31:04.005 15144 15336 W DrmHalHidl: Failed to find passthrough drm factories
+11-10 19:31:04.006   687  1013 D BackgroundInstallControlService: Package event received: 0
+11-10 19:31:04.006  7246 14346 I NearbyMediums: Current Tracked Scanning Clients are : {NearbyConnections.EnvironmentMonitor, NearbySharing, NearbyConnections.TxAdvertisement}
+11-10 19:31:04.008   687   711 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@a81cc99b does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-10 19:31:04.012  1054  1186 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.view.ViewRootImpl$$ExternalSyntheticLambda12@13425cc
+11-10 19:31:04.015   471   471 D Zygote  : Forked child process 15340
+11-10 19:31:04.034 14476 14535 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=513: unexpected standardMetadataType=21
+11-10 19:31:04.040 15340 15340 I libc    : SetHeapTaggingLevel: tag level set to 0
+11-10 19:31:04.041 15340 15340 I Zygote  : Process 15340 created for jakhar.aseem.diva
+11-10 19:31:04.043   687  1164 D CoreBackPreview: Window{a1eca7c u0 Splash Screen jakhar.aseem.diva}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@befb681, mPriority=0, mIsAnimationCallback=false, mOverrideBehavior=0}
+11-10 19:31:04.044 15340 15340 I khar.aseem.diva: Late-enabling -Xcheck:jni
+11-10 19:31:04.067 14476 14535 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=514: unexpected standardMetadataType=21
+11-10 19:31:04.067 15339 15339 I libbinder.AidlLazyServiceRegistrar: Registering service android.hardware.drm.IDrmFactory/clearkey
+11-10 19:31:04.067 15339 15339 W libbinder.ProcessState: Thread pool configuration of size 8 requested, but startThreadPool was not called.
+11-10 19:31:04.067 15339 15339 I libbinder.AidlLazyServiceRegistrar: Process has 1 (of 1 available) client(s) in use after notification android.hardware.drm.IDrmFactory/clearkey has clients: 1
+11-10 19:31:04.083 15340 15340 I khar.aseem.diva: Using CollectorTypeCMC GC.
+11-10 19:31:04.100 14476 14535 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=516: unexpected standardMetadataType=21
+11-10 19:31:04.101   687   711 W ActivityManager: Slow operation: 96ms so far, now at startProcess: done starting proc!
+11-10 19:31:04.116 14476 14535 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=518: unexpected standardMetadataType=21
+11-10 19:31:04.120  1379  1389 I adbd    : jdwp connection from 15340
+11-10 19:31:04.121 15144 15336 I DrmUtils: found IDrmFactory. Instance name:[android.hardware.drm.IDrmFactory/clearkey]
+11-10 19:31:04.125 15144 15336 I DrmUtils: found IDrmFactory. Instance name:[android.hardware.drm.IDrmFactory/widevine]
+11-10 19:31:04.125   687  1762 I WifiService: releaseWifiLock uid=10217
+11-10 19:31:04.128  1311  1311 D b/417220811: invalidateLoadedTasks - previous requestLoadId: -1
+11-10 19:31:04.129   534   534 I WVCdm   : [cdm_engine.cpp(1132):IsSecurityLevelSupported] level = L1
+11-10 19:31:04.132   534   534 I WVCdm   : [file_utils.cpp(38):Exists] stat failed: ENOENT
+11-10 19:31:04.132   534 15350 I WVCdm   : [(0):] Level3 Library 33098 May 14 2024 19:04:52
+11-10 19:31:04.132   534   534 I WVCdm   : [oemcrypto_adapter_dynamic.cpp(836):Initialize] Level 3 Build Info (v18): {
+11-10 19:31:04.132   534   534 I WVCdm   : "soc_vendor": "Widevine",
+11-10 19:31:04.132   534   534 I WVCdm   : "soc_model": "Software",
+11-10 19:31:04.132   534   534 I WVCdm   : "ta_ver": "N/A",
+11-10 19:31:04.132   534   534 I WVCdm   : "uses_opk": false,
+11-10 19:31:04.132   534   534 I WVCdm   : "tee_os": "N/A",
+11-10 19:31:04.132   534   534 I WVCdm   : "tee_os_ver": "N/A",
+11-10 19:31:04.132   534   534 I WVCdm   : "is_debug": false,
+11-10 19:31:04.132   534   534 I WVCdm   : "git_commit": "",
+11-10 19:31:04.132   534   534 I WVCdm   : "build_timestamp": "Feb 25 2025 00:14:18",
+11-10 19:31:04.132   534   534 I WVCdm   : "mode": "HAYSTACK_ONLY",
+11-10 19:31:04.132   534   534 I WVCdm   : "rikers": {},
+11-10 19:31:04.132   534   534 I WVCdm   : "haystack": {"soc_vendor":"L3_33098","soc_model":"ARM 64 bit","ta_ver":"18.1.0+May 14 2024_19:04:52_","uses_opk":false,"tee_os":"none","tee_os_ver":"0.0.0","form_factor":"L3","implementer":"Widevine","fused":false}
+11-10 19:31:04.132   534   534 I WVCdm   : }
+11-10 19:31:04.150 14476 14535 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=515: unexpected standardMetadataType=21
+11-10 19:31:04.153   687   719 W ActivityManager: Slow operation: 145ms so far, now at startProcess: done updating battery stats
+11-10 19:31:04.153   534   534 I WVCdm   : [oemcrypto_adapter_dynamic.cpp(851):Initialize] L3 Initialized. Trying L1.
+11-10 19:31:04.153   534   534 W WVCdm   : [oemcrypto_adapter_dynamic.cpp(864):Initialize] Could not load oemcrypto from path liboemcrypto.so.  dlopen failed: library "liboemcrypto.so" not found
+11-10 19:31:04.153   534   534 W WVCdm   : [oemcrypto_adapter_dynamic.cpp(868):Initialize] Could not load oemcrypto. Falling back to L3.
+11-10 19:31:04.153   534   534 E WVCdm   : [oemcrypto_adapter_dynamic.cpp(1352):ValidateOrInstallL1KeyboxOrCert] L1 not initialized. Falling back to L3
+11-10 19:31:04.153   534   534 I WVCdm   : [file_utils.cpp(38):Exists] stat failed: ENOENT
+11-10 19:31:04.153   534   534 W WVCdm   : [oemcrypto_adapter_dynamic.cpp(1557):OEMCrypto_InitializeAndCheckKeybox] Keybox error: 25. Falling back to L3.
+11-10 19:31:04.153   534   534 I WVCdm   : [oemcrypto_adapter_dynamic.cpp(901):Level1Terminate] L1 Terminate not needed
+11-10 19:31:04.154   534   534 D WVCdm   : [crypto_session.cpp(434):CacheVersion] OEMCrypto version (default security level): 18.3
+11-10 19:31:04.154   534   534 D WVCdm   : [crypto_session.cpp(443):CacheVersion] OEMCrypto version (L3 security level): 18.3
+11-10 19:31:04.154   687   719 W ActivityManager: Slow operation: 146ms so far, now at startProcess: building log message
+11-10 19:31:04.154   687   719 I ActivityManager: Start proc 15340:jakhar.aseem.diva/u0a219 for top-activity {jakhar.aseem.diva/jakhar.aseem.diva.APICreds2Activity}
+11-10 19:31:04.154   687   719 W ActivityManager: Slow operation: 146ms so far, now at startProcess: starting to update pids map
+11-10 19:31:04.156 15144 15336 I DrmHalHidl: No hidl drm factories found
+11-10 19:31:04.157  1054  1541 V WindowManagerShell: onTransitionReady(transaction=2950642538199)
+11-10 19:31:04.199 14476 14535 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=519: unexpected standardMetadataType=21
+11-10 19:31:04.201   192   192 I hwservicemanager: getTransport: Cannot find entry android.hardware.drm@1.0::IDrmFactory/default in either framework or device VINTF manifest.
+11-10 19:31:04.217 14476 14532 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=520: unexpected standardMetadataType=21
+11-10 19:31:04.219 15340 15340 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+11-10 19:31:04.220  1311  1830 I WellbeingModel: Retrying; attempt 2
+11-10 19:31:04.220  1311  1830 I WellbeingModel: updateActionsWithRetry(); retryCount: 2, package: null
+11-10 19:31:04.221   687   719 W ActivityManager: Slow operation: 212ms so far, now at startProcess: done updating pids map
+11-10 19:31:04.222  1054  1136 V ShellTaskOrganizer: Task appeared taskId=16 listener=FullscreenTaskListener
+11-10 19:31:04.222  1054  1136 V ShellTaskOrganizer: Fullscreen Task Appeared: #16
+11-10 19:31:04.223   687   708 V WindowManager: Sent Transition (#69) createdAt=11-10 19:31:03.876 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=12 effectiveUid=10217 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.amazon.avod.thirdpartyclient/.LauncherActivity } baseActivity=ComponentInfo{com.amazon.avod.thirdpartyclient/com.amazon.avod.auth.RegistrationActivity} topActivity=ComponentInfo{com.amazon.avod.thirdpartyclient/com.amazon.avod.auth.RegistrationActivity} origActivity=ComponentInfo{com.amazon.avod.thirdpartyclient/com.amazon.avod.thirdpartyclient.LauncherActivity} realActivity=ComponentInfo{com.amazon.avod.thirdpartyclient/com.amazon.avod.client.activity.SplashScreenActivity} numActivities=1 lastActiveTime=20163819 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{6a48ce5 Task{c68f152 #12 type=standard A=10217:com.amazon.avod.thirdpartyclient}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{33e5bb2 com.amazon.avod.auth.RegistrationActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=null capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=503 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false isLeafTask= true eligibleForLetterboxEducation= false isLetterboxEducationEnabled= true isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 1080, 2337) isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatMode=inactive0} topNonResizableActivityAspectRatio=-1.0} topActivityMainWindowFrame=null isAppBubble=false}, pipChange = null, remoteTransition = null, displayChange = null, requestedLocation = null, userChange = null, windowingLayerChange = null, flags = 0, debugId = 69 }
+11-10 19:31:04.223 15144 15336 W DrmHalHidl: Failed to find passthrough drm factories
+11-10 19:31:04.224   687   708 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= [] errorCallbackToken=null taskFragmentOrganizer=null }
+11-10 19:31:04.224   687   708 V WindowManager:     info={id=69 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+11-10 19:31:04.224   687   708 V WindowManager:         {WCT{RemoteToken{f297703 Task{ad7e711 #16 type=standard A=10219:jakhar.aseem.diva}}} m=OPEN f=MOVE_TO_TOP leash=Surface(name=Task=16#754)/@0x7723326 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1 winMode=1 userId=0},
+11-10 19:31:04.224   687   708 V WindowManager:         {WCT{RemoteToken{6a48ce5 Task{c68f152 #12 type=standard A=10217:com.amazon.avod.thirdpartyclient}}} m=TO_BACK f=NONE leash=Surface(name=Task=12#393)/@0x4a504f sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1 winMode=1 userId=0}
+11-10 19:31:04.224   687   708 V WindowManager:     ]}
+11-10 19:31:04.228  1054  1136 V WindowManagerShell: onTransitionReady (#69) android.os.BinderProxy@fec54b3: {id=69 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+11-10 19:31:04.228  1054  1136 V WindowManagerShell:         {m=OPEN f=MOVE_TO_TOP leash=Surface(name=Task=16#754)/@0x42f43f7 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1 winMode=1 userId=0},
+11-10 19:31:04.228  1054  1136 V WindowManagerShell:         {m=TO_BACK f=NONE leash=Surface(name=Task=12#393)/@0x6df6264 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1 winMode=1 userId=0}
+11-10 19:31:04.228  1054  1136 V WindowManagerShell:     ]}
+11-10 19:31:04.228  1054  1136 V WindowManagerShell: Transition (#69) android.os.BinderProxy@fec54b3@0 ready while (#68) android.os.BinderProxy@dacf872@0 is still animating. Notify the animating transition in case they can be merged
+11-10 19:31:04.229 15144 15336 I DrmUtils: found IDrmFactory. Instance name:[android.hardware.drm.IDrmFactory/clearkey]
+11-10 19:31:04.229 15144 15336 I DrmUtils: found IDrmFactory. Instance name:[android.hardware.drm.IDrmFactory/widevine]
+11-10 19:31:04.229   534   534 I WVCdm   : [cdm_engine.cpp(1132):IsSecurityLevelSupported] level = L1
+11-10 19:31:04.229  1054  1136 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#68) android.os.BinderProxy@dacf872@0
+11-10 19:31:04.229   534   534 I WVCdm-DrmFactory: [app][com.amazon.avod.thirdpartyclient] calling virtual ::ndk::ScopedAStatus wvdrm::hardware::drm::widevine::WVDrmFactory::createDrmPlugin(const Uuid &, const string &, std::shared_ptr< ::aidl::android::hardware::drm::IDrmPlugin> *)
+11-10 19:31:04.230   534   534 D WVCdm   : Instantiating CDM.
+11-10 19:31:04.230 15144 15221 I AmazonVideo: Waiting for EventManager to initialize, current state NotInitialized
+11-10 19:31:04.231  1311  1311 D b/417220811: invalidateLoadedTasks - previous requestLoadId: -1
+11-10 19:31:04.232 15144 15217 I AmazonVideo: Waiting for MediaSystem:Initialization to initialize, current state Initializing
+11-10 19:31:04.232   534   534 D WVCdm   : [cdm_engine.cpp(583):QueryStatus] security_level = Default, query_token = WidevineCdmVersion
+11-10 19:31:04.233 15144 15353 I AmazonVideo: Entered initialize for EventManager
+11-10 19:31:04.233 15144 15353 I AmazonVideo: Completed initialize for EventManager
+11-10 19:31:04.233   534   534 D WVCdm   : [cdm_engine.cpp(583):QueryStatus] security_level = Default, query_token = DeviceID
+11-10 19:31:04.233   534   534 D WVCdm   : [crypto_session.cpp(927):Open] Opening crypto session: requested_security_level = Default
+11-10 19:31:04.233   534   534 D WVCdm   : [cdm_usage_table.cpp(162):Init] security_level = L3
+11-10 19:31:04.233   534   534 D WVCdm   : [cdm_usage_table.cpp(509):DetermineTableCapacity] capacity = unlimited, security_level = L3
+11-10 19:31:04.234 15144 15220 I AmazonVideo: Entered initialize for InstallReferrerRetriever
+11-10 19:31:04.234 15144 15220 I AmazonVideo: Completed initialize for InstallReferrerRetriever
+11-10 19:31:04.256 14476 14532 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=498: unexpected standardMetadataType=21
+11-10 19:31:04.259   687   708 V WindowManager: Finish Transition (#68): created at 11-10 19:31:03.608 collect-started=0.014ms request-sent=0.041ms started=4.348ms ready=4.343ms sent=8.014ms commit=94.529ms finished=625.268ms
+11-10 19:31:04.259 15144 15221 I AmazonVideo: Entered initialize for ImpressionEventReporter
+11-10 19:31:04.259 15144 15221 I AmazonVideo: Completed initialize for ImpressionEventReporter
+11-10 19:31:04.260   534   534 I WVCdm   : [cdm_usage_table.cpp(203):RestoreTable] Found usage table to restore: entry_count = 0
+11-10 19:31:04.260   534   534 D WVCdm   : [level3_adapter.cpp(674):_lcc62] Load usage header: num_entries=0
+11-10 19:31:04.260   534   534 I WVCdm   : [file_utils.cpp(38):Exists] stat failed: ENOENT
+11-10 19:31:04.263   687  1164 E libbinder.IPCThreadState: Binder transaction failure. id: 2890067, cmd: BR_DEAD_REPLY (29189), error: -22 (Invalid argument)
+11-10 19:31:04.263   687  1164 W ActivityManager: pid 687 system sent binder code 7 with flags 1 and got error -32
+11-10 19:31:04.263   687  1164 D ActivityManager: Too many transaction errors, throttling freezer binder callback.
+11-10 19:31:04.263   687  1164 W WindowManager: Exception thrown during dispatchAppVisibility Window{47201ad u0 jakhar.aseem.diva/jakhar.aseem.diva.APICredsActivity EXITING}
+11-10 19:31:04.263   687  1164 W WindowManager: android.os.DeadObjectException
+11-10 19:31:04.263   687  1164 W WindowManager: 	at android.os.BinderProxy.transactNative(Native Method)
+11-10 19:31:04.263   687  1164 W WindowManager: 	at android.os.BinderProxy.transact(BinderProxy.java:599)
+11-10 19:31:04.263   687  1164 W WindowManager: 	at android.view.IWindow$Stub$Proxy.dispatchAppVisibility(IWindow.java:535)
+11-10 19:31:04.263   687  1164 W WindowManager: 	at com.android.server.wm.WindowState.sendAppVisibilityToClients(WindowState.java:3266)
+11-10 19:31:04.263   687  1164 W WindowManager: 	at com.android.server.wm.WindowContainer.sendAppVisibilityToClients(WindowContainer.java:1218)
+11-10 19:31:04.263   687  1164 W WindowManager: 	at com.android.server.wm.WindowToken.setClientVisible(WindowToken.java:394)
+11-10 19:31:04.263   687  1164 W WindowManager: 	at com.android.server.wm.ActivityRecord.commitVisibility(ActivityRecord.java:5626)
+11-10 19:31:04.263   687  1164 W WindowManager: 	at com.android.server.wm.Transition.finishTransition(Transition.java:1500)
+11-10 19:31:04.263   687  1164 W WindowManager: 	at com.android.server.wm.TransitionController.finishTransition(TransitionController.java:1096)
+11-10 19:31:04.263   687  1164 W WindowManager: 	at com.android.server.wm.WindowOrganizerController.finishTransition(WindowOrganizerController.java:518)
+11-10 19:31:04.263   687  1164 W WindowManager: 	at android.window.IWindowOrganizerController$Stub.onTransact(IWindowOrganizerController.java:270)
+11-10 19:31:04.263   687  1164 W WindowManager: 	at com.android.server.wm.WindowOrganizerController.onTransact(WindowOrganizerController.java:233)
+11-10 19:31:04.263   687  1164 W WindowManager: 	at android.os.Binder.execTransactInternal(Binder.java:1473)
+11-10 19:31:04.263   687  1164 W WindowManager: 	at android.os.Binder.execTransact(Binder.java:1418)
+11-10 19:31:04.263   687  1164 W Process : Unable to open /proc/15164/status
+11-10 19:31:04.263   534   534 D WVCdm   : [crypto_session.cpp(927):Open] Opening crypto session: requested_security_level = Default
+11-10 19:31:04.263   534   534 I WVCdm   : [file_utils.cpp(38):Exists] stat failed: ENOENT
+11-10 19:31:04.265   534   534 I WVCdm   : [file_utils.cpp(38):Exists] stat failed: ENOENT
+11-10 19:31:04.265   534   534 I WVCdm   : [cdm_engine.cpp(218):OpenSession] New session: session_id = sid3
+11-10 19:31:04.265   534   534 I WVCdm   : [cdm_engine.cpp(1093):QueryOemCryptoSessionId] session_id = sid3
+11-10 19:31:04.267 15144 15221 I AmazonVideo: Waiting for InAppBillingManagerSupplier to initialize, current state NotInitialized
+11-10 19:31:04.280 14476 14532 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=517: unexpected standardMetadataType=21
+11-10 19:31:04.282  1311  1830 D WellbeingModel: retrieveActions() called with: packageNames = [com.android.camera2, com.android.chrome, com.android.settings, com.android.vending, com.google.android.apps.docs, com.google.android.apps.maps, com.google.android.apps.messaging, com.google.android.apps.photos, com.google.android.apps.youtube.music, com.google.android.calendar, com.google.android.contacts, com.google.android.deskclock, com.google.android.dialer, com.google.android.gm, com.google.android.youtube, com.android.stk, com.google.android.apps.safetyhub, com.google.android.documentsui, com.google.android.googlequicksearchbox, com.amazon.avod.thirdpartyclient, jakhar.aseem.diva]
+11-10 19:31:04.282 15144 15360 I AmazonVideo: Entered initialize for InAppBillingManagerSupplier
+11-10 19:31:04.283 15144 15360 I AmazonVideo: Entered initialize for ThirdPartyInAppBillingManager
+11-10 19:31:04.288 15144 15360 I AmazonVideo: Entered initialize for InAppBillingServiceConnection
+11-10 19:31:04.289 15144 15359 I AmazonVideo: BackgroundThreadWriteSharedPreferences for AmazonMobileAds initializeMemCache() took 0 ms
+11-10 19:31:04.293   687   962 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+11-10 19:31:04.296 15144 15220 I AmazonVideo: Setting Install referrer with AmazonOOAdRegistration. Referrer=utm_source=google-play&utm_medium=organic
+11-10 19:31:04.308   687  2649 I WifiService: acquireWifiLock uid=10217 lockMode=3 packageName=com.amazon.avod.thirdpartyclient
+11-10 19:31:04.309  1054  1136 V WindowManagerShell: Playing animation for (#69) android.os.BinderProxy@fec54b3@0
+11-10 19:31:04.309  1054  1136 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+11-10 19:31:04.309  1054  1136 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=69 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=OPEN f=MOVE_TO_TOP leash=Surface(name=Task=16#754)/@0x42f43f7 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1 winMode=1 userId=0},{m=TO_BACK f=NONE leash=Surface(name=Task=12#393)/@0x6df6264 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1 winMode=1 userId=0}]}
+11-10 19:31:04.309  1054  1136 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=undefined independent=true modes=[CLOSE,TO_BACK] flags=IN_TASK_WITH_EMBEDDED_ACTIVITY mustBeTask=false order=ANY topActivity=null launchCookie=null taskFragmentToken=android.os.BinderProxy@8d70b17 windowingMode=undefined isCrossDisplayMove=false}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@3baeb04, appThread = android.app.IApplicationThread$Stub$Proxy@34978ed, debugName = overlayBackTransition }}
+11-10 19:31:04.309  1054  1136 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=dream independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null windowingMode=undefined isCrossDisplayMove=false},{atype=home independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null windowingMode=undefined isCrossDisplayMove=false}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@d6ee322, appThread = android.app.IApplicationThread$Stub$Proxy@fb741b3, debugName = LauncherToDream }}
+11-10 19:31:04.309  1054  1136 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity} launchCookie=null windowingMode=undefined isCrossDisplayMove=false},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null windowingMode=undefined isCrossDisplayMove=false},{NOT atype=undefined independent=true modes=[] flags=NONE mustBeTask=true order=ANY topActivity=null launchCookie=null customAnim=true windowingMode=undefined isCrossDisplayMove=false}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@a7db370, appThread = android.app.IApplicationThread$Stub$Proxy@cd1b6e9, debugName = QuickstepLaunchHome }}
+11-10 19:31:04.309  1054  1136 V WindowManagerShell:  Delegate animation for (#69) to null
+11-10 19:31:04.309  1054  1136 V WindowManagerShell: start default transition animation, info = {id=69 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=OPEN f=MOVE_TO_TOP leash=Surface(name=Task=16#754)/@0x42f43f7 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1 winMode=1 userId=0},{m=TO_BACK f=NONE leash=Surface(name=Task=12#393)/@0x6df6264 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1 winMode=1 userId=0}]}
+11-10 19:31:04.309  1054  1136 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@6cd59e8 animAttr=0x9 type=OPEN isEntrance=false
+11-10 19:31:04.309  1054  1136 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@afb86a6 animAttr=0x8 type=OPEN isEntrance=true
+11-10 19:31:04.310  1054  1186 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): null
+11-10 19:31:04.315  1054  1136 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@daae99b
+11-10 19:31:04.315   687   703 W WindowManager: Failed looking up window session=Session{a6db3a2 1054:u0a10186} callers=com.android.server.wm.WindowManagerService.windowForClient:6763 com.android.server.wm.Session.setOnBackInvokedCallbackInfo:989 android.view.IWindowSession$Stub.onTransact:1084 
+11-10 19:31:04.316   534   534 I WVCdm   : [cdm_engine.cpp(998):QuerySessionStatus] session_id = sid3
+11-10 19:31:04.317  1054  1136 V ShellTaskOrganizer: Task vanished taskId=15
+11-10 19:31:04.317  1054  1136 V ShellTaskOrganizer: Fullscreen Task Vanished: #15
+11-10 19:31:04.317  1054  1136 D ShellDesktopMode: AppToWebRepository: Task 15 is vanishing. Removing task data from repository
+11-10 19:31:04.329 14476 14532 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=506: unexpected standardMetadataType=21
+11-10 19:31:04.330   534   534 D WVCdm   : [cdm_engine.cpp(583):QueryStatus] security_level = Default, query_token = SecurityLevel
+11-10 19:31:04.330   534   534 I WVCdm   : [cdm_engine.cpp(263):CloseSession] session_id = sid3
+11-10 19:31:04.331   687   703 I WindowManager: setOnBackInvokedCallback(): No window state for package:com.android.systemui
+11-10 19:31:04.332   687  1013 D BackgroundInstallControlService: Package event received: 0
+11-10 19:31:04.332  1311  1311 D RecentsView: onTaskRemoved: 15, not handling task stack changes
+11-10 19:31:04.332  1311  1311 D RecentsView: onTaskRemoved: 15, not handling task stack changes
+11-10 19:31:04.332  1311  1311 D b/417220811: invalidateLoadedTasks - previous requestLoadId: -1
+11-10 19:31:04.334   545   545 E BpTransactionCompletedListener: Failed to transact (-32)
+11-10 19:31:04.347   534   534 I WVCdm   : [(0):] L3 Terminate.
+11-10 19:31:04.350 15144 15220 I AmazonVideo: Waiting for MediaSystem:Initialization to initialize, current state Initializing
+11-10 19:31:04.366 15144 15360 I AmazonVideo: Completed initialize for InAppBillingServiceConnection
+11-10 19:31:04.366 15144 15360 I AmazonVideo: Completed initialize for ThirdPartyInAppBillingManager
+11-10 19:31:04.366 15144 15360 I AmazonVideo: IN_APP_BILLING - IAB not supported
+11-10 19:31:04.366 15144 15360 I AmazonVideo: Completed initialize for InAppBillingManagerSupplier
+11-10 19:31:04.368   687  1013 D BackgroundInstallControlService: Package event received: 0
+11-10 19:31:04.368   687  1013 D BackgroundInstallControlService: Package event received: 0
+11-10 19:31:04.368   687  1013 D BackgroundInstallControlService: Package event received: 0
+11-10 19:31:04.372 15144 15221 I AmazonVideo: Set shortcuts to [SEARCH, WATCHLIST, DOWNLOADS]
+11-10 19:31:04.374 14476 14517 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=502: unexpected standardMetadataType=21
+11-10 19:31:04.374 15144 15221 E ThemeUtils: View class com.amazon.pv.ui.icon.PVUIIcon is an AppCompat widget that can only be used with a Theme.AppCompat theme (or descendant).
+11-10 19:31:04.380 15340 15340 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+11-10 19:31:04.380 15340 15340 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/org.apache.http.legacy.jar
+11-10 19:31:04.384   687  1013 D BackgroundInstallControlService: Package event received: 0
+11-10 19:31:04.385 15144 15219 I AmazonVideo: Entered initialize for PushNotifications
+11-10 19:31:04.433 14476 14517 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=501: unexpected standardMetadataType=21
+11-10 19:31:04.433 15144 15221 E ThemeUtils: View class com.amazon.pv.ui.icon.PVUIIcon is an AppCompat widget that can only be used with a Theme.AppCompat theme (or descendant).
+11-10 19:31:04.448 15144 15219 I AmazonVideo: Push notification is enabled
+11-10 19:31:04.448 15144 15219 I AmazonVideo: Entered initialize for PushFrontendServiceClient
+11-10 19:31:04.448 15144 15219 I AmazonVideo: Completed initialize for PushFrontendServiceClient
+11-10 19:31:04.449 15144 15219 I AmazonVideo: Completed initialize for PushNotifications
+11-10 19:31:04.501   587   647 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 0
+11-10 19:31:04.502 15340 15340 D nativeloader: Configuring clns-9 for other apk /data/app/~~WiqhQiBTCJ55oT0Lei-8Yw==/jakhar.aseem.diva-L5zUYuWq1UeqAf_vm2WgyQ==/base.apk. target_sdk_version=23, uses_libraries=, library_path=/data/app/~~WiqhQiBTCJ55oT0Lei-8Yw==/jakhar.aseem.diva-L5zUYuWq1UeqAf_vm2WgyQ==/lib/arm64:/system/fake-libs64:/data/app/~~WiqhQiBTCJ55oT0Lei-8Yw==/jakhar.aseem.diva-L5zUYuWq1UeqAf_vm2WgyQ==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/jakhar.aseem.diva
+11-10 19:31:04.512 15340 15340 V GraphicsEnvironment: Currently set values for:
+11-10 19:31:04.512 15340 15340 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+11-10 19:31:04.512 15340 15340 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+11-10 19:31:04.512 15340 15340 V GraphicsEnvironment: jakhar.aseem.diva is not listed in per-application setting
+11-10 19:31:04.512 15340 15340 V GraphicsEnvironment: ANGLE allowlist from config: com.dreamgames.royalmatch com.dts.freefiremax com.dxx.firenow com.gramgames.mergedragons com.ludo.king com.mojang.minecraftpe com.my.defense com.nintendo.zaka com.os.airforce com.playrix.fishdomdd.gplay io.teslatech.callbreak jp.konami.prospia net.peakgames.toonblast
+11-10 19:31:04.512 15340 15340 V GraphicsEnvironment: No special selections for ANGLE, returning default driver choice
+11-10 19:31:04.512 15340 15340 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+11-10 19:31:04.513 15144 15221 E ThemeUtils: View class com.amazon.pv.ui.icon.PVUIIcon is an AppCompat widget that can only be used with a Theme.AppCompat theme (or descendant).
+11-10 19:31:04.514 15144 15359 I WebViewFactory: Loading com.google.android.webview version 134.0.6998.135 (code 699813532)
+11-10 19:31:04.514 15144 15359 W ResourcesManager: Found a null ResourcesImpl, skipped.
+11-10 19:31:04.514 15144 15359 W ResourcesManager: Found a null ResourcesImpl, skipped.
+11-10 19:31:04.535 15144 15359 V ResourcesManager: The following library key has been added: ResourcesKey{ mHash=8763699e mResDir=null mSplitDirs=[] mOverlayDirs=[] mLibDirs=[/data/app/~~-gkdXG6Nq1sp-UWnf8E68A==/com.google.android.webview-fqg3UZTqJNDRUoa2F2l7Ew==/WebViewGoogle.apk,/data/app/~~pH7zbfEWs6xhn2WHmCPxZQ==/com.google.android.trichromelibrary_699813532-XTqoVbEphz6Mw4rzTYThvw==/TrichromeLibrary.apk,/system_ext/framework/androidx.window.extensions.jar] mDisplayId=0 mOverrideConfig=v36 mCompatInfo={420dpi always-compat} mLoaders=[]}
+11-10 19:31:04.542 15339 15339 I libbinder.AidlLazyServiceRegistrar: Process has 0 (of 1 available) client(s) in use after notification android.hardware.drm.IDrmFactory/clearkey has clients: 0
+11-10 19:31:04.542 15339 15339 I libbinder.AidlLazyServiceRegistrar: Trying to shut down the service. No clients in use for any service in process.
+11-10 19:31:04.542 15339 15339 I libbinder.AidlLazyServiceRegistrar: Unregistered all clients and exiting
+11-10 19:31:04.546 15340 15340 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+11-10 19:31:04.547 14476 14517 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=499: unexpected standardMetadataType=21
+11-10 19:31:04.548 15144 15219 I AmazonVideo: Waiting for UserDownloadManager to initialize, current state NotInitialized
+11-10 19:31:04.582 15144 15359 W hirdpartyclient: Failed to find entry 'classes.dex': Entry not found
+11-10 19:31:04.583 15144 15359 D nativeloader: Configuring clns-10 for other apk /data/app/~~pH7zbfEWs6xhn2WHmCPxZQ==/com.google.android.trichromelibrary_699813532-XTqoVbEphz6Mw4rzTYThvw==/TrichromeLibrary.apk. target_sdk_version=35, uses_libraries=ALL, library_path=/data/app/~~-gkdXG6Nq1sp-UWnf8E68A==/com.google.android.webview-fqg3UZTqJNDRUoa2F2l7Ew==/lib/arm64:/data/app/~~-gkdXG6Nq1sp-UWnf8E68A==/com.google.android.webview-fqg3UZTqJNDRUoa2F2l7Ew==/WebViewGoogle.apk!/lib/arm64-v8a:/data/app/~~pH7zbfEWs6xhn2WHmCPxZQ==/com.google.android.trichromelibrary_699813532-XTqoVbEphz6Mw4rzTYThvw==/TrichromeLibrary.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand
+11-10 19:31:04.583   687   709 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): null
+11-10 19:31:04.584   687   709 D CoreBackPreview: Window{5458c53 u0 DeprecatedTargetSdkVersionDialog}: Setting back callback null
+11-10 19:31:04.605   687  1013 D BackgroundInstallControlService: Package event received: 0
+11-10 19:31:04.605   687  1013 D BackgroundInstallControlService: Package event received: 0
+11-10 19:31:04.611 15340 15366 I DisplayManager: Choreographer implicitly registered for the refresh rate.
+11-10 19:31:04.611 15144 15359 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+11-10 19:31:04.612 15340 15340 D DesktopExperienceFlags: Toggle override initialized to: false
+11-10 19:31:04.639 14476 14517 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=497: unexpected standardMetadataType=21
+11-10 19:31:04.675 15144 15359 D nativeloader: Configuring clns-11 for other apk /data/app/~~-gkdXG6Nq1sp-UWnf8E68A==/com.google.android.webview-fqg3UZTqJNDRUoa2F2l7Ew==/WebViewGoogle.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~-gkdXG6Nq1sp-UWnf8E68A==/com.google.android.webview-fqg3UZTqJNDRUoa2F2l7Ew==/lib/arm64:/data/app/~~-gkdXG6Nq1sp-UWnf8E68A==/com.google.android.webview-fqg3UZTqJNDRUoa2F2l7Ew==/WebViewGoogle.apk!/lib/arm64-v8a:/data/app/~~pH7zbfEWs6xhn2WHmCPxZQ==/com.google.android.trichromelibrary_699813532-XTqoVbEphz6Mw4rzTYThvw==/TrichromeLibrary.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand
+11-10 19:31:04.708 14476 14517 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=511: unexpected standardMetadataType=21
+11-10 19:31:04.741 15340 15340 D DesktopModeFlags: Toggle override initialized to: OVERRIDE_UNSET
+11-10 19:31:04.749 15340 15366 I GFXSTREAM: [eglDisplay.cpp(297)] Opening libGLESv1_CM_emulation.so
+11-10 19:31:04.749 15340 15366 I GFXSTREAM: [eglDisplay.cpp(297)] Opening libGLESv2_emulation.so
+11-10 19:31:04.777 14476 14517 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=510: unexpected standardMetadataType=21
+11-10 19:31:04.778 15340 15366 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+11-10 19:31:04.783 15340 15366 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-10 19:31:04.817 15340 15340 I khar.aseem.diva: hiddenapi: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (runtime_flags=0, domain=platform, api=unsupported) from Landroid/support/v7/internal/widget/ViewUtils; (domain=app, TargetSdkVersion=23) using reflection: allowed
+11-10 19:31:04.836 15340 15340 I khar.aseem.diva: hiddenapi: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (runtime_flags=0, domain=platform, api=unsupported) from Landroid/support/v7/internal/widget/ViewUtils; (domain=app, TargetSdkVersion=23) using reflection: allowed
+11-10 19:31:04.816 15144 15359 I hirdpartyclient: Waiting for a blocking GC ClassLinker
+11-10 19:31:04.837   687  2649 I WifiService: releaseWifiLock uid=10217
+11-10 19:31:04.846 14476 14517 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=512: unexpected standardMetadataType=21
+11-10 19:31:04.867  1054  1136 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#69) android.os.BinderProxy@fec54b3@0
+11-10 19:31:04.889   687   708 V WindowManager: Finish Transition (#69): created at 11-10 19:31:03.876 collect-started=0.007ms request-sent=31.238ms started=34.499ms ready=258.092ms sent=280.764ms commit=173.261ms finished=1012.219ms
+11-10 19:31:04.894  1054  1136 V WindowManagerShell: Track 0 became idle
+11-10 19:31:04.894  1054  1136 V WindowManagerShell: All active transition animations finished
+11-10 19:31:04.923   687   709 W AppWarnings: Showing DeprecatedTargetSdkVersionDialog for package jakhar.aseem.diva
+11-10 19:31:04.926 14476 14517 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=513: unexpected standardMetadataType=21
+11-10 19:31:04.927   687   711 V WindowManager: Unknown focus tokens, dropping reportFocusChanged
+11-10 19:31:04.954 15340 15340 W HWUI    : Unknown dataspace 0
+11-10 19:31:04.955   687   709 W Looper  : Slow dispatch took 384ms android.ui app=system_server main=false group=TOP_APP h=com.android.server.wm.AppWarnings$UiHandler c=null m=5
+11-10 19:31:04.956   687   709 W Looper  : Slow delivery took 385ms android.ui app=system_server main=false group=TOP_APP h=com.android.server.wm.AppWarnings$UiHandler c=null m=7
+11-10 19:31:04.960   687   709 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.app.Dialog$$ExternalSyntheticLambda2@d411dff
+11-10 19:31:04.960   687   709 D CoreBackPreview: Window{46a2da5 u0 DeprecatedTargetSdkVersionDialog}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.WindowOnBackInvokedDispatcher$OnBackInvokedCallbackWrapper@e17a7cc, mPriority=-1, mIsAnimationCallback=false, mOverrideBehavior=0}
+11-10 19:31:04.964 14476 14517 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=509: unexpected standardMetadataType=21
+11-10 19:31:05.040 15340 15340 D VRI[APICreds2Activity]: WindowInsets changed: 1080x2009 
+11-10 19:31:05.040 15340 15340 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.view.ViewRootImpl$$ExternalSyntheticLambda12@9d81cf5
+11-10 19:31:05.040 15340 15340 I HWUI    : Using FreeType backend (prop=Auto)
+11-10 19:31:05.045   687  1039 D CoreBackPreview: Window{d98a12a u0 jakhar.aseem.diva/jakhar.aseem.diva.APICreds2Activity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@8712464, mPriority=0, mIsAnimationCallback=false, mOverrideBehavior=0}
+11-10 19:31:05.047 14476 14517 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=516: unexpected standardMetadataType=21
+11-10 19:31:05.048 15144 15149 W hirdpartyclient: Suspending all threads took: 64.235ms
+11-10 19:31:05.116 15144 15261 I System.out: [FileBasedOfflineStorage] storeEvents() START at 1794319265116 with 1 events
+11-10 19:31:05.116 15144 15261 I System.out: [FileBasedOfflineStorage] storeEvents() END at 1794319265116
+11-10 19:31:05.125 14476 14517 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=514: unexpected standardMetadataType=21
+11-10 19:31:05.132   687  1039 V AutofillSession: Primary service component name: ComponentInfo{com.google.android.gms/com.google.android.gms.autofill.service.AutofillService}, secondary service component name: ComponentInfo{com.android.credentialmanager/com.android.credentialmanager.autofill.CredentialAutofillService}
+11-10 19:31:05.135 15144 15263 I System.out: [Reporting flow] RoverResourceUsageEvent JSON: schema=Rover, type=ResourceUsage, battery=present, cpu=present, memory=1 items, storage=2 items
+11-10 19:31:05.142 15144 15263 I System.out: [FileBasedOfflineStorage] Stored 1 events in file: queued_1794319265116_118_1.json (total cached: 3)
+11-10 19:31:05.142   687  1039 V SecondaryProviderHandler: Creating a secondary provider handler with component name, ComponentInfo{com.android.credentialmanager/com.android.credentialmanager.autofill.CredentialAutofillService}
+11-10 19:31:05.150   687  1039 D PresentationStatsEventLogger: Started new PresentationStatsEvent
+11-10 19:31:05.152 15144 15376 D CCodec  : allocate(c2.android.aac.decoder)
+11-10 19:31:05.152 15144 15149 I hirdpartyclient: Background young concurrent mark compact GC freed 5886KB AllocSpace bytes, 14(432KB) LOS objects, 47% free, 9682KB/17MB, paused 64.660ms,707us total 639.675ms
+11-10 19:31:05.152 15144 15359 I hirdpartyclient: WaitForGcToComplete blocked ClassLinker on Background for 336.050ms
+11-10 19:31:05.161 15144 15359 I cr_WVCFactoryProvider: version=134.0.6998.135 (699813532) minSdkVersion=29 isBundle=false multiprocess=true packageId=2
+11-10 19:31:05.162   687   709 W Looper  : Slow dispatch took 205ms android.ui app=system_server main=false group=TOP_APP h=android.view.Choreographer$FrameHandler c=android.view.Choreographer$FrameDisplayEventReceiver@d64b17c m=0
+11-10 19:31:05.168 14476 14532 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=518: unexpected standardMetadataType=21
+11-10 19:31:05.200 15144 15221 I AmazonVideo: Entered initialize for InsightsEventReporter
+11-10 19:31:05.200 15144 15221 I AmazonVideo: Entered initialize for ApplicationInsightsEventFactory
+11-10 19:31:05.200 15144 15221 I AmazonVideo: Completed initialize for ApplicationInsightsEventFactory
+11-10 19:31:05.200 15144 15221 I AmazonVideo: Completed initialize for InsightsEventReporter
+11-10 19:31:05.212 14476 14532 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=515: unexpected standardMetadataType=21
+11-10 19:31:05.212 15144 15221 I AmazonVideo: Sync Framework: queueing requestId=15947c88 to run after initialDelay=0ms with data={trigger=application_startup, isQA=false}
+11-10 19:31:05.212 15144 15221 I AmazonVideo: Sync Framework: configuring WorkManager with info logging.
+11-10 19:31:05.230  7422  7724 I Finsky  : [119] com.amazon.avod.thirdpartyclient: Account determined from installer data - [amPKgFYc673_K2RB5lubf6jMvzmygp0hVIx9uM21sXQ]
+11-10 19:31:05.259 14476 14517 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=520: unexpected standardMetadataType=21
+11-10 19:31:05.266  7247  7247 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.safebrowsing.SafeBrowsingService.START dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+11-10 19:31:05.284 15144 15221 I AmazonVideo: SwitchbladeClientMapper created at com.fasterxml.jackson.databind.ObjectMapper@34a2dc5
+11-10 19:31:05.288 15144 15376 I ApexCodecsLazy: ApexCodecs loaded
+11-10 19:31:05.288 15144 15376 I Codec2Client: Available Codec2 services: "default" "software" "__ApexCodecs__"
+11-10 19:31:05.288  7422  7724 I Finsky  : [119] Billing preferred account via installer for com.amazon.avod.thirdpartyclient: [amPKgFYc673_K2RB5lubf6jMvzmygp0hVIx9uM21sXQ]
+11-10 19:31:05.292 15144 15382 E com.amazon.avod.thirdpartyclient/MultipleAccountsLogic: No account mapping found for any account, returning null
+11-10 19:31:05.292 15144 15382 E com.amazon.avod.thirdpartyclient/MultipleAccountsLogic: No account mapping found for any account, returning null
+11-10 19:31:05.292 15144 15382 E com.amazon.avod.thirdpartyclient/MultipleAccountsLogic: No account mapping found for any account, returning null
+11-10 19:31:05.292 15144 15382 I AmazonVideo: No current user; returning Users{current=null, isOwner=true, device=null, externalMarketplace=null}
+11-10 19:31:05.352 15144 15383 I AmazonVideo: Attempt #1: running FetchVideoRegionCallable
+11-10 19:31:05.353 15144 15383 I AmazonVideo: DiskCacheHierarchy: created DiskCache for DiskSpec{location=FILES, owner=APP_STARTUP, customRoot=null}, null; now managing 3 instances. Root xxaivxx.
+11-10 19:31:05.353 14476 14517 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=498: unexpected standardMetadataType=21
+11-10 19:31:05.356 15144 15359 D nativeloader: Load /data/app/~~pH7zbfEWs6xhn2WHmCPxZQ==/com.google.android.trichromelibrary_699813532-XTqoVbEphz6Mw4rzTYThvw==/TrichromeLibrary.apk!/lib/arm64-v8a/libmonochrome_64.so using class loader ns clns-11 (caller=/data/app/~~-gkdXG6Nq1sp-UWnf8E68A==/com.google.android.webview-fqg3UZTqJNDRUoa2F2l7Ew==/WebViewGoogle.apk): ok
+11-10 19:31:05.360 15144 15376 I CCodec  : setting up 'default' as default (vendor) store
+11-10 19:31:05.362 15144 15359 D nativeloader: Load /system/lib64/libwebviewchromium_plat_support.so using class loader ns clns-11 (caller=/data/app/~~-gkdXG6Nq1sp-UWnf8E68A==/com.google.android.webview-fqg3UZTqJNDRUoa2F2l7Ew==/WebViewGoogle.apk): ok
+11-10 19:31:05.366 15144 15383 I AmazonVideo: Successfully de-serialized model: AppStartupConfigResponse
+11-10 19:31:05.401   687  4245 I WifiService: acquireWifiLock uid=10217 lockMode=3 packageName=com.amazon.avod.thirdpartyclient
+11-10 19:31:05.408   687  2170 W libbinder.Binder: Binder transaction to android.app.IActivityManager code 1598246212 took 1504ms. Data bytes: 284 Reply bytes: 4 Flags: 16
+11-10 19:31:05.416 15144 15388 E chromium: [1110/193105.414712:ERROR:variations_seed_loader.cc(39)] Seed missing signature.
+11-10 19:31:05.417 15144 15388 I chromium: [1110/193105.416678:INFO:variations_seed_loader.cc(67)] Failed to open file for reading.: No such file or directory (2)
+11-10 19:31:05.436   687   708 I ActivityTaskManager: Displayed jakhar.aseem.diva/.APICreds2Activity for user 0: +1s497ms
+11-10 19:31:05.438   687  1013 D BackgroundInstallControlService: Package event received: 0
+11-10 19:31:05.440   687  1039 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@57e9046a does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-10 19:31:05.440   687  1039 D CompatChangeReporter: Compat change id reported: 151861875; UID 10172; state: ENABLED
+11-10 19:31:05.447   580 14111 D BufferPoolAccessor2.0: bufferpool2 0xb40000719e609ce8 : 0(0 size) total buffers - 0(0 size) used buffers - 94/102 (recycle/alloc) - 8/198 (fetch/transfer)
+11-10 19:31:05.447   580 14111 D BufferPoolAccessor2.0: Destruction - bufferpool2 0xb40000719e609ce8 cached: 0/0M, 0/0% in use; allocs: 102, 92% recycled; transfers: 198, 96% unfetched
+11-10 19:31:05.472 15144 15376 I CCodec  : Created component [c2.android.aac.decoder] for [c2.android.aac.decoder]
+11-10 19:31:05.476 15144 15376 D CCodecConfig: read media type: audio/mp4a-latm
+11-10 19:31:05.479  7422  7724 W libbinder.Binder: Binder transaction to com.android.vending.billing.IInAppBillingService code 1 took 1045ms. Data bytes: 208 Reply bytes: 8 Flags: 18
+11-10 19:31:05.504 15340 15340 I AssistStructure: Flattened final assist data: 1772 bytes, containing 1 windows, 9 views
+11-10 19:31:05.508   471   471 D Zygote  : Forked child process 15394
+11-10 19:31:05.510   687   719 W ActivityManager: Slow operation: 66ms so far, now at startProcess: returned from zygote!
+11-10 19:31:05.510   687   719 W ActivityManager: Slow operation: 66ms so far, now at startProcess: done updating battery stats
+11-10 19:31:05.510   687   719 W ActivityManager: Slow operation: 66ms so far, now at startProcess: building log message
+11-10 19:31:05.510   687   719 I ActivityManager: Start proc 15394:com.google.android.webview:webview_service/u0a172 for service {com.google.android.webview/org.chromium.android_webview.services.VariationsSeedServer}
+11-10 19:31:05.510   687   719 W ActivityManager: Slow operation: 66ms so far, now at startProcess: starting to update pids map
+11-10 19:31:05.510   687  2170 D AutofillSession: createPendingIntent for request 532
+11-10 19:31:05.511   687  2170 D ContentCapturePerUserService: Notified activity assist data for activity: Token{e7ac076 ActivityRecord{232610715 u0 jakhar.aseem.diva/.APICreds2Activity t16}} without a session Id
+11-10 19:31:05.513   687   709 W Looper  : Slow dispatch took 278ms android.ui app=system_server main=false group=TOP_APP h=android.view.Choreographer$FrameHandler c=android.view.Choreographer$FrameDisplayEventReceiver@d64b17c m=0
+11-10 19:31:05.514   687   719 W ActivityManager: Slow operation: 66ms so far, now at startProcess: done updating pids map
+11-10 19:31:05.516 15144 15376 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+11-10 19:31:05.517 15144 15359 I cr_LibraryLoader: Successfully loaded native library
+11-10 19:31:05.517 15144 15359 I cr_CachingUmaRecorder: Flushed 6 samples from 6 histograms, 0 samples were dropped.
+11-10 19:31:05.517 15144 15376 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+11-10 19:31:05.517 15144 15376 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+11-10 19:31:05.541   687  1034 W ImageReader_JNI: Unable to acquire a buffer item, very likely client tried to acquire more than maxImages buffers
+11-10 19:31:05.544 15144 15376 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+11-10 19:31:05.544 15144 15395 I AmazonVideo: BackgroundThreadWriteSharedPreferences for com.google.android.gms.appid initializeMemCache() took 0 ms
+11-10 19:31:05.545 15144 15144 I AmazonVideo: LoadingTimeout(DetailPageActivity): canceling timer
+11-10 19:31:05.546 15144 15396 I AmazonVideo: The following locales are not supported because strings are unavailable: [es_419, es_ES, fr_FR, it_IT, pt_BR, de_DE, nl_NL, pl_PL, hi_IN, sv_SE, nb_NO, da_DK, ta_IN, te_IN, fi_FI, tr_TR, id_ID, zh_CN, zh_TW, ru_RU, ko_KR, th_TH, pt_PT, ja_JP, fil_PH, ms_MY, ar_AE, he_IL, el_GR, ro_RO, hu_HU, cs_CZ]
+11-10 19:31:05.546 15144 15396 I AmazonVideo: The following locales are supported and have strings available: [en_US]
+11-10 19:31:05.573 15394 15394 I Zygote  : Process 15394 created for com.google.android.webview:webview_service
+11-10 19:31:05.573 15394 15394 I webview_service: Using CollectorTypeCMC GC.
+11-10 19:31:05.574 15144 15376 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+11-10 19:31:05.575 15144 15376 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+11-10 19:31:05.576 15144 15383 I AmazonVideo: BackgroundThreadWriteSharedPreferences for ServerPreferences initializeMemCache() took 0 ms
+11-10 19:31:05.579 15144 15376 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+11-10 19:31:05.580 15144 15383 I AmazonVideo: StalenessTracker(AppStartupConfig) loaded ResponseManifest{key={xxaivxx//}, status={null/null}}
+11-10 19:31:05.580 15144 15383 I AmazonVideo: Attempt #1: success running FetchVideoRegionCallable. Returning.
+11-10 19:31:05.582 15144 15382 I AmazonVideo: MapSupport: map library supports profiles
+11-10 19:31:05.614 14476 14517 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=517: unexpected standardMetadataType=21
+11-10 19:31:05.640 15144 15376 I CCodecConfig: query failed after returning 21 values (BAD_INDEX)
+11-10 19:31:05.640 15144 15376 D CCodecConfig: c2 config diff is Dict {
+11-10 19:31:05.640 15144 15376 D CCodecConfig:   c2::u32 coded.aac-packaging.value = 0
+11-10 19:31:05.640 15144 15376 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+11-10 19:31:05.640 15144 15376 D CCodecConfig:   c2::u32 coded.pl.level = 0
+11-10 19:31:05.640 15144 15376 D CCodecConfig:   c2::u32 coded.pl.profile = 8192
+11-10 19:31:05.640 15144 15376 D CCodecConfig:   c2::i32 coding.drc.album-mode.value = 0
+11-10 19:31:05.640 15144 15376 D CCodecConfig:   c2::float coding.drc.attenuation-factor.value = 1
+11-10 19:31:05.640 15144 15376 D CCodecConfig:   c2::float coding.drc.boost-factor.value = 1
+11-10 19:31:05.640 15144 15376 D CCodecConfig:   c2::i32 coding.drc.compression-mode.value = 3
+11-10 19:31:05.640 15144 15376 D CCodecConfig:   c2::i32 coding.drc.effect-type.value = 3
+11-10 19:31:05.640 15144 15376 D CCodecConfig:   c2::float coding.drc.encoded-level.value = 0.25
+11-10 19:31:05.640 15144 15376 D CCodecConfig:   c2::float coding.drc.reference-level.value = -16
+11-10 19:31:05.640 15144 15376 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 8192
+11-10 19:31:05.640 15144 15376 D CCodecConfig:   c2::u32 input.delay.value = 0
+11-10 19:31:05.640 15144 15376 D CCodecConfig:   string input.media-type.value = "audio/mp4a-latm"
+11-10 19:31:05.640 15144 15376 D CCodecConfig:   c2::u32 output.delay.value = 2
+11-10 19:31:05.640 15144 15376 D CCodecConfig:   c2::float output.drc.output-loudness.value = 0.25
+11-10 19:31:05.640 15144 15376 D CCodecConfig:   c2::u32 output.large-frame.max-size = 0
+11-10 19:31:05.640 15144 15376 D CCodecConfig:   c2::u32 output.large-frame.threshold-size = 0
+11-10 19:31:05.640 15144 15376 D CCodecConfig:   string output.media-type.value = "audio/raw"
+11-10 19:31:05.640 15144 15376 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+11-10 19:31:05.640 15144 15376 D CCodecConfig:   c2::u32 raw.channel-mask.value = 0
+11-10 19:31:05.640 15144 15376 D CCodecConfig:   c2::u32 raw.max-channel-count.value = 8
+11-10 19:31:05.640 15144 15376 D CCodecConfig:   c2::u32 raw.sample-rate.value = 44100
+11-10 19:31:05.640 15144 15376 D CCodecConfig: }
+11-10 19:31:05.648 15144 15382 I AmazonVideo: MapSupport: is device pre-merge? false
+11-10 19:31:05.648  7422  7422 I Finsky  : [2] Memory trim requested to level 40
+11-10 19:31:05.648  7422  7422 I Finsky  : [2] Flushing in-memory image cache
+11-10 19:31:05.672 15144 15382 I AmazonVideo: Identity successfully updated household to HouseholdInfo{users=Users{current=null, isOwner=true, device=null, externalMarketplace=null}, profiles=Profiles{currentProfile=null, numProfiles=0, canCreate=false, status=UNAVAILABLE_NOT_REGISTERED}, videoRegion=VideoRegion{vcr=IN, avMarketplace=A2MFUE2XK8ZSSY, currentCountry=IN, homeRegion=EU}}
+11-10 19:31:05.672 15144 15382 I AmazonVideo: Last known value: Optional.of(IdentityPersistenceData{userId=null, profileId=null, marketplace=A2MFUE2XK8ZSSY, currentCountry=IN, vcr=IN})
+11-10 19:31:05.672 15144 15382 I AmazonVideo: IdentityChangeTrigger{result=match, current=HouseholdInfo{users=Users{current=null, isOwner=true, device=null, externalMarketplace=null}, profiles=Profiles{currentProfile=null, numProfiles=0, canCreate=false, status=UNAVAILABLE_NOT_REGISTERED}, videoRegion=VideoRegion{vcr=IN, avMarketplace=A2MFUE2XK8ZSSY, currentCountry=IN, homeRegion=EU}}, persisted=IdentityPersistenceData{userId=null, profileId=null, marketplace=A2MFUE2XK8ZSSY, currentCountry=IN, vcr=IN}}
+11-10 19:31:05.673   687  1013 D BackgroundInstallControlService: Package event received: 0
+11-10 19:31:05.673   687  1013 D BackgroundInstallControlService: Package event received: 0
+11-10 19:31:05.677 15144 15403 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+11-10 19:31:05.677  7422  7724 I Finsky  : [119] com.amazon.avod.thirdpartyclient: Account determined from installer data - [amPKgFYc673_K2RB5lubf6jMvzmygp0hVIx9uM21sXQ]
+11-10 19:31:05.677  7422  7724 I Finsky  : [119] Billing preferred account via installer for com.amazon.avod.thirdpartyclient: [amPKgFYc673_K2RB5lubf6jMvzmygp0hVIx9uM21sXQ]
+11-10 19:31:05.680   587  1117 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+11-10 19:31:05.680   587  1117 D BufferPoolAccessor2.0: Destruction - bufferpool2 0xb400007abd80eb28 cached: 0/0M, 0/0% in use; allocs: 0, 0% recycled; transfers: 0, 0% unfetched
+11-10 19:31:05.683 15144 15396 I AmazonVideo: Locale did not change (LocaleInfo{locale=en_US, localeResolutionReason=OS_LANGUAGE, supportedLocales=[en_US], localizationErrorCode=Optional.absent()}) no action required. Application locale: Optional.absent(), OS locale: en_US
+11-10 19:31:05.708  7247  7247 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.safetynet.service.START xflg=0x4 pkg=com.google.android.gms }
+11-10 19:31:05.708 15144 15412 D CCodec  : allocate(c2.goldfish.h264.decoder)
+11-10 19:31:05.709 15394 15394 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+11-10 19:31:05.712 15144 15412 I CCodec  : setting up 'default' as default (vendor) store
+11-10 19:31:05.712   484   537 I GoldfishComponentStore: in init
+11-10 19:31:05.712   484   537 I GoldfishComponentStore: loading dll of path libcodec2_goldfish_avcdec.so
+11-10 19:31:05.713   484   537 I GoldfishComponentStore: Create()
+11-10 19:31:05.716   484   537 I GoldfishComponentStore: created interface
+11-10 19:31:05.716   484   537 I GoldfishComponentStore: created component
+11-10 19:31:05.717 15144 15412 I CCodec  : Created component [c2.goldfish.h264.decoder] for [c2.goldfish.h264.decoder]
+11-10 19:31:05.717 15144 15412 D CCodecConfig: read media type: video/avc
+11-10 19:31:05.717 15144 15412 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+11-10 19:31:05.717 15144 15412 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+11-10 19:31:05.717 15144 15412 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+11-10 19:31:05.717 15144 15412 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+11-10 19:31:05.736 15144 15412 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+11-10 19:31:05.736 15144 15412 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+11-10 19:31:05.736 15144 15412 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+11-10 19:31:05.737 15144 15412 D ReflectedParamUpdater: ignored struct field coded.color-format.locations
+11-10 19:31:05.737 15144 15412 D CCodecConfig: ignoring local param raw.size (0xd2001800) as it is already supported
+11-10 19:31:05.737 15144 15412 D CCodecConfig: ignoring local param default.color (0x5200180b) as it is already supported
+11-10 19:31:05.737 15144 15412 D ReflectedParamUpdater: ignored struct field raw.hdr-static-info.mastering
+11-10 19:31:05.741 15144 15412 I CCodecConfig: query failed after returning 12 values (BAD_INDEX)
+11-10 19:31:05.741 15144 15412 D CCodecConfig: c2 config diff is Dict {
+11-10 19:31:05.741 15144 15412 D CCodecConfig:   c2::u32 coded.pl.level = 20496
+11-10 19:31:05.741 15144 15412 D CCodecConfig:   c2::u32 coded.pl.profile = 20481
+11-10 19:31:05.741 15144 15412 D CCodecConfig:   c2::u32 coded.vui.color.matrix = 0
+11-10 19:31:05.741 15144 15412 D CCodecConfig:   c2::u32 coded.vui.color.primaries = 0
+11-10 19:31:05.741 15144 15412 D CCodecConfig:   c2::u32 coded.vui.color.range = 2
+11-10 19:31:05.741 15144 15412 D CCodecConfig:   c2::u32 coded.vui.color.transfer = 0
+11-10 19:31:05.741 15144 15412 D CCodecConfig:   c2::u32 default.color.matrix = 0
+11-10 19:31:05.741 15144 15412 D CCodecConfig:   c2::u32 default.color.primaries = 0
+11-10 19:31:05.741 15144 15412 D CCodecConfig:   c2::u32 default.color.range = 0
+11-10 19:31:05.741 15144 15412 D CCodecConfig:   c2::u32 default.color.transfer = 0
+11-10 19:31:05.741 15144 15412 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 6291456
+11-10 19:31:05.741 15144 15412 D CCodecConfig:   c2::u32 input.delay.value = 0
+11-10 19:31:05.741 15144 15412 D CCodecConfig:   string input.media-type.value = "video/avc"
+11-10 19:31:05.741 15144 15412 D CCodecConfig:   c2::u32 output.delay.value = 8
+11-10 19:31:05.741 15144 15412 D CCodecConfig:   string output.media-type.value = "video/raw"
+11-10 19:31:05.741 15144 15412 D CCodecConfig:   c2::u32 raw.color.matrix = 0
+11-10 19:31:05.741 15144 15412 D CCodecConfig:   c2::u32 raw.color.primaries = 0
+11-10 19:31:05.741 15144 15412 D CCodecConfig:   c2::u32 raw.color.range = 2
+11-10 19:31:05.741 15144 15412 D CCodecConfig:   c2::u32 raw.color.transfer = 0
+11-10 19:31:05.741 15144 15412 D CCodecConfig:   c2::u32 raw.max-size.height = 240
+11-10 19:31:05.741 15144 15412 D CCodecConfig:   c2::u32 raw.max-size.width = 320
+11-10 19:31:05.741 15144 15412 D CCodecConfig:   c2::u32 raw.pixel-format.value = 35
+11-10 19:31:05.741 15144 15412 D CCodecConfig:   c2::i32 raw.rotation.flip = 0
+11-10 19:31:05.741 15144 15412 D CCodecConfig:   c2::i32 raw.rotation.value = 0
+11-10 19:31:05.741 15144 15412 D CCodecConfig:   c2::u32 raw.sar.height = 1
+11-10 19:31:05.741 15144 15412 D CCodecConfig:   c2::u32 raw.sar.width = 1
+11-10 19:31:05.741 15144 15412 D CCodecConfig:   c2::u32 raw.size.height = 240
+11-10 19:31:05.741 15144 15412 D CCodecConfig:   c2::u32 raw.size.width = 320
+11-10 19:31:05.741 15144 15412 D CCodecConfig:   c2:
+11-10 19:31:05.741 15144 15412 W ColorUtils: expected specified color aspects (2:0:0:0)
+11-10 19:31:05.775 14476 14517 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=519: unexpected standardMetadataType=21
+11-10 19:31:05.812 15144 15363 I AmazonVideo: Push info has changed, updating the Push backend. Changed: ADM/GCM ID: true, OS version: false, app version: false, directed ID: false, VCR: false, OS notification state: false
+11-10 19:31:05.812 15144 15363 I AmazonVideo: BackgroundThreadWriteSharedPreferences for PersistentPreferences initializeMemCache() took 0 ms
+11-10 19:31:05.816 15144 15418 I AmazonVideo: There's no Auth token when making this request: https://msh.amazon.in/kfe/
+11-10 19:31:05.854   484   537 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+11-10 19:31:05.854   484   537 I GoldfishComponentStore: in ~ComponentModule
+11-10 19:31:05.854   484   537 I GoldfishComponentStore: unloading dll
+11-10 19:31:05.855 15144 15412 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+11-10 19:31:05.861   687   782 I WifiService: releaseWifiLock uid=10217
+11-10 19:31:05.898  1054  1186 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): null
+11-10 19:31:05.898   687  3644 D CoreBackPreview: Window{a1eca7c u0 Splash Screen jakhar.aseem.diva EXITING}: Setting back callback null
+11-10 19:31:05.899   687   709 W Looper  : Drained
+11-10 19:31:05.936 14476 14517 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=502: unexpected standardMetadataType=21
+11-10 19:31:06.003 15144 15359 E com.amazon.avod.thirdpartyclient/MultipleAccountsLogic: No account mapping found for any account, returning null
+11-10 19:31:06.007 15144 15359 E com.amazon.avod.thirdpartyclient/MultipleAccountsLogic: No account mapping found for any account, returning null
+11-10 19:31:06.008 15144 15334 I AmazonVideo: SonarSDK control: evaluateEnablingSonarSDK true and isSonarSdkEnabledConfig BooleanConfigurationValue{key=sonar_isSonarSdkEnabled, defaultValue=xxaivxx, currentValue=xxaivxx, type=Boolean}
+11-10 19:31:06.009 15144 15334 I AmazonVideo: SonarSDK control: evaluateEnablingSonarSDK true and isSonarSdkEnabledConfig BooleanConfigurationValue{key=sonar_isSonarSdkEnabled, defaultValue=xxaivxx, currentValue=xxaivxx, type=Boolean}
+11-10 19:31:06.009 15144 15334 I AmazonVideo: SonarSDK control: evaluateEnablingSonarSDK true and isSonarSdkEnabledConfig BooleanConfigurationValue{key=sonar_isSonarSdkEnabled, defaultValue=xxaivxx, currentValue=xxaivxx, type=Boolean}
+11-10 19:31:06.009 15144 15334 I AmazonVideo: SonarSDK control: evaluateEnablingSonarSDK true and isSonarSdkEnabledConfig BooleanConfigurationValue{key=sonar_isSonarSdkEnabled, defaultValue=xxaivxx, currentValue=xxaivxx, type=Boolean}
+11-10 19:31:06.049 15394 15394 W webview_service: Failed to find entry 'classes.dex': Entry not found
+11-10 19:31:06.076 15144 15429 W JobInfo : Requested important-while-foreground flag for job10 is ignored and takes no effect
+11-10 19:31:06.101 15144 15432 W System  : Attempt to load writable file: /data/user/0/com.amazon.avod.thirdpartyclient/lib/libAIVMemoryAllocator.so. This will throw on a future Android version
+11-10 19:31:06.102 15394 15394 D nativeloader: Configuring clns-9 for other apk /data/app/~~pH7zbfEWs6xhn2WHmCPxZQ==/com.google.android.trichromelibrary_699813532-XTqoVbEphz6Mw4rzTYThvw==/TrichromeLibrary.apk. target_sdk_version=35, uses_libraries=ALL, library_path=/data/app/~~-gkdXG6Nq1sp-UWnf8E68A==/com.google.android.webview-fqg3UZTqJNDRUoa2F2l7Ew==/lib/arm64:/data/app/~~-gkdXG6Nq1sp-UWnf8E68A==/com.google.android.webview-fqg3UZTqJNDRUoa2F2l7Ew==/WebViewGoogle.apk!/lib/arm64-v8a:/data/app/~~pH7zbfEWs6xhn2WHmCPxZQ==/com.google.android.trichromelibrary_699813532-XTqoVbEphz6Mw4rzTYThvw==/TrichromeLibrary.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.webview
+11-10 19:31:06.102 15394 15394 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+11-10 19:31:06.104   587 14522 D BufferPoolAccessor2.0: bufferpool2 0xb400007abd80af08 : 1(3888000 size) total buffers - 1(3888000 size) used buffers - 194/207 (recycle/alloc) - 17/207 (fetch/transfer)
+11-10 19:31:06.104 15144 15432 D nativeloader: Load /data/user/0/com.amazon.avod.thirdpartyclient/lib/libAIVMemoryAllocator.so using class loader ns clns-9 (caller=/data/app/~~ZLPB1Iq-e4tmbCjPfA629g==/com.amazon.avod.thirdpartyclient-H7PQgkg1wKtbWJ_j_h2xaQ==/base.apk!classes7.dex): ok
+11-10 19:31:06.105 14476 14517 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=506: unexpected standardMetadataType=21
+11-10 19:31:06.108 15144 15432 W System  : Attempt to load writable file: /data/user/0/com.amazon.avod.thirdpartyclient/lib/libAIVDash.so. This will throw on a future Android version
+11-10 19:31:06.115 15144 15432 D nativeloader: Load /data/user/0/com.amazon.avod.thirdpartyclient/lib/libAIVDash.so using class loader ns clns-9 (caller=/data/app/~~ZLPB1Iq-e4tmbCjPfA629g==/com.amazon.avod.thirdpartyclient-H7PQgkg1wKtbWJ_j_h2xaQ==/base.apk!classes7.dex): ok
+11-10 19:31:06.115 15144 15432 W System  : Attempt to load writable file: /data/user/0/com.amazon.avod.thirdpartyclient/lib/libATVPlaybackSmoothStream.so. This will throw on a future Android version
+11-10 19:31:06.101 15144 15144 W MediaSystemShar: type=1400 audit(0.0:40): avc:  granted  { execute } for  path="/data/data/com.amazon.avod.thirdpartyclient/lib/libAIVMemoryAllocator.so" dev="dm-54" ino=377121 scontext=u:r:untrusted_app:s0:c217,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c217,c256,c512,c768 tclass=file app=com.amazon.avod.thirdpartyclient
+11-10 19:31:06.109 15144 15144 W MediaSystemShar: type=1400 audit(0.0:41): avc:  granted  { execute } for  path="/data/data/com.amazon.avod.thirdpartyclient/lib/libAIVDash.so" dev="dm-54" ino=377119 scontext=u:r:untrusted_app:s0:c217,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c217,c256,c512,c768 tclass=file app=com.amazon.avod.thirdpartyclient
+11-10 19:31:06.151 15144 15432 D nativeloader: Load /data/user/0/com.amazon.avod.thirdpartyclient/lib/libATVPlaybackSmoothStream.so using class loader ns clns-9 (caller=/data/app/~~ZLPB1Iq-e4tmbCjPfA629g==/com.amazon.avod.thirdpartyclient-H7PQgkg1wKtbWJ_j_h2xaQ==/base.apk!classes7.dex): ok
+11-10 19:31:06.145 15144 15144 W MediaSystemShar: type=1400 audit(0.0:42): avc:  granted  { execute } for  path="/data/data/com.amazon.avod.thirdpartyclient/lib/libATVPlaybackSmoothStream.so" dev="dm-54" ino=377125 scontext=u:r:untrusted_app:s0:c217,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c217,c256,c512,c768 tclass=file app=com.amazon.avod.thirdpartyclient
+11-10 19:31:06.190 15144 15432 W System  : Attempt to load writable file: /data/user/0/com.amazon.avod.thirdpartyclient/lib/libAIVHeuristics.so. This will throw on a future Android version
+11-10 19:31:06.196 15144 15432 D nativeloader: Load /data/user/0/com.amazon.avod.thirdpartyclient/lib/libAIVHeuristics.so using class loader ns clns-9 (caller=/data/app/~~ZLPB1Iq-e4tmbCjPfA629g==/com.amazon.avod.thirdpartyclient-H7PQgkg1wKtbWJ_j_h2xaQ==/base.apk!classes7.dex): ok
+11-10 19:31:06.197 15394 15394 D nativeloader: Configuring clns-10 for other apk /data/app/~~-gkdXG6Nq1sp-UWnf8E68A==/com.google.android.webview-fqg3UZTqJNDRUoa2F2l7Ew==/WebViewGoogle.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~-gkdXG6Nq1sp-UWnf8E68A==/com.google.android.webview-fqg3UZTqJNDRUoa2F2l7Ew==/lib/arm64:/data/app/~~-gkdXG6Nq1sp-UWnf8E68A==/com.google.android.webview-fqg3UZTqJNDRUoa2F2l7Ew==/WebViewGoogle.apk!/lib/arm64-v8a:/data/app/~~pH7zbfEWs6xhn2WHmCPxZQ==/com.google.android.trichromelibrary_699813532-XTqoVbEphz6Mw4rzTYThvw==/TrichromeLibrary.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.webview
+11-10 19:31:06.197 15394 15394 D CompatChangeReporter: Compat change id reported: 202956589; UID 10172; state: ENABLED
+11-10 19:31:06.197 15144 15432 W System  : Attempt to load writable file: /data/user/0/com.amazon.avod.thirdpartyclient/lib/libAutobahnTraceroute.so. This will throw on a future Android version
+11-10 19:31:06.189 15144 15144 W MediaSystemShar: type=1400 audit(0.0:43): avc:  granted  { execute } for  path="/data/data/com.amazon.avod.thirdpartyclient/lib/libAIVHeuristics.so" dev="dm-54" ino=377120 scontext=u:r:untrusted_app:s0:c217,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c217,c256,c512,c768 tclass=file app=com.amazon.avod.thirdpartyclient
+11-10 19:31:06.200 15144 15432 D nativeloader: Load /data/user/0/com.amazon.avod.thirdpartyclient/lib/libAutobahnTraceroute.so using class loader ns clns-9 (caller=/data/app/~~ZLPB1Iq-e4tmbCjPfA629g==/com.amazon.avod.thirdpartyclient-H7PQgkg1wKtbWJ_j_h2xaQ==/base.apk!classes7.dex): ok
+11-10 19:31:06.201 14476 14517 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=501: unexpected standardMetadataType=21
+11-10 19:31:06.204 15144 15432 W System  : Attempt to load writable file: /data/user/0/com.amazon.avod.thirdpartyclient/lib/libAIVPlayReadyLicensing.so. This will throw on a future Android version
+11-10 19:31:06.193 15144 15144 W MediaSystemShar: type=1400 audit(0.0:44): avc:  granted  { execute } for  path="/data/data/com.amazon.avod.thirdpartyclient/lib/libAutobahnTraceroute.so" dev="dm-54" ino=377126 scontext=u:r:untrusted_app:s0:c217,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c217,c256,c512,c768 tclass=file app=com.amazon.avod.thirdpartyclient
+11-10 19:31:06.201 15144 15144 W MediaSystemShar: type=1400 audit(0.0:45): avc:  granted  { execute } for  path="/data/data/com.amazon.avod.thirdpartyclient/lib/libAIVPlayReadyLicensing.so" dev="dm-54" ino=377122 scontext=u:r:untrusted_app:s0:c217,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c217,c256,c512,c768 tclass=file app=com.amazon.avod.thirdpartyclient
+11-10 19:31:06.211 15144 15432 D nativeloader: Load /data/user/0/com.amazon.avod.thirdpartyclient/lib/libAIVPlayReadyLicensing.so using class loader ns clns-9 (caller=/data/app/~~ZLPB1Iq-e4tmbCjPfA629g==/com.amazon.avod.thirdpartyclient-H7PQgkg1wKtbWJ_j_h2xaQ==/base.apk!classes7.dex): ok
+11-10 19:31:06.212 15144 15432 W System  : Attempt to load writable file: /data/user/0/com.amazon.avod.thirdpartyclient/lib/libvoOSCEngine.so. This will throw on a future Android version
+11-10 19:31:06.212 15144 15432 D nativeloader: Load /data/user/0/com.amazon.avod.thirdpartyclient/lib/libvoOSCEngine.so using class loader ns clns-9 (caller=/data/app/~~ZLPB1Iq-e4tmbCjPfA629g==/com.amazon.avod.thirdpartyclient-H7PQgkg1wKtbWJ_j_h2xaQ==/base.apk!classes7.dex): ok
+11-10 19:31:06.212 15144 15432 W System  : Attempt to load writable file: /data/user/0/com.amazon.avod.thirdpartyclient/lib/libAIVVisualOnRenderer.so. This will throw on a future Android version
+11-10 19:31:06.214 15144 15432 D nativeloader: Load /data/user/0/com.amazon.avod.thirdpartyclient/lib/libAIVVisualOnRenderer.so using class loader ns clns-9 (caller=/data/app/~~ZLPB1Iq-e4tmbCjPfA629g==/com.amazon.avod.thirdpartyclient-H7PQgkg1wKtbWJ_j_h2xaQ==/base.apk!classes7.dex): ok
+11-10 19:31:06.214 15144 15432 W System  : Attempt to load writable file: /data/user/0/com.amazon.avod.thirdpartyclient/lib/libAIVPlayReadyLicensing.so. This will throw on a future Android version
+11-10 19:31:06.216 15144 15432 W System  : Attempt to load writable file: /data/user/0/com.amazon.avod.thirdpartyclient/lib/libAIVPlayReadyLicensing.so. This will throw on a future Android version
+11-10 19:31:06.222  7246  7246 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.findmydevice.spot.service.locationreport.START dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.PersistentApiService }
+11-10 19:31:06.248 15144 15334 I AmazonVideo: Entered initialize for AloysiusInitializer
+11-10 19:31:06.249 15144 15334 I AmazonVideo: Completed initialize for AloysiusInitializer
+11-10 19:31:06.249 15144 15334 I AmazonVideo: Entered initialize for DrmSystemImpl
+11-10 19:31:06.249 15144 15334 I AmazonVideo: Completed initialize for DrmSystemImpl
+11-10 19:31:06.249 15144 15334 I AmazonVideo: Entered initialize for CachingPlaybackSupportEvaluator
+11-10 19:31:06.249   687  3644 D ConnectivityService: requestNetwork for uid/pid:10217/15144 activeRequest: null callbackRequest: 460 [NetworkRequest [ REQUEST id=461, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10217 RequestorUid: 10217 RequestorPkg: com.amazon.avod.thirdpartyclient UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647 isUidTracked: false declaredMethods: AVAIL|LOST|NC
+11-10 19:31:06.256 15144 15206 I AmazonVideo: [AdvertisingId] Attempting to sync (from MediaSystem-initialize)...
+11-10 19:31:06.259 15144 15334 D AudioSystem: onNewService: media.audio_policy service obtained 0xb400007e726988c0
+11-10 19:31:06.275 15144 15444 D AmazonVideo.http: Received Request@98c53e0[GET https://api.eu-west-1.aiv-delivery.net/Bootstrap/AV20180101?<REMOVED>&deviceTypeID=A43PXU4ZN2AL1&firmware=fmw%3A36-app%3A3.0.435.4247&format=json&osLocale=en_US&softwareVersion=435&uxLocale=en_US&version=1] from thread pool-110-thread-1
+11-10 19:31:06.275 15394 15394 V GraphicsEnvironment: Currently set values for:
+11-10 19:31:06.275 15394 15394 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+11-10 19:31:06.275 15394 15394 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+11-10 19:31:06.275 15394 15394 V GraphicsEnvironment: com.google.android.webview is not listed in per-application setting
+11-10 19:31:06.275 15394 15394 V GraphicsEnvironment: ANGLE allowlist from config: com.dreamgames.royalmatch com.dts.freefiremax com.dxx.firenow com.gramgames.mergedragons com.ludo.king com.mojang.minecraftpe com.my.defense com.nintendo.zaka com.os.airforce com.playrix.fishdomdd.gplay io.teslatech.callbreak jp.konami.prospia net.peakgames.toonblast
+11-10 19:31:06.275 15394 15394 V GraphicsEnvironment: No special selections for ANGLE, returning default driver choice
+11-10 19:31:06.276 15394 15394 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+11-10 19:31:06.276 15144 15334 D AudioSystem: getService: IAudioPolicyService retrieved: 0xb400007e726988c0  cached: 0xb400007e726988c0
+11-10 19:31:06.276   687  1164 I WifiService: acquireWifiLock uid=10217 lockMode=1 packageName=com.amazon.avod.thirdpartyclient
+11-10 19:31:06.279   687  1013 D BackgroundInstallControlService: Package event received: 0
+11-10 19:31:06.283   535   608 D NativePermissionController: checkPermission: missing 13 for 10217
+11-10 19:31:06.288   535   608 D NativePermissionController: checkPermission: missing 13 for 10217
+11-10 19:31:06.292   535  7238 D NativePermissionController: checkPermission: missing 13 for 10217
+11-10 19:31:06.292   687   962 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=461, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10217 RequestorUid: 10217 RequestorPkg: com.amazon.avod.thirdpartyclient UnderlyingNetworks: Null] ]
+11-10 19:31:06.299   535   608 D NativePermissionController: checkPermission: missing 13 for 10217
+11-10 19:31:06.299   687   962 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=461, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10217 RequestorUid: 10217 RequestorPkg: com.amazon.avod.thirdpartyclient UnderlyingNetworks: Null] ]
+11-10 19:31:06.310   687   962 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=461, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10217 RequestorUid: 10217 RequestorPkg: com.amazon.avod.thirdpartyclient UnderlyingNetworks: Null] ]
+11-10 19:31:06.310   687   962 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=461, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10217 RequestorUid: 10217 RequestorPkg: com.amazon.avod.thirdpartyclient UnderlyingNetworks: Null] ]
+11-10 19:31:06.311 15144 15334 I AmazonVideo: Completed initialize for CachingPlaybackSupportEvaluator
+11-10 19:31:06.311 15144 15334 I AmazonVideo: Entered initialize for OkHttpClientFactory
+11-10 19:31:06.311 15144 15334 I AmazonVideo: Completed initialize for OkHttpClientFactory
+11-10 19:31:06.311 15144 15334 I AmazonVideo: Entered initialize for EdgeDeliveryOkHttpClientFactory
+11-10 19:31:06.311 15144 15334 I AmazonVideo: Completed initialize for EdgeDeliveryOkHttpClientFactory
+11-10 19:31:06.312 15394 15394 I LoadedApk: No resource references to update in package com.google.android.trichromelibrary
+11-10 19:31:06.312 15394 15394 I cr_WebViewApkApp: version=134.0.6998.135 (699813532) minSdkVersion=29 isBundle=false processName=com.google.android.webview:webview_service
+11-10 19:31:06.316 15144 15334 I AmazonVideo: Completed initialize for MediaSystem:Initialization
+11-10 19:31:06.317 15144 15331 I AmazonVideo: Entered initialize for PlaybackDownloadManager
+11-10 19:31:06.317 15144 15331 I AmazonVideo: Entered initialize for PlaybackDownloadPersistence
+11-10 19:31:06.317 15144 15331 I AmazonVideo: Entered initialize for PlaybackDownloadDiskPersistence
+11-10 19:31:06.317 15144 15331 I AmazonVideo: Completed initialize for PlaybackDownloadDiskPersistence
+11-10 19:31:06.322 15144 15455 I AmazonVideo: Initializing SonarController...
+11-10 19:31:06.322 15144 15331 D CompatChangeReporter: Compat change id reported: 270674727; UID 10217; state: ENABLED
+11-10 19:31:06.322 15144 15331 I AmazonVideo: DWNLD_SDK Checking Download DB Sanity
+11-10 19:31:06.322 15144 15331 I AmazonVideo: Completed initialize for PlaybackDownloadPersistence
+11-10 19:31:06.322 15144 15331 I AmazonVideo: Entered initialize for PlaybackDownloadExecutor
+11-10 19:31:06.322 15144 15331 I AmazonVideo: Entered initialize for PlaybackDownloadQueueManager
+11-10 19:31:06.322 15144 15331 I AmazonVideo: Completed initialize for PlaybackDownloadQueueManager
+11-10 19:31:06.322 15144 15331 I AmazonVideo: DWNLD_SDK PlaybackDownloadManager updateDownloadsWithPreferredDownloadLocation INTERNAL_STORAGE
+11-10 19:31:06.322 15144 15331 I AmazonVideo: Completed initialize for PlaybackDownloadExecutor
+11-10 19:31:06.322 15144 15331 I AmazonVideo: DWNLD_SDK Acquired pause token: PauseToken{token=java.lang.Object@ac465db, cause=EXTERNAL_STORAGE_STATE_UNKNOWN}
+11-10 19:31:06.322 15144 15331 I AmazonVideo: DWNLD_SDK PlaybackDownloadManager updateDownloadsWithPreferredDownloadLocation INTERNAL_STORAGE
+11-10 19:31:06.328 15144 15220 I AmazonVideo: Entered initialize for UserDownloadComponents:Initialization
+11-10 19:31:06.328 15144 15220 I AmazonVideo: Completed initialize for UserDownloadComponents:Initialization
+11-10 19:31:06.328 15144 15220 I AmazonVideo: Entered initialize for ClientDownloadSyncManager
+11-10 19:31:06.328 15144 15220 I AmazonVideo: Completed initialize for ClientDownloadSyncManager
+11-10 19:31:06.329 15144 15220 I AmazonVideo: Waiting for UserDownloadManager to initialize, current state NotInitialized
+11-10 19:31:06.329 15144 15331 I AmazonVideo: Completed initialize for PlaybackDownloadManager
+11-10 19:31:06.329 15144 15331 I AmazonVideo: Entered initialize for PlaybackDownloadManager:Media
+11-10 19:31:06.330   687   968 D ConnectivityService: NetReassign [461 : null → 100] [c 0] [a 24] [i 1]
+11-10 19:31:06.332 15144 15206 I AmazonVideo: [AdvertisingId] Updated successfully in 75 ms
+11-10 19:31:06.333 15144 15331 I AmazonVideo: Entered initialize for PlaybackDownloadEventReporter
+11-10 19:31:06.333 15144 15331 I AmazonVideo: Completed initialize for PlaybackDownloadEventReporter
+11-10 19:31:06.333 15144 15331 I AmazonVideo: Entered initialize for PlaybackDownloadExecutor:Media
+11-10 19:31:06.333 15144 15331 I AmazonVideo: Completed initialize for PlaybackDownloadExecutor:Media
+11-10 19:31:06.333 15144 15331 I AmazonVideo: DWNLD_SDK resume, releasing pause token: PauseToken{token=java.lang.Object@ac465db, cause=EXTERNAL_STORAGE_STATE_UNKNOWN}
+11-10 19:31:06.333 15144 15331 I AmazonVideo: DWNLD_SDK DownloadQueue Processed download queue with 0 pending jobs; no actionable job found.
+11-10 19:31:06.333 15144 15454 I AmazonVideo: PrioritizingVideoCacheManager - Empty queue.
+11-10 19:31:06.334 15144 15331 I AmazonVideo: Completed initialize for PlaybackDownloadManager:Media
+11-10 19:31:06.334 15144 15331 I AmazonVideo: DWNLD_SDK DownloadQueue Processed download queue with 0 pending jobs; no actionable job found.
+11-10 19:31:06.339 15144 15331 I AmazonVideo: PlayerApplicationInitializer.init() version release=435 call completed in Ms : 2430
+11-10 19:31:06.339 15144 15460 I AmazonVideo: DWNLD_SDK DownloadQueue Processed download queue with 0 pending jobs; no actionable job found.
+11-10 19:31:06.339 15144 15460 I AmazonVideo: DWNLD_SDK DownloadQueue Processed download queue with 0 pending jobs; no actionable job found.
+11-10 19:31:06.339 15144 15324 I AmazonVideo: Entered initialize for UserDownloadManager
+11-10 19:31:06.340 15144 15217 I AmazonVideo: This device is eligible for second screen as a Companion device. Enable second screen when using secondary profile = true. Enable notifications when in Companion mode = true
+11-10 19:31:06.341 15144 15324 I AmazonVideo: PlayerSDK.getDownloadFeature()
+11-10 19:31:06.341 15144 15324 I AmazonVideo: Entered initialize for RightsEventModelFactory
+11-10 19:31:06.343 15144 15324 I AmazonVideo: Completed initialize for RightsEventModelFactory
+11-10 19:31:06.343 15144 15324 I AmazonVideo: Entered initialize for UserDownloadNotifier
+11-10 19:31:06.343 15144 15217 I AmazonVideo: Second screen communication will be disabled. The device is not registered.
+11-10 19:31:06.343 15144 15217 I AmazonVideo: Aborting second screen discovery and messaging initialization routine. Communication is not enabled
+11-10 19:31:06.343 15144 15324 I AmazonVideo: Completed initialize for UserDownloadNotifier
+11-10 19:31:06.343 15144 15324 I AmazonVideo: Entered initialize for ClientDownloadManager
+11-10 19:31:06.343 15144 15324 I AmazonVideo: DWNLD Default download location is Internal storage
+11-10 19:31:06.344 15144 15324 I AmazonVideo: Entered initialize for UserDownloadPersistence
+11-10 19:31:06.346 15144 15463 I AmazonVideo: Waiting for UserDownloadManager to initialize, current state Initializing
+11-10 19:31:06.346 15144 15324 I AmazonVideo: Entered initialize for UserDownloadDiskPersistence
+11-10 19:31:06.346 15144 15324 I AmazonVideo: Completed initialize for UserDownloadDiskPersistence
+11-10 19:31:06.348 15144 15455 I AmazonVideo: Sonar: Initialize SonarLoadTestController with com.amazon.avod.sonarclientsdk.platform.HeadlessStreamingController@a1df0f3 
+11-10 19:31:06.348 15144 15455 I AmazonVideo: Sonar videoCacheManager has been injected successfully with com.amazon.avod.media.contentcache.internal.PrioritizingVideoCacheManager@d1bd1b0
+11-10 19:31:06.360   687  1164 D CompatChangeReporter: Compat change id reported: 311208629; UID 10172; state: ENABLED
+11-10 19:31:06.364 15144 15324 I AmazonVideo: Completed initialize for UserDownloadPersistence
+11-10 19:31:06.364 15144 15324 I AmazonVideo: Entered initialize for UserDownloadExecutor
+11-10 19:31:06.364 15144 15324 I AmazonVideo: Entered initialize for DownloadEnabledStatus
+11-10 19:31:06.364 15144 15324 I AmazonVideo: Completed initialize for DownloadEnabledStatus
+11-10 19:31:06.364 15144 15324 I AmazonVideo: Entered initialize for UserDownloadAvailabilityCache
+11-10 19:31:06.364 15144 15324 I AmazonVideo: Completed initialize for UserDownloadAvailabilityCache
+11-10 19:31:06.364 15144 15324 I AmazonVideo: Entered initialize for DownloadQueueManager
+11-10 19:31:06.364 15144 15324 I AmazonVideo: Completed initialize for DownloadQueueManager
+11-10 19:31:06.364 15144 15324 I AmazonVideo: DWNLD_SDK PlaybackDownloadManager updateDownloadsWithPreferredDownloadLocation INTERNAL_STORAGE
+11-10 19:31:06.367 15144 15324 I AmazonVideo: Completed initialize for UserDownloadExecutor
+11-10 19:31:06.367 15144 15324 I AmazonVideo: DWNLD Registered OnDownloadLocationSettingChangeListener: OnDownloadLocationChangedListener
+11-10 19:31:06.367 15144 15324 I AmazonVideo: DWNLD Acquired pause token: PauseToken{token=java.lang.Object@91407ff, cause=EXTERNAL_STORAGE_STATE_UNKNOWN}
+11-10 19:31:06.367 15144 15324 I AmazonVideo: DWNLD_SDK PlaybackDownloadManager updateDownloadsWithPreferredDownloadLocation INTERNAL_STORAGE
+11-10 19:31:06.367 15144 15324 I AmazonVideo: Entered initialize for DownloadsCleanUpManager
+11-10 19:31:06.367 15144 15324 I AmazonVideo: Completed initialize for DownloadsCleanUpManager
+11-10 19:31:06.372 15144 15324 I AmazonVideo: Completed initialize for ClientDownloadManager
+11-10 19:31:06.372 15144 15470 I AmazonVideo: DWNLD DownloadsCleanUp init
+11-10 19:31:06.372 15144 15470 I AmazonVideo: DWNLD DownloadsCleanUp clear orphaned downloads.
+11-10 19:31:06.372 15144 15470 I AmazonVideo: DWNLD DownloadsCleanUp clear orphaned user downloads.
+11-10 19:31:06.372 15144 15470 I AmazonVideo: DWNLD DownloadsCleanUp clear orphaned user downloads, user is absent.
+11-10 19:31:06.377 15144 15455 I AmazonVideo: Sonar AppName com.amazon.avod.thirdpartyclient appId 10217
+11-10 19:31:06.381 15144 15474 I AmazonVideo: LORE event Event=[-1: QOS/AppLoad]; Session=[null]; Time=[2026-11-10 19:31:06+0530]; Age=[0mins]; Tag=[null]; Body=[{"screenResolutionWidth":2400,"screenResolutionHeight":1080,"clientMode":"online","chipset":"goldfish_arm64","connectionType":"WIFI","connectionTypeList":"WIFI","clientVersion":"3.0.435.4247","downloadSessionId":"5cfbd336-4812-40ad-a7d5-d2c209d4c43f","eventType":"AppLoad","eventTimestamp":1794319266381,"eventSubtype":"MediaCodecSoftwarePlayReadyRendererScheme;VisualOnRendererScheme;","firmwareVersion":"google\/sdk_gphone64_arm64\/emu64a:16\/BP41.250916.009.A1\/14246511:user\/release-keys","manufacturer":"Google","modelName":"sdk_gphone64_arm64","note":"{\"fp\":\"google\\\/sdk_gphone64_arm64\\\/emu64a:16\\\/BP41.250916.009.A1\\\/14246511:user\\\/release-keys\",\"resPath\":\"MediaCodecMediaDrmRendererScheme:DRM_INSUFFICIENT_SECURITY_LEVEL>MediaCodecSoftwarePlayReadyRendererScheme:AVAILABLE_SD_MEDIACODEC_SOFTWARE_PLAYREADY>OMXILRendererScheme:OFF_BY_CONFIG>VisualOnRendererScheme:AVAILABLE>\",\"cores\":2,\"freq\":1200,\"neon\":true,\"hwAcc\":true,\"supp\":true,\"sust\":true,\"pbkInfo\":\"SUPPORTED_HARDWARE\",\"maxBit\":2147483647,\"hw\":\"ranchu\",\"dpi\":420,\"font\":\"1.00\"}","operatingSystem":"Android16","sourceSystem":"A43PXU4ZN2AL1","streamingSessionId":"5cfbd336-4812-40ad-a7d5-d2c209d4c43f","signalStrength":4,"userWatchSessionId":"MediaSystemInitialization_8f96d280-9b74-4569-a2a8-3181f0c7cb5b","primitiveSessionId":"5cfbd336-4812-40ad-a7d5-d2c209d4c43f","attributionTag":""}]
+11-10 19:31:06.388 15144 15324 I AmazonVideo: Completed initialize for UserDownloadManager
+11-10 19:31:06.388 15144 15324 I AmazonVideo: Entered initialize for Companion
+11-10 19:31:06.389 15144 15324 I AmazonVideo: Completed initialize for Companion
+11-10 19:31:06.389 15144 15455 D AmazonVideo.http: Received Request@d35bdd7[POST https://prod.us-east-1.sonar.prime-video.amazon.dev w/ body] from thread SonarController-0
+11-10 19:31:06.389 15144 15475 I AmazonVideo: Waiting for UserDownloadManager:Media to initialize, current state NotInitialized
+11-10 19:31:06.401 15144 15220 I AmazonVideo: Entered initialize for UserDownloadManager:Media
+11-10 19:31:06.401 15144 15220 I AmazonVideo: Entered initialize for ClientDownloadManager:Media
+11-10 19:31:06.401 15144 15220 I AmazonVideo: Entered initialize for UserDownloadExecutor:Media
+11-10 19:31:06.401 15144 15220 I AmazonVideo: Completed initialize for UserDownloadExecutor:Media
+11-10 19:31:06.401 15144 15220 I AmazonVideo: DWNLD Releasing pause token: PauseToken{token=java.lang.Object@91407ff, cause=EXTERNAL_STORAGE_STATE_UNKNOWN}
+11-10 19:31:06.401 15144 15220 I AmazonVideo: DWNLD DownloadQueue Processed download queue with 0 pending jobs; no actionable job found.
+11-10 19:31:06.401 15144 15220 I AmazonVideo: Completed initialize for ClientDownloadManager:Media
+11-10 19:31:06.401 15144 15220 I AmazonVideo: DWNLD DownloadQueue Processed download queue with 0 pending jobs; no actionable job found.
+11-10 19:31:06.401 15144 15220 I AmazonVideo: Completed initialize for UserDownloadManager:Media
+11-10 19:31:06.402 15144 15475 I AmazonVideo: DWNLD performAvailabilityBaseline: ignoring request; force=false, ttl=Will expire 1794405634209 milliseconds from Epoch
+11-10 19:31:06.402 15144 15478 I AmazonVideo: DWNLD DownloadQueue Processed download queue with 0 pending jobs; no actionable job found.
+11-10 19:31:06.402 15144 15478 I AmazonVideo: DWNLD DownloadQueue Processed download queue with 0 pending jobs; no actionable job found.
+11-10 19:31:06.408 15144 15324 I AmazonVideo: Completed initialize for DownloadPersistenceInitializationTask
+11-10 19:31:06.408 15144 15482 I AmazonVideo: Wifi network available; refreshing download status
+11-10 19:31:06.408 15144 15482 I AmazonVideo: DWNLD DownloadQueue Processed download queue with 0 pending jobs; no actionable job found.
+11-10 19:31:06.408 15144 15482 I AmazonVideo: Download pause token is not present, refreshing current task
+11-10 19:31:06.409 15144 15478 I AmazonVideo: DWNLD DownloadQueue Processed download queue with 0 pending jobs; no actionable job found.
+11-10 19:31:06.409 15144 15482 I AmazonVideo: Sync Framework: queueing requestId=d8da3372 to run after initialDelay=0ms with data={trigger=downloads, isQA=false}
+11-10 19:31:06.409 15144 15483 I AmazonVideo: PlayerSDK.getDownloadFeature()
+11-10 19:31:06.414 15144 15429 W JobInfo : Requested important-while-foreground flag for job11 is ignored and takes no effect
+11-10 19:31:06.444   687  1013 D BackgroundInstallControlService: Package event received: 0
+11-10 19:31:06.490  7468  7593 W libbinder.Binder: Binder transaction to android.content.IContentProvider code 21 took 2113ms. Data bytes: 1684 Reply bytes: 1488 Flags: 18
+11-10 19:31:06.490  1311  1830 D WellbeingModel: ....actionId: pause, packages: com.android.camera2, com.android.chrome, com.google.android.apps.docs, com.google.android.apps.maps, com.google.android.apps.messaging, com.google.android.apps.photos, com.google.android.apps.youtube.music, com.google.android.calendar, com.google.android.contacts, com.google.android.deskclock, com.google.android.gm, com.google.android.youtube, com.android.stk, com.google.android.apps.safetyhub, com.google.android.documentsui, com.google.android.googlequicksearchbox, com.amazon.avod.thirdpartyclient, jakhar.aseem.diva
+11-10 19:31:06.494  1311  1830 I WellbeingModel: retrieveActions(): finished
+11-10 19:31:06.564   687  1762 D StorageStatsService: getFreeBytes: 4120850432
+11-10 19:31:06.572   687  1762 D FileUtils: Rounded bytes from 6758002688 to 8000000000
+11-10 19:31:06.598 14476 14535 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=499: unexpected standardMetadataType=21
+11-10 19:31:06.612 15340 15345 I khar.aseem.diva: Compiler allocated 5145KB to compile void android.view.ViewRootImpl.performTraversals()
+11-10 19:31:06.633 14476 14535 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=497: unexpected standardMetadataType=21
+11-10 19:31:06.633 15144 15363 I AmazonVideo: UpdateApplicationInstall successful
+11-10 19:31:06.636 15144 15363 I AmazonVideo: Storing the OS version and app version upon successful update app install ID
+11-10 19:31:06.642 15144 15363 I AmazonVideo: Push info has not changed, not updating the Push backend
+11-10 19:31:06.666 14476 14535 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=511: unexpected standardMetadataType=21
+11-10 19:31:06.683 15144 15446 I AmazonVideo: Sync Framework: Worker[41110ea5]: Attempting sync for {trigger=application_startup, isQA=false}
+11-10 19:31:06.683 15144 15446 I AmazonVideo: Sync Framework: Worker[41110ea5]:   EventSyncComponent (1 of 6): Skipping; disabled by user activity policy ACTIVE_USERS_ONLY
+11-10 19:31:06.683 15144 15446 I AmazonVideo: Sync Framework: Worker[41110ea5]:   SessionIdSyncComponent (2 of 6): Skipping; disabled by user activity policy ACTIVE_USERS_ONLY
+11-10 19:31:06.683 15144 15446 I AmazonVideo: Sync Framework: Worker[41110ea5]:   QueuedActionSyncComponent (3 of 6): Skipping; disabled by user activity policy ACTIVE_USERS_ONLY
+11-10 19:31:06.683 15144 15446 I AmazonVideo: Sync Framework: Worker[41110ea5]:   ResiliencyConfigSyncComponent (4 of 6): Skipping; disabled by user activity policy ACTIVE_USERS_ONLY
+11-10 19:31:06.683 15144 15446 I AmazonVideo: Sync Framework: Worker[41110ea5]:   DownloadSyncComponent (5 of 6): Skipping; disabled by user activity policy ACTIVE_USERS_ONLY
+11-10 19:31:06.683 15144 15446 I AmazonVideo: Sync Framework: Worker[41110ea5]:   StorageSpaceSyncComponent (6 of 6): Skipping; disabled by user activity policy ACTIVE_USERS_ONLY
+11-10 19:31:06.683 15144 15446 I AmazonVideo: Sync Framework: Worker[41110ea5]: Completed sync for {trigger=application_startup, isQA=false}
+11-10 19:31:06.683 15144 15446 I AmazonVideo: Sync Framework: Worker[209d78c4]: Attempting sync for {trigger=downloads, isQA=false}
+11-10 19:31:06.683 15144 15446 I AmazonVideo: Sync Framework: Worker[209d78c4]:   DownloadSyncComponent (1 of 1): Skipping; disabled by user activity policy ACTIVE_USERS_ONLY
+11-10 19:31:06.683 15144 15446 I AmazonVideo: Sync Framework: Worker[209d78c4]: Completed sync for {trigger=downloads, isQA=false}
+11-10 19:31:06.699 14476 14535 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=510: unexpected standardMetadataType=21
+11-10 19:31:06.732 14476 14535 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=512: unexpected standardMetadataType=21
+11-10 19:31:06.766 14476 14535 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=513: unexpected standardMetadataType=21
+11-10 19:31:06.782 14476 14535 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=509: unexpected standardMetadataType=21
+11-10 19:31:06.792  7422  7422 I Finsky  : [2] Memory trim requested to level 40
+11-10 19:31:06.792  7422  7422 I Finsky  : [2] Flushing in-memory image cache
+11-10 19:31:06.815 14476 14535 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=516: unexpected standardMetadataType=21
+11-10 19:31:06.849 14476 14535 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=514: unexpected standardMetadataType=21
+11-10 19:31:06.882 14476 14535 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=518: unexpected standardMetadataType=21
+11-10 19:31:06.958  1240  1393 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+11-10 19:31:06.958  1240  1393 D SatelliteController: getCarrierRoamingNtnConnectType: Falling back to global carrier config connect type: 0
+11-10 19:31:06.967 15144 15447 I AmazonVideo.http: FetchFromServer: (690ms, #1) Completed Request@98c53e0[GET https://api.eu-west-1.aiv-delivery.net/Bootstrap/AV20180101?<REMOVED>&deviceTypeID=A43PXU4ZN2AL1&firmware=fmw%3A36-app%3A3.0.435.4247&format=json&osLocale=en_US&softwareVersion=435&uxLocale=en_US&version=1]
+11-10 19:31:06.969 15144 15444 I AmazonVideo: aloysius bootstrap: updating QoS APIs, appInstanceId: 2dc9702b-dd0f-11f1-86af-87d4054f8606
+11-10 19:31:06.969 15144 15488 W AmazonVideo: Warning: 2dc9702b-dd0f-11f1-86af-87d4054f8606
+11-10 19:31:06.970 15144 15489 I AmazonVideo: LORE event Event=[-1: QOS/Error]; Session=[null]; Time=[2026-11-10 19:31:06+0530]; Age=[0mins]; Tag=[null]; Body=[{"eventType":"Error","eventTimestamp":1794319266970,"errorSeverity":4,"eventSubtype":"AloysiusBootstrapAppInstanceID","note":"2dc9702b-dd0f-11f1-86af-87d4054f8606"}]
+11-10 19:31:06.972 15144 15488 W AmazonVideo: Warning: 0
+11-10 19:31:06.972 15144 15489 I AmazonVideo: LORE event Event=[-1: QOS/Error]; Session=[null]; Time=[2026-11-10 19:31:06+0530]; Age=[0mins]; Tag=[null]; Body=[{"eventType":"Error","eventTimestamp":1794319266972,"errorSeverity":4,"eventSubtype":"AloysiusBootstrapTotalRecords","note":"0"}]
+11-10 19:31:06.972 15144 15488 W AmazonVideo: Warning: SQLiteMediaReportDAO deleting the legacy V1 copy of MediaEvents database
+11-10 19:31:06.981 15144 15488 I AmazonVideo: Creating table "mediaEvent" in database "mediaEvents"
+11-10 19:31:06.981 15144 15488 I AmazonVideo: Creating table "mediaReport" in database "mediaEvents"
+11-10 19:31:06.981 15144 15488 I AmazonVideo: Creating indexes for table "mediaEvent"
+11-10 19:31:06.981 15144 15488 I AmazonVideo: Creating indexes for table "mediaReport"
+11-10 19:31:06.981 15144 15488 I AmazonVideo: Created database "mediaEvents"
+11-10 19:31:06.983 15144 15488 I AmazonVideo: aloysius bootstrap: total count on disk: 3
+11-10 19:31:06.983 15144 15488 W AmazonVideo: Warning: 3
+11-10 19:31:06.984 15144 15489 I AmazonVideo: LORE event Event=[-1: QOS/Error]; Session=[null]; Time=[2026-11-10 19:31:06+0530]; Age=[0mins]; Tag=[null]; Body=[{"eventType":"Error","eventTimestamp":1794319266983,"errorSeverity":4,"eventSubtype":"AloysiusBootstrapTotalEvents","note":"3"}]
+11-10 19:31:06.984 15144 15466 I AmazonVideo: setting 2dc9702b-dd0f-11f1-86af-87d4054f8606 appInstanceId on 4 records
+11-10 19:31:06.984 15144 15466 I AmazonVideo: 4 records updated
+11-10 19:31:06.988  7422  7422 I Finsky  : [2] Memory trim requested to level 40
+11-10 19:31:06.988  7422  7422 I Finsky  : [2] Flushing in-memory image cache
+11-10 19:31:06.988  7422  7422 I Finsky  : [2] Memory trim requested to level 40
+11-10 19:31:06.988  7422  7422 I Finsky  : [2] Flushing in-memory image cache
+11-10 19:31:06.996 15144 15444 I AmazonVideo: aloysius bootstrap: QoS APIs are configured!
+11-10 19:31:07.000 15144 15444 I AmazonVideo: aloysius bootstrap: done!
+11-10 19:31:07.015 14476 14535 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=515: unexpected standardMetadataType=21
+11-10 19:31:07.060   687  1013 D BackgroundInstallControlService: Package event received: 0
+11-10 19:31:07.060   687  1011 D ShortcutService: received package broadcast intent: Intent { act=android.intent.action.PACKAGE_CHANGED dat=package: flg=0x45000010 (has extras) }
+11-10 19:31:07.060   687  1011 D ShortcutService: changing package: com.amazon.avod.thirdpartyclient userId=0
+11-10 19:31:07.064   687  1013 D BackgroundInstallControlService: Package event received: 0
+11-10 19:31:07.080  1064 12174 I PermissionControllerServiceImpl: Updating user sensitive for uid 10217
+11-10 19:31:07.088  7247  7247 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.checkin.START xflg=0x4 pkg=com.google.android.gms }
+11-10 19:31:07.149 14476 14535 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=520: unexpected standardMetadataType=21
+11-10 19:31:07.174  1644 14853 I AiAiEcho: AppIndexer Package:[com.amazon.avod.thirdpartyclient] UserProfile:[0] Enabled:[true].
+11-10 19:31:07.175  1644 14853 I AiAiEcho: AppFetcherImplV2 updateApps package:[com.amazon.avod.thirdpartyclient], userId:[0], reason:[package is updated.].
+11-10 19:31:07.181  1311  1410 D AlphabeticIndexCompat: computeSectionName: cs: Prime Video sectionName: P
+11-10 19:31:07.182  1311  1311 D AllAppsStore: setApps: apps.length=21
+11-10 19:31:07.182  1311  1311 D AllAppsStore: notifyUpdate: notifying listeners
+11-10 19:31:07.182  1311  1311 D ActivityAllAppsContainerView: onAppsUpdated; number of apps: 21
+11-10 19:31:07.182  1311  1311 D ActivityAllAppsContainerView: rebindAdapters: force: false
+11-10 19:31:07.182  1311  1311 D ActivityAllAppsContainerView: rebindAdapters: Not needed.
+11-10 19:31:07.182  1311  1311 D StatsLog: LAUNCHER_ALLAPPS_COUNT
+11-10 19:31:07.182  1311  1311 D AlphabeticalAppsList: Clearing FastScrollerSections.
+11-10 19:31:07.182  1311  1311 D AlphabeticalAppsList: Adding apps with sections. HasPrivateApps: false
+11-10 19:31:07.182  1311  1311 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: C with appInfoTitle: Calendar
+11-10 19:31:07.182  1311  1311 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: D with appInfoTitle: Diva
+11-10 19:31:07.182  1311  1311 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: F with appInfoTitle: Files
+11-10 19:31:07.182  1311  1311 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: G with appInfoTitle: Gmail
+11-10 19:31:07.182  1311  1311 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: M with appInfoTitle: Maps
+11-10 19:31:07.182  1311  1311 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: P with appInfoTitle: Phone
+11-10 19:31:07.182  1311  1311 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: S with appInfoTitle: Safety
+11-10 19:31:07.182  1311  1311 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: T with appInfoTitle: TMoble
+11-10 19:31:07.182  1311  1311 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: Y with appInfoTitle: YouTube
+11-10 19:31:07.182  1311  1311 D AlphabeticalAppsList: Adding FastScrollSection duplicate to scroll to the bottom.
+11-10 19:31:07.183  1311  1311 D AlphabeticalAppsList: Clearing FastScrollerSections.
+11-10 19:31:07.183  1311  1311 D AlphabeticalAppsList: Adding apps with sections. HasPrivateApps: false
+11-10 19:31:07.183  1311  1311 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: C with appInfoTitle: Calendar
+11-10 19:31:07.183  1311  1311 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: D with appInfoTitle: Diva
+11-10 19:31:07.183  1311  1311 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: F with appInfoTitle: Files
+11-10 19:31:07.183  1311  1311 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: G with appInfoTitle: Gmail
+11-10 19:31:07.183  1311  1311 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: M with appInfoTitle: Maps
+11-10 19:31:07.183  1311  1311 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: P with appInfoTitle: Phone
+11-10 19:31:07.183  1311  1311 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: S with appInfoTitle: Safety
+11-10 19:31:07.183  1311  1311 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: T with appInfoTitle: TMoble
+11-10 19:31:07.183  1311  1311 D AlphabeticalAppsList: addAppsWithSections: adding sectionName: Y with appInfoTitle: YouTube
+11-10 19:31:07.183  1311  1311 D AlphabeticalAppsList: Adding FastScrollSection duplicate to scroll to the bottom.
+11-10 19:31:07.184  1311  1311 D BaseAllAppsAdapter: onBindViewHolder: isPrivateSpaceItem: false isStateTransitioning: false isScrolling: false readyToAnimate: false currentState: 0 currentAlpha: 1.0
+11-10 19:31:07.184  1311  1311 D BaseAllAppsAdapter: onBindViewHolder: isPrivateSpaceItem: false isStateTransitioning: false isScrolling: false readyToAnimate: false currentState: 0 currentAlpha: 1.0
+11-10 19:31:07.184  1311  1311 D BaseAllAppsAdapter: onBindViewHolder: isPrivateSpaceItem: false isStateTransitioning: false isScrolling: false readyToAnimate: false currentState: 0 currentAlpha: 1.0
+11-10 19:31:07.185  1311  1311 D BaseAllAppsAdapter: onBindViewHolder: isPrivateSpaceItem: false isStateTransitioning: false isScrolling: false readyToAnimate: false currentState: 0 currentAlpha: 1.0
+11-10 19:31:07.185  1311  1311 D BaseAllAppsAdapter: onBindViewHolder: isPrivateSpaceItem: false isStateTransitioning: false isScrolling: false readyToAnimate: false currentState: 0 currentAlpha: 1.0
+11-10 19:31:07.185  1311  1311 D BaseAllAppsAdapter: onBindViewHolder: isPrivateSpaceItem: false isStateTransitioning: false isScrolling: false readyToAnimate: false currentState: 0 currentAlpha: 1.0
+11-10 19:31:07.185  1311  1311 D BaseAllAppsAdapter: onBindViewHolder: isPrivateSpaceItem: false isStateTransitioning: false isScrolling: false readyToAnimate: false currentState: 0 currentAlpha: 1.0
+11-10 19:31:07.185  1311  1311 D BaseAllAppsAdapter: onBindViewHolder: isPrivateSpaceItem: false isStateTransitioning: false isScrolling: false readyToAnimate: false currentState: 0 currentAlpha: 1.0
+11-10 19:31:07.185  1311  1311 D BaseAllAppsAdapter: onBindViewHolder: isPrivateSpaceItem: false isStateTransitioning: false isScrolling: false readyToAnimate: false currentState: 0 currentAlpha: 1.0
+11-10 19:31:07.185  1311  1311 D BaseAllAppsAdapter: onBindViewHolder: isPrivateSpaceItem: false isStateTransitioning: false isScrolling: false readyToAnimate: false currentState: 0 currentAlpha: 1.0
+11-10 19:31:07.185  1311  1311 D BaseAllAppsAdapter: onBindViewHolder: isPrivateSpaceItem: false isStateTransitioning: false isScrolling: false readyToAnimate: false currentState: 0 currentAlpha: 1.0
+11-10 19:31:07.185  1311  1311 D BaseAllAppsAdapter: onBindViewHolder: isPrivateSpaceItem: false isStateTransitioning: false isScrolling: false readyToAnimate: false currentState: 0 currentAlpha: 1.0
+11-10 19:31:07.185  1311  1311 D BaseAllAppsAdapter: onBindViewHolder: isPrivateSpaceItem: false isStateTransitioning: false isScrolling: false readyToAnimate: false currentState: 0 currentAlpha: 1.0
+11-10 19:31:07.185  1311  1311 D BaseAllAppsAdapter: onBindViewHolder: isPrivateSpaceItem: false isStateTransitioning: false isScrolling: false readyToAnimate: false currentState: 0 currentAlpha: 1.0
+11-10 19:31:07.185  1311  1311 D BaseAllAppsAdapter: onBindViewHolder: isPrivateSpaceItem: false isStateTransitioning: false isScrolling: false readyToAnimate: false currentState: 0 currentAlpha: 1.0
+11-10 19:31:07.185  1311  1311 D BaseAllAppsAdapter: onBindViewHolder: isPrivateSpaceItem: false isStateTransitioning: false isScrolling: false readyToAnimate: false currentState: 0 currentAlpha: 1.0
+11-10 19:31:07.185  1311  1311 D BaseAllAppsAdapter: onBindViewHolder: isPrivateSpaceItem: false isStateTransitioning: false isScrolling: false readyToAnimate: false currentState: 0 currentAlpha: 1.0
+11-10 19:31:07.185  1311  1311 D BaseAllAppsAdapter: onBindViewHolder: isPrivateSpaceItem: false isStateTransitioning: false isScrolling: false readyToAnimate: false currentState: 0 currentAlpha: 1.0
+11-10 19:31:07.185  1311  1311 D BaseAllAppsAdapter: onBindViewHolder: isPrivateSpaceItem: false isStateTransitioning: false isScrolling: false readyToAnimate: false currentState: 0 currentAlpha: 1.0
+11-10 19:31:07.185  1311  1311 D BaseAllAppsAdapter: onBindViewHolder: isPrivateSpaceItem: false isStateTransitioning: false isScrolling: false readyToAnimate: false currentState: 0 currentAlpha: 1.0
+11-10 19:31:07.185  1311  1311 D BaseAllAppsAdapter: onBindViewHolder: isPrivateSpaceItem: false isStateTransitioning: false isScrolling: false readyToAnimate: false currentState: 0 currentAlpha: 1.0
+11-10 19:31:07.195   687   826 V AccessibilityUserState: updateShortcutTargets: type:accessibility_shortcut_target_service, current:{}, new:{}
+11-10 19:31:07.195   687   826 V AccessibilityUserState: updateShortcutTargets: type:accessibility_qs_targets, current:{}, new:{}
+11-10 19:31:07.195   687   826 V AccessibilityUserState: updateShortcutTargets: type:accessibility_button_targets, current:{}, new:{}
+11-10 19:31:07.195   687   826 V AccessibilityUserState: updateShortcutTargets: type:accessibility_gesture_targets, current:{}, new:{}
+11-10 19:31:07.195   687   826 V AccessibilityUserState: updateShortcutTargets: type:accessibility_key_gesture_targets, current:{}, new:{}
+11-10 19:31:07.195   687   826 V AccessibilityManagerService: onUserStateChangedLocked for userId: 0, forceUpdate: false
+11-10 19:31:07.196   687   826 V AccessibilityUserState: updateShortcutTargets: type:accessibility_shortcut_target_service, current:{}, new:{}
+11-10 19:31:07.196   687   826 V AccessibilityUserState: updateShortcutTargets: type:accessibility_button_targets, current:{}, new:{}
+11-10 19:31:07.196   687   826 V AccessibilityUserState: updateShortcutTargets: type:accessibility_gesture_targets, current:{}, new:{}
+11-10 19:31:07.196   687   826 V AccessibilityUserState: updateShortcutTargets: type:accessibility_qs_targets, current:{}, new:{}
+11-10 19:31:07.196   687   826 V AccessibilityUserState: updateShortcutTargets: type:accessibility_key_gesture_targets, current:{}, new:{}
+11-10 19:31:07.196   687   826 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+11-10 19:31:07.295   687   962 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+11-10 19:31:07.433 15492 15492 W libbinder.BackendUnifiedServiceManager: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+11-10 19:31:07.482 15495 15495 W libbinder.BackendUnifiedServiceManager: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+11-10 19:31:07.482 15495 15495 W libbinder.BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+11-10 19:31:07.482 15495 15495 W libbinder.ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+11-10 19:31:07.571   687  3041 E TaskPersister: File error accessing recents directory (directory doesn't exist?).

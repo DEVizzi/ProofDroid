@@ -11,129 +11,116 @@ th,td{border:1px solid #d5d9e0;padding:.4rem .6rem;text-align:left;vertical-alig
 .sev-low{color:#2b6cb0}.sev-info{color:#4a5363}.finding{border-top:1px solid #d5d9e0;padding-top:1rem;margin-top:1rem}
 img{max-width:320px;border:1px solid #d5d9e0;margin:.5rem 0}code{background:#f3f5f8;padding:0 .25rem}
 .muted{color:#6b7385;font-size:.9em}</style></head><body>
-<h1>ProofDroid Report: Diva &lt;script&gt;alert(1)&lt;/script&gt;</h1>
-<p class="muted">Generated 2026-11-10T18:29:50+05:30 by ProofDroid 0.1.0</p>
+<h1>ProofDroid Report: jakhar.aseem.diva</h1>
+<p class="muted">Generated 2026-11-10T19:30:28+05:30 by ProofDroid 0.1.0</p>
 <h2>Summary</h2><table><tr><th>Status</th><th>Count</th></tr>
-<tr><td>Confirmed</td><td>0</td></tr>
-<tr><td>Unconfirmed</td><td>0</td></tr>
-<tr><td>Not testable</td><td>13</td></tr>
+<tr><td>Confirmed</td><td>3</td></tr>
+<tr><td>Unconfirmed</td><td>1</td></tr>
+<tr><td>Not testable</td><td>4</td></tr>
 </table><h2>Target</h2><table>
 <tr><th>Package</th><td>jakhar.aseem.diva</td></tr>
 <tr><th>Version</th><td>1.0</td></tr>
-<tr><th>APK</th><td>diva-sample.apk</td></tr>
-<tr><th>SHA-256</th><td>74d89e416490b24a6aea74fa1bd616c31c0c406958d8121a6b4ce4c75c3822e1</td></tr>
-<tr><th>Dynamic analysis</th><td>skipped (--no-dynamic)</td></tr>
+<tr><th>APK</th><td>diva.apk</td></tr>
+<tr><th>SHA-256</th><td>5cefc51fce9bd760b92ab2340477f4dda84b4ae0c5d04a8c9493e4fe34fab7c5</td></tr>
+<tr><th>Static analysis</th><td>ProofDroid built-in (aapt2)</td></tr>
+<tr><th>Dynamic analysis</th><td>enabled</td></tr>
 </table><h2>Ranked findings</h2><table><tr><th>#</th><th>Status</th><th>Severity</th><th>Finding</th><th>Component</th></tr>
-<tr><td>1</td><td><span class="badge s-not-testable">Not testable</span></td><td class="sev-high">High</td><td><a href="#finding-1">Broadcast Receiver (jakhar.aseem.diva.BootReceiver) is not Protected.</a></td><td><code>jakhar.aseem.diva.BootReceiver</code></td></tr>
-<tr><td>2</td><td><span class="badge s-not-testable">Not testable</span></td><td class="sev-high">High</td><td><a href="#finding-2">Activity (jakhar.aseem.diva.MainActivity) is vulnerable to StrandHogg 2.0</a></td><td><code></code></td></tr>
-<tr><td>3</td><td><span class="badge s-not-testable">Not testable</span></td><td class="sev-high">High</td><td><a href="#finding-3">Debug Enabled For App [android:debuggable=true]</a></td><td><code></code></td></tr>
-<tr><td>4</td><td><span class="badge s-not-testable">Not testable</span></td><td class="sev-high">High</td><td><a href="#finding-4">Base config is insecurely configured to permit clear text traffic.</a></td><td><code></code></td></tr>
-<tr><td>5</td><td><span class="badge s-not-testable">Not testable</span></td><td class="sev-medium">Medium</td><td><a href="#finding-5">Application vulnerable to Janus Vulnerability</a></td><td><code></code></td></tr>
-<tr><td>6</td><td><span class="badge s-not-testable">Not testable</span></td><td class="sev-medium">Medium</td><td><a href="#finding-6">App uses SQLite Database and execute raw SQL query.</a></td><td><code></code></td></tr>
-<tr><td>7</td><td><span class="badge s-not-testable">Not testable</span></td><td class="sev-medium">Medium</td><td><a href="#finding-7">Activity (jakhar.aseem.diva.APICreds2Activity) is exported</a></td><td><code>jakhar.aseem.diva.APICreds2Activity</code></td></tr>
-<tr><td>8</td><td><span class="badge s-not-testable">Not testable</span></td><td class="sev-medium">Medium</td><td><a href="#finding-8">Activity (jakhar.aseem.diva.APICredsActivity) is not Protected. [android:exported=true]</a></td><td><code>jakhar.aseem.diva.APICredsActivity</code></td></tr>
-<tr><td>9</td><td><span class="badge s-not-testable">Not testable</span></td><td class="sev-medium">Medium</td><td><a href="#finding-9">Content Provider (jakhar.aseem.diva.NotesProvider) is not Protected.</a></td><td><code>jakhar.aseem.diva.NotesProvider</code></td></tr>
-<tr><td>10</td><td><span class="badge s-not-testable">Not testable</span></td><td class="sev-medium">Medium</td><td><a href="#finding-10">Service (.SyncService) is not Protected.</a></td><td><code>.SyncService</code></td></tr>
-<tr><td>11</td><td><span class="badge s-not-testable">Not testable</span></td><td class="sev-medium">Medium</td><td><a href="#finding-11">Possible hardcoded secrets (1)</a></td><td><code></code></td></tr>
-<tr><td>12</td><td><span class="badge s-not-testable">Not testable</span></td><td class="sev-medium">Medium</td><td><a href="#finding-12">Sensitive data stored insecurely on the device</a></td><td><code></code></td></tr>
-<tr><td>13</td><td><span class="badge s-not-testable">Not testable</span></td><td class="sev-info">Info</td><td><a href="#finding-13">The App logs information. Sensitive information should never be logged.</a></td><td><code></code></td></tr>
+<tr><td>1</td><td><span class="badge s-confirmed">Confirmed</span></td><td class="sev-medium">Medium</td><td><a href="#finding-1">Activity (jakhar.aseem.diva.APICreds2Activity) is not Protected. [android:exported=true]</a></td><td><code>jakhar.aseem.diva.APICreds2Activity</code></td></tr>
+<tr><td>2</td><td><span class="badge s-confirmed">Confirmed</span></td><td class="sev-medium">Medium</td><td><a href="#finding-2">Activity (jakhar.aseem.diva.APICredsActivity) is not Protected. [android:exported=true]</a></td><td><code>jakhar.aseem.diva.APICredsActivity</code></td></tr>
+<tr><td>3</td><td><span class="badge s-confirmed">Confirmed</span></td><td class="sev-medium">Medium</td><td><a href="#finding-3">Content Provider (jakhar.aseem.diva.NotesProvider) is not Protected. [android:exported=true]</a></td><td><code>jakhar.aseem.diva.NotesProvider</code></td></tr>
+<tr><td>4</td><td><span class="badge s-unconfirmed">Unconfirmed</span></td><td class="sev-high">High</td><td><a href="#finding-4">Clear text traffic is Enabled For App [android:usesCleartextTraffic=true]</a></td><td><code></code></td></tr>
+<tr><td>5</td><td><span class="badge s-not-testable">Not testable</span></td><td class="sev-high">High</td><td><a href="#finding-5">Debug Enabled For App [android:debuggable=true]</a></td><td><code></code></td></tr>
+<tr><td>6</td><td><span class="badge s-not-testable">Not testable</span></td><td class="sev-medium">Medium</td><td><a href="#finding-6">App can be installed on a vulnerable Android version (minSdk 15)</a></td><td><code></code></td></tr>
+<tr><td>7</td><td><span class="badge s-not-testable">Not testable</span></td><td class="sev-medium">Medium</td><td><a href="#finding-7">Application Data can be Backed up [android:allowBackup=true]</a></td><td><code></code></td></tr>
+<tr><td>8</td><td><span class="badge s-not-testable">Not testable</span></td><td class="sev-medium">Medium</td><td><a href="#finding-8">Sensitive data stored insecurely on the device</a></td><td><code></code></td></tr>
 </table><h2>Details</h2>
 <div class="finding" id="finding-1">
-<h3>1. <span class="badge s-not-testable">Not testable</span> Broadcast Receiver (jakhar.aseem.diva.BootReceiver) is not Protected.</h3>
-<p><b>Severity:</b> <span class="sev-high">High</span> &middot; <b>Category:</b> exported_receiver
- &middot; <b>Component:</b> <code>jakhar.aseem.diva.BootReceiver</code>
-</p>
-<p><b>Result:</b> Dynamic verification was skipped (--no-dynamic).</p>
-<p>A receiver is exported.</p>
-</div>
-<div class="finding" id="finding-2">
-<h3>2. <span class="badge s-not-testable">Not testable</span> Activity (jakhar.aseem.diva.MainActivity) is vulnerable to StrandHogg 2.0</h3>
-<p><b>Severity:</b> <span class="sev-high">High</span> &middot; <b>Category:</b> manifest
-</p>
-<p><b>Result:</b> No automated verification check exists for this finding yet.</p>
-<p>StrandHogg.</p>
-</div>
-<div class="finding" id="finding-3">
-<h3>3. <span class="badge s-not-testable">Not testable</span> Debug Enabled For App [android:debuggable=true]</h3>
-<p><b>Severity:</b> <span class="sev-high">High</span> &middot; <b>Category:</b> manifest
-</p>
-<p><b>Result:</b> No automated verification check exists for this finding yet.</p>
-<p>Debugging was enabled on the app.</p>
-</div>
-<div class="finding" id="finding-4">
-<h3>4. <span class="badge s-not-testable">Not testable</span> Base config is insecurely configured to permit clear text traffic.</h3>
-<p><b>Severity:</b> <span class="sev-high">High</span> &middot; <b>Category:</b> network
-</p>
-<p><b>Result:</b> Dynamic verification was skipped (--no-dynamic).</p>
-<p>Scope: *</p>
-</div>
-<div class="finding" id="finding-5">
-<h3>5. <span class="badge s-not-testable">Not testable</span> Application vulnerable to Janus Vulnerability</h3>
-<p><b>Severity:</b> <span class="sev-medium">Medium</span> &middot; <b>Category:</b> certificate
-</p>
-<p><b>Result:</b> No automated verification check exists for this finding yet.</p>
-<p>Application is signed with v1 signature scheme.</p>
-</div>
-<div class="finding" id="finding-6">
-<h3>6. <span class="badge s-not-testable">Not testable</span> App uses SQLite Database and execute raw SQL query.</h3>
-<p><b>Severity:</b> <span class="sev-medium">Medium</span> &middot; <b>Category:</b> code
-</p>
-<p><b>Result:</b> No automated verification check exists for this finding yet.</p>
-<p><b>References:</b> CWE-89</p>
-<p>Matched in 1 source file(s) by MobSF static analysis.</p>
-</div>
-<div class="finding" id="finding-7">
-<h3>7. <span class="badge s-not-testable">Not testable</span> Activity (jakhar.aseem.diva.APICreds2Activity) is exported</h3>
+<h3>1. <span class="badge s-confirmed">Confirmed</span> Activity (jakhar.aseem.diva.APICreds2Activity) is not Protected. [android:exported=true]</h3>
 <p><b>Severity:</b> <span class="sev-medium">Medium</span> &middot; <b>Category:</b> exported_activity
  &middot; <b>Component:</b> <code>jakhar.aseem.diva.APICreds2Activity</code>
 </p>
-<p><b>Result:</b> Dynamic verification was skipped (--no-dynamic).</p>
-<p>Listed by MobSF as an exported activity reachable by other apps.</p>
+<p><b>Result:</b> jakhar.aseem.diva.APICreds2Activity was launched directly by an external, unprivileged caller and reached the foreground, bypassing the app&#x27;s normal entry flow.</p>
+<p>This activity can be reached by any other app on the device.</p>
+<p><b>Evidence:</b></p><ul>
+<li><a href="evidence/exported-activity-apicreds2activity/command.txt">command.txt</a></li>
+<li><a href="evidence/exported-activity-apicreds2activity/resumed_activity.txt">resumed_activity.txt</a></li>
+<li><a href="evidence/exported-activity-apicreds2activity/screenshot.png">screenshot.png</a></li>
+<li><a href="evidence/exported-activity-apicreds2activity/logcat.txt">logcat.txt</a></li>
+</ul>
+<img src="evidence/exported-activity-apicreds2activity/screenshot.png" alt="screenshot for finding 1">
 </div>
-<div class="finding" id="finding-8">
-<h3>8. <span class="badge s-not-testable">Not testable</span> Activity (jakhar.aseem.diva.APICredsActivity) is not Protected. [android:exported=true]</h3>
+<div class="finding" id="finding-2">
+<h3>2. <span class="badge s-confirmed">Confirmed</span> Activity (jakhar.aseem.diva.APICredsActivity) is not Protected. [android:exported=true]</h3>
 <p><b>Severity:</b> <span class="sev-medium">Medium</span> &middot; <b>Category:</b> exported_activity
  &middot; <b>Component:</b> <code>jakhar.aseem.diva.APICredsActivity</code>
 </p>
-<p><b>Result:</b> Dynamic verification was skipped (--no-dynamic).</p>
-<p>An Activity is found to be shared with other apps on the device.</p>
+<p><b>Result:</b> jakhar.aseem.diva.APICredsActivity was launched directly by an external, unprivileged caller and reached the foreground, bypassing the app&#x27;s normal entry flow.</p>
+<p>This activity can be reached by any other app on the device.</p>
+<p><b>Evidence:</b></p><ul>
+<li><a href="evidence/exported-activity-apicredsactivity/command.txt">command.txt</a></li>
+<li><a href="evidence/exported-activity-apicredsactivity/resumed_activity.txt">resumed_activity.txt</a></li>
+<li><a href="evidence/exported-activity-apicredsactivity/screenshot.png">screenshot.png</a></li>
+<li><a href="evidence/exported-activity-apicredsactivity/logcat.txt">logcat.txt</a></li>
+</ul>
+<img src="evidence/exported-activity-apicredsactivity/screenshot.png" alt="screenshot for finding 2">
 </div>
-<div class="finding" id="finding-9">
-<h3>9. <span class="badge s-not-testable">Not testable</span> Content Provider (jakhar.aseem.diva.NotesProvider) is not Protected.</h3>
+<div class="finding" id="finding-3">
+<h3>3. <span class="badge s-confirmed">Confirmed</span> Content Provider (jakhar.aseem.diva.NotesProvider) is not Protected. [android:exported=true]</h3>
 <p><b>Severity:</b> <span class="sev-medium">Medium</span> &middot; <b>Category:</b> exported_provider
  &middot; <b>Component:</b> <code>jakhar.aseem.diva.NotesProvider</code>
 </p>
+<p><b>Result:</b> An unprivileged caller read 6 row(s) of private app data from jakhar.aseem.diva.NotesProvider (see command.txt).</p>
+<p>This content provider can be reached by any other app on the device.</p>
+<p><b>Evidence:</b></p><ul>
+<li><a href="evidence/exported-provider-notesprovider/command.txt">command.txt</a></li>
+<li><a href="evidence/exported-provider-notesprovider/screenshot.png">screenshot.png</a></li>
+<li><a href="evidence/exported-provider-notesprovider/logcat.txt">logcat.txt</a></li>
+</ul>
+<img src="evidence/exported-provider-notesprovider/screenshot.png" alt="screenshot for finding 3">
+</div>
+<div class="finding" id="finding-4">
+<h3>4. <span class="badge s-unconfirmed">Unconfirmed</span> Clear text traffic is Enabled For App [android:usesCleartextTraffic=true]</h3>
+<p><b>Severity:</b> <span class="sev-high">High</span> &middot; <b>Category:</b> manifest
+</p>
+<p><b>Result:</b> No port-80 connections observed during launch. Cleartext on other ports or behind login is not covered yet.</p>
+<p>Plain HTTP is allowed (targetSdk 23, no network security config).</p>
+<p><b>Evidence:</b></p><ul>
+<li><a href="evidence/manifest-clear-text-traffic/command.txt">command.txt</a></li>
+<li><a href="evidence/manifest-clear-text-traffic/proc_net_tcp.txt">proc_net_tcp.txt</a></li>
+<li><a href="evidence/manifest-clear-text-traffic/screenshot.png">screenshot.png</a></li>
+<li><a href="evidence/manifest-clear-text-traffic/logcat.txt">logcat.txt</a></li>
+</ul>
+<img src="evidence/manifest-clear-text-traffic/screenshot.png" alt="screenshot for finding 4">
+</div>
+<div class="finding" id="finding-5">
+<h3>5. <span class="badge s-not-testable">Not testable</span> Debug Enabled For App [android:debuggable=true]</h3>
+<p><b>Severity:</b> <span class="sev-high">High</span> &middot; <b>Category:</b> manifest
+</p>
 <p><b>Result:</b> No automated verification check exists for this finding yet.</p>
-<p>A provider is exported.</p>
+<p>Anyone with adb access can attach a debugger and read private app data via run-as.</p>
 </div>
-<div class="finding" id="finding-10">
-<h3>10. <span class="badge s-not-testable">Not testable</span> Service (.SyncService) is not Protected.</h3>
-<p><b>Severity:</b> <span class="sev-medium">Medium</span> &middot; <b>Category:</b> exported_service
- &middot; <b>Component:</b> <code>.SyncService</code>
+<div class="finding" id="finding-6">
+<h3>6. <span class="badge s-not-testable">Not testable</span> App can be installed on a vulnerable Android version (minSdk 15)</h3>
+<p><b>Severity:</b> <span class="sev-medium">Medium</span> &middot; <b>Category:</b> manifest
 </p>
-<p><b>Result:</b> Dynamic verification was skipped (--no-dynamic).</p>
-<p>A Service is exported.</p>
+<p><b>Result:</b> No automated verification check exists for this finding yet.</p>
+<p>Old Android versions no longer receive security patches.</p>
 </div>
-<div class="finding" id="finding-11">
-<h3>11. <span class="badge s-not-testable">Not testable</span> Possible hardcoded secrets (1)</h3>
-<p><b>Severity:</b> <span class="sev-medium">Medium</span> &middot; <b>Category:</b> secrets
+<div class="finding" id="finding-7">
+<h3>7. <span class="badge s-not-testable">Not testable</span> Application Data can be Backed up [android:allowBackup=true]</h3>
+<p><b>Severity:</b> <span class="sev-medium">Medium</span> &middot; <b>Category:</b> manifest
 </p>
-<p><b>Result:</b> Dynamic verification was skipped (--no-dynamic).</p>
-<p>MobSF flagged 1 possible secrets. Masked samples: &quot;api_k…[masked]</p>
+<p><b>Result:</b> No automated verification check exists for this finding yet.</p>
+<p>App data can be extracted with adb backup by anyone with USB access.</p>
 </div>
-<div class="finding" id="finding-12">
-<h3>12. <span class="badge s-not-testable">Not testable</span> Sensitive data stored insecurely on the device</h3>
+<div class="finding" id="finding-8">
+<h3>8. <span class="badge s-not-testable">Not testable</span> Sensitive data stored insecurely on the device</h3>
 <p><b>Severity:</b> <span class="sev-medium">Medium</span> &middot; <b>Category:</b> storage
 </p>
-<p><b>Result:</b> Dynamic verification was skipped (--no-dynamic).</p>
+<p><b>Result:</b> Root is needed to read the app sandbox (use a google_apis emulator image); external storage was clean.</p>
 <p>Runtime inspection of the app sandbox and shared external storage after launch.</p>
-</div>
-<div class="finding" id="finding-13">
-<h3>13. <span class="badge s-not-testable">Not testable</span> The App logs information. Sensitive information should never be logged.</h3>
-<p><b>Severity:</b> <span class="sev-info">Info</span> &middot; <b>Category:</b> code
-</p>
-<p><b>Result:</b> No automated verification check exists for this finding yet.</p>
-<p><b>References:</b> CWE-532: Insertion of Sensitive Information into Log File, MSTG-STORAGE-3</p>
-<p>Matched in 2 source file(s) by MobSF static analysis.</p>
+<p><b>Evidence:</b></p><ul>
+<li><a href="evidence/storage-sandbox/external_storage.txt">external_storage.txt</a></li>
+</ul>
 </div>
 <p class="muted">&quot;Confirmed&quot; means ProofDroid reproduced the issue on an emulator and captured evidence. &quot;Unconfirmed&quot; means a check ran but could not prove it. &quot;Not testable&quot; means no automated check exists yet or the dynamic stage could not run; these still deserve manual review. Only test apps you own or are explicitly authorised to test.</p></body></html>

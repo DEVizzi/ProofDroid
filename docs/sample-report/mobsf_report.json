@@ -1,0 +1,55 @@
+{
+  "app_name": "jakhar.aseem.diva",
+  "package_name": "jakhar.aseem.diva",
+  "version_name": "1.0",
+  "static_engine": "ProofDroid built-in (aapt2)",
+  "manifest_analysis": {
+    "manifest_findings": [
+      {
+        "rule": "app_is_debuggable",
+        "title": "Debug Enabled For App [android:debuggable=true]",
+        "severity": "high",
+        "description": "Anyone with adb access can attach a debugger and read private app data via run-as."
+      },
+      {
+        "rule": "app_allowbackup",
+        "title": "Application Data can be Backed up [android:allowBackup=true]",
+        "severity": "warning",
+        "description": "App data can be extracted with adb backup by anyone with USB access."
+      },
+      {
+        "rule": "clear_text_traffic",
+        "title": "Clear text traffic is Enabled For App [android:usesCleartextTraffic=true]",
+        "severity": "high",
+        "description": "Plain HTTP is allowed (targetSdk 23, no network security config)."
+      },
+      {
+        "rule": "vulnerable_os_version",
+        "title": "App can be installed on a vulnerable Android version (minSdk 15)",
+        "severity": "warning",
+        "description": "Old Android versions no longer receive security patches."
+      },
+      {
+        "rule": "explicitly_exported",
+        "title": "<strong>Activity</strong> (jakhar.aseem.diva.APICredsActivity) is not Protected.<br>[android:exported=true]",
+        "severity": "warning",
+        "description": "This activity can be reached by any other app on the device."
+      },
+      {
+        "rule": "explicitly_exported",
+        "title": "<strong>Activity</strong> (jakhar.aseem.diva.APICreds2Activity) is not Protected.<br>[android:exported=true]",
+        "severity": "warning",
+        "description": "This activity can be reached by any other app on the device."
+      },
+      {
+        "rule": "explicitly_exported",
+        "title": "<strong>Content Provider</strong> (jakhar.aseem.diva.NotesProvider) is not Protected.<br>[android:exported=true]",
+        "severity": "warning",
+        "description": "This content provider can be reached by any other app on the device."
+      }
+    ]
+  },
+  "content_uris": [
+    "content://jakhar.aseem.diva.provider.notesprovider/notes"
+  ]
+}

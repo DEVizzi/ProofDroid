@@ -49,6 +49,7 @@ class RunOptions:
     uninstall: bool = False
     settle_seconds: float = 2.0
     llm: bool = False
+    static_engine: str = "mobsf"  # "mobsf" or "builtin" (aapt2 manifest analysis).
 
 
 def validate_apk(path: Path) -> Path:
@@ -96,6 +97,12 @@ def _load_static_report(options: RunOptions, apk: Path) -> tuple[dict, str | Non
         if not isinstance(data, dict):
             raise PipelineError("MobSF JSON report must be an object.")
         return data, None
+    if options.static_engine == "builtin":
+        from .static_builtin import StaticScanError, scan
+        try:
+            return scan(apk), None
+        except StaticScanError as exc:
+            raise PipelineError(str(exc)) from None
     api_key = os.environ.get("MOBSF_API_KEY", "").strip()
     if not api_key:
         raise PipelineError("Set MOBSF_API_KEY to your MobSF REST API key (or pass --mobsf-json).")
@@ -142,7 +149,8 @@ def _run_dynamic(options: RunOptions, apk: Path, package: str, run_dir: Path,
         _, session_log = evidence.logcat_snapshot(launch_dir)
 
         ctx = CheckContext(adb=adb, evidence=evidence, package=package, settle_seconds=options.settle_seconds,
-                           root=root, session_logcat=session_log, frida_path=shutil.which("frida"))
+                           root=root, session_logcat=session_log, frida_path=shutil.which("frida"),
+                           content_uris=list(meta.get("_content_uris", [])))
         checks = {c.id: c for c in default_checks()}
         for finding in sorted(testable, key=lambda f: checks[f.check_id].order):
             check = checks[finding.check_id]
@@ -198,6 +206,8 @@ def run(options: RunOptions) -> Path:
         "apk_sha256": sha256_file(apk),
         "mobsf_hash": file_hash or clean_text(static_report.get("md5"), 32),
         "dynamic": "enabled" if options.dynamic else "skipped (--no-dynamic)",
+        "static_engine": clean_text(static_report.get("static_engine") or "MobSF", 60),
+        "_content_uris": [u for u in static_report.get("content_uris") or [] if isinstance(u, str)][:50],
     }
 
     # 2. Map findings to checks.
@@ -224,6 +234,7 @@ def run(options: RunOptions) -> Path:
         _mark(findings, Status.NOT_TESTABLE, "Dynamic verification was skipped (--no-dynamic).")
 
     # 4. Rank and report.
+    meta.pop("_content_uris", None)
     findings = rank_findings(findings)
     if options.llm:
         llm_triage(findings)

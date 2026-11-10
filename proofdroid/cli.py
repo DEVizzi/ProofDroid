@@ -34,6 +34,8 @@ def _build_parser() -> argparse.ArgumentParser:
     scan.add_argument("apk", type=Path, help="path to the APK")
     scan.add_argument("--mobsf-url", default=os.environ.get("MOBSF_URL", "http://127.0.0.1:8000"),
                       help="MobSF base URL (default: %(default)s). API key is read from MOBSF_API_KEY.")
+    scan.add_argument("--static", choices=["mobsf", "builtin"], default="mobsf",
+                      help="static engine: MobSF (default) or built-in aapt2 manifest analysis")
     scan.add_argument("--mobsf-json", type=Path, help="use an existing MobSF JSON report instead of scanning")
     scan.add_argument("--reports-dir", type=Path, default=Path("reports"), help="output folder (default: reports)")
     scan.add_argument("--no-dynamic", action="store_true", help="static only; mark checkable findings Not testable")
@@ -93,7 +95,7 @@ def main(argv: list[str] | None = None) -> int:
         apk=args.apk, reports_dir=args.reports_dir, mobsf_url=args.mobsf_url, mobsf_json=args.mobsf_json,
         dynamic=not args.no_dynamic, avd=args.avd, serial=args.serial, port=args.port,
         boot_timeout=args.boot_timeout, keep_emulator=args.keep_emulator, record=args.record,
-        uninstall=args.uninstall, settle_seconds=args.settle, llm=args.llm,
+        uninstall=args.uninstall, settle_seconds=args.settle, llm=args.llm, static_engine=args.static,
     )
     try:
         run_dir = run(options)

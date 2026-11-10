@@ -1,0 +1,2 @@
+topResumedActivity=ActivityRecord{39519065 u0 jakhar.aseem.diva/.APICredsActivity t15}
+ResumedActivity: ActivityRecord{39519065 u0 jakhar.aseem.diva/.APICredsActivity t15}

@@ -124,6 +124,12 @@ class EmulatorController:
         log.info("Installing %s", apk_path.name)
         result = adb.run(["install", "-r", "-g", str(apk_path)], timeout=timeout)
         output = (result.stdout or "") + (result.stderr or "")
+        if "INSTALL_FAILED_DEPRECATED_SDK_VERSION" in output:
+            # Android 14+ blocks old-targetSdk apps (common for practice targets like DIVA).
+            log.info("Old targetSdk blocked; retrying with --bypass-low-target-sdk-block")
+            result = adb.run(["install", "-r", "-g", "--bypass-low-target-sdk-block", str(apk_path)],
+                             timeout=timeout)
+            output = (result.stdout or "") + (result.stderr or "")
         if "Success" not in output:
             last = output.strip().splitlines()[-1] if output.strip() else "no output"
             raise EmulatorError(f"APK install failed: {last[:300]}")

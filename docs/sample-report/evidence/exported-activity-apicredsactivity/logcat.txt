@@ -1,0 +1,658 @@
+--------- beginning of main
+11-10 19:30:59.771 15144 15144 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/org.apache.http.legacy.jar
+11-10 19:30:59.771 15144 15144 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+11-10 19:30:59.771 15144 15144 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+11-10 19:30:59.782  1240  1240 D CarrierSvcBindHelper: No carrier app for: 0
+--------- beginning of system
+11-10 19:30:59.901   687  2390 W ActivityTaskManager: callingPackage for (uid=2000, pid=15160) has no WPC
+11-10 19:30:59.903   687  2390 V WindowManager: DesktopModeLaunchParamsModifier: phase= 0 task=null activity=null display-area-from-current-params=null display-area-from-default-fallback=DefaultTaskDisplayArea@221920 display-id=0 task-display-area-windowing-mode=1 suggested-display-area=DefaultTaskDisplayArea@221920 task null, skipping
+11-10 19:30:59.903   687  2390 V WindowManager: TaskLaunchParamsModifier:phase=0 task=null activity=null display-area-from-current-params=null display-area-from-default-fallback=DefaultTaskDisplayArea@221920 display-id=0 task-display-area-windowing-mode=1 suggested-display-area=DefaultTaskDisplayArea@221920
+11-10 19:30:59.904   687  2390 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@a81cc99b does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-10 19:30:59.906   687  2390 W TransitionChain: Combining startAct into #67(CLOSE|R|0x0) from appDied
+11-10 19:30:59.906   687  2390 V WindowManager: DesktopModeLaunchParamsModifier: phase= 0 task=null activity=ActivityRecord{39519065 u0 jakhar.aseem.diva/.APICredsActivity display-area-from-current-params=null display-area-from-default-fallback=DefaultTaskDisplayArea@221920 display-id=0 task-display-area-windowing-mode=1 suggested-display-area=DefaultTaskDisplayArea@221920 task null, skipping
+11-10 19:30:59.906   687  2390 V WindowManager: TaskLaunchParamsModifier:phase=0 task=null activity=ActivityRecord{39519065 u0 jakhar.aseem.diva/.APICredsActivity t-1} display-area-from-current-params=null display-area-from-default-fallback=DefaultTaskDisplayArea@221920 display-id=0 task-display-area-windowing-mode=1 suggested-display-area=DefaultTaskDisplayArea@221920
+11-10 19:30:59.906   687  2390 V WindowManager: DesktopModeLaunchParamsModifier: phase= 3 task=null activity=ActivityRecord{39519065 u0 jakhar.aseem.diva/.APICredsActivity t-1} display-area-from-current-params=null display-area-from-default-fallback=DefaultTaskDisplayArea@221920 display-id=0 task-display-area-windowing-mode=1 suggested-display-area=DefaultTaskDisplayArea@221920 task null, skipping
+11-10 19:30:59.906   687  2390 V WindowManager: TaskLaunchParamsModifier:phase=3 task=null activity=ActivityRecord{39519065 u0 jakhar.aseem.diva/.APICredsActivity t-1} display-area-from-current-params=null display-area-from-default-fallback=DefaultTaskDisplayArea@221920 display-id=0 task-display-area-windowing-mode=1 suggested-display-area=DefaultTaskDisplayArea@221920 non-freeform-task-display-area display-area=DefaultTaskDisplayArea@221920 skip-bounds-fullscreen
+11-10 19:30:59.907   687  2390 V WindowManager: DesktopModeLaunchParamsModifier: phase= 3 task=Task{b9bbb1e #15 type=standard A=10219:jakhar.aseem.diva} activity=ActivityRecord{39519065 u0 jakhar.aseem.diva/.APICredsActivity t-1} display-from-task=0 display-id=0 task-display-area-windowing-mode=1 suggested-display-area=DefaultTaskDisplayArea@221920 not entering desktop mode, skipping
+11-10 19:30:59.907   687  2390 V WindowManager: TaskLaunchParamsModifier:phase=3 task=Task{b9bbb1e #15 type=standard A=10219:jakhar.aseem.diva} activity=ActivityRecord{39519065 u0 jakhar.aseem.diva/.APICredsActivity t-1} display-from-task=0 display-id=0 task-display-area-windowing-mode=1 suggested-display-area=DefaultTaskDisplayArea@221920 inherit-from-task=fullscreen non-freeform-task-display-area display-area=DefaultTaskDisplayArea@221920 skip-bounds-fullscreen
+11-10 19:30:59.910   687  2390 I ActivityTaskManager: Add Task{aeac41a #14 type=standard A=10219:jakhar.aseem.diva} to hidden list because adding Task{b9bbb1e #15 type=standard A=10219:jakhar.aseem.diva}
+11-10 19:30:59.911   687  2390 I ActivityTaskManager: START u0 {flg=0x10000000 xflg=0x5 cmp=jakhar.aseem.diva/.APICredsActivity} with LAUNCH_MULTIPLE from uid 2000 (com.android.shell) (BAL_ALLOW_PERMISSION) result code=0
+11-10 19:30:59.916  1311  1311 D RecentsView: onTaskDisplayChanged: 15, new displayId = 0
+11-10 19:30:59.916   687   717 W ActivityManager: Rescheduling restart of crashed service com.amazon.avod.thirdpartyclient/com.amazon.communication.AndroidTCommService in 19439ms for mem-pressure-event
+11-10 19:30:59.916   687   717 W ActivityManager: Rescheduling restart of crashed service com.android.settings/.SettingsDumpService in 40167582ms for mem-pressure-event
+11-10 19:30:59.930 14476 14532 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=513: unexpected standardMetadataType=21
+11-10 19:30:59.940   687   711 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@a81cc99b does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-10 19:30:59.952  1311  1311 D b/417220811: invalidateLoadedTasks - previous requestLoadId: -1
+11-10 19:30:59.956  1311  1311 D b/417220811: invalidateLoadedTasks - previous requestLoadId: -1
+11-10 19:30:59.959   471   471 D Zygote  : Forked child process 15164
+11-10 19:30:59.960   687   719 I ActivityManager: Start proc 15164:jakhar.aseem.diva/u0a219 for top-activity {jakhar.aseem.diva/jakhar.aseem.diva.APICredsActivity}
+11-10 19:30:59.962  1054  1186 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.view.ViewRootImpl$$ExternalSyntheticLambda12@5be4126
+11-10 19:30:59.962   687  1974 D CoreBackPreview: Window{61f9493 u0 Splash Screen jakhar.aseem.diva}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@ea4e6ef, mPriority=0, mIsAnimationCallback=false, mOverrideBehavior=0}
+11-10 19:30:59.964 15164 15164 I libc    : SetHeapTaggingLevel: tag level set to 0
+11-10 19:30:59.965 15164 15164 I Zygote  : Process 15164 created for jakhar.aseem.diva
+11-10 19:30:59.966 15164 15164 I khar.aseem.diva: Late-enabling -Xcheck:jni
+11-10 19:30:59.980 14476 14532 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=516: unexpected standardMetadataType=21
+11-10 19:30:59.997 14476 14532 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=515: unexpected standardMetadataType=21
+11-10 19:31:00.029 15164 15164 I khar.aseem.diva: Using CollectorTypeCMC GC.
+11-10 19:31:00.035  1379  1389 I adbd    : jdwp connection from 15164
+11-10 19:31:00.063 14476 14532 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=518: unexpected standardMetadataType=21
+11-10 19:31:00.078 15164 15164 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+11-10 19:31:00.115   687  1013 D BackgroundInstallControlService: Package event received: 0
+11-10 19:31:00.146 14476 14532 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=519: unexpected standardMetadataType=21
+11-10 19:31:00.158   687   968 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-10 19:31:00.158   687   968 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-10 19:31:00.158   687   968 D InetDiagMessage: Destroyed live tcp sockets for uids={10213} in 1ms
+11-10 19:31:00.158   687   968 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-10 19:31:00.162   687   968 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-10 19:31:00.162   687   968 D InetDiagMessage: Destroyed live tcp sockets for uids={20213} in 4ms
+11-10 19:31:00.168   687   968 D InetDiagMessage: Destroyed 3 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-10 19:31:00.168   687   968 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-10 19:31:00.169   687   968 D InetDiagMessage: Destroyed live tcp sockets for uids={10154} in 6ms
+11-10 19:31:00.169   687   968 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-10 19:31:00.170   687   968 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-10 19:31:00.170   687   968 D InetDiagMessage: Destroyed live tcp sockets for uids={20154} in 2ms
+11-10 19:31:00.175 15164 15164 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+11-10 19:31:00.176 15164 15164 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/org.apache.http.legacy.jar
+11-10 19:31:00.204 15164 15164 D nativeloader: Configuring clns-9 for other apk /data/app/~~WiqhQiBTCJ55oT0Lei-8Yw==/jakhar.aseem.diva-L5zUYuWq1UeqAf_vm2WgyQ==/base.apk. target_sdk_version=23, uses_libraries=, library_path=/data/app/~~WiqhQiBTCJ55oT0Lei-8Yw==/jakhar.aseem.diva-L5zUYuWq1UeqAf_vm2WgyQ==/lib/arm64:/system/fake-libs64:/data/app/~~WiqhQiBTCJ55oT0Lei-8Yw==/jakhar.aseem.diva-L5zUYuWq1UeqAf_vm2WgyQ==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/jakhar.aseem.diva
+11-10 19:31:00.211 15164 15164 V GraphicsEnvironment: Currently set values for:
+11-10 19:31:00.211 15164 15164 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+11-10 19:31:00.211 15164 15164 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+11-10 19:31:00.211 15164 15164 V GraphicsEnvironment: jakhar.aseem.diva is not listed in per-application setting
+11-10 19:31:00.211 15164 15164 V GraphicsEnvironment: ANGLE allowlist from config: com.dreamgames.royalmatch com.dts.freefiremax com.dxx.firenow com.gramgames.mergedragons com.ludo.king com.mojang.minecraftpe com.my.defense com.nintendo.zaka com.os.airforce com.playrix.fishdomdd.gplay io.teslatech.callbreak jp.konami.prospia net.peakgames.toonblast
+11-10 19:31:00.211 15164 15164 V GraphicsEnvironment: No special selections for ANGLE, returning default driver choice
+11-10 19:31:00.211 15164 15164 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+11-10 19:31:00.218 15164 15164 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+11-10 19:31:00.225   687  1013 D BackgroundInstallControlService: Package event received: 0
+11-10 19:31:00.225   687  1013 D BackgroundInstallControlService: Package event received: 0
+11-10 19:31:00.226   687   709 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): null
+11-10 19:31:00.231 15164 15178 I DisplayManager: Choreographer implicitly registered for the refresh rate.
+11-10 19:31:00.246 14476 14532 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=517: unexpected standardMetadataType=21
+11-10 19:31:00.284   687   708 V WindowManager: Sent Transition (#67) createdAt=11-10 19:30:59.615 via request=TransitionRequestInfo { type = CLOSE, triggerTask = TaskInfo{userId=0 taskId=14 effectiveUid=10219 displayId=0 isRunning=false baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=jakhar.aseem.diva/.MainActivity } baseActivity=null topActivity=null origActivity=null realActivity=ComponentInfo{jakhar.aseem.diva/jakhar.aseem.diva.MainActivity} numActivities=0 lastActiveTime=20147284 supportsMultiWindow=true resizeMode=4 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{f54c8b3 Task{aeac41a #14 type=standard A=10219:jakhar.aseem.diva}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=null launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=true lastNonFullscreenBounds=null capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=503 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false isLeafTask= true eligibleForLetterboxEducation= false isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 0, 0) isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatMode=undefinedundefined} topNonResizableActivityAspectRatio=-1.0} topActivityMainWindowFrame=null isAppBubble=false}, pipChange = null, remoteTransition = null, displayChange = null, requestedLocation = null, userChange = null, windowingLayerChange = null, flags = 0, debugId = 67 }
+11-10 19:31:00.284   687   708 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= [] errorCallbackToken=null taskFragmentOrganizer=null }
+11-10 19:31:00.296 14476 14532 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=520: unexpected standardMetadataType=21
+11-10 19:31:00.300  1054  1372 V WindowManagerShell: onTransitionReady(transaction=2950642537967)
+11-10 19:31:00.302   687   708 V WindowManager:     info={id=67 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+11-10 19:31:00.302   687   708 V WindowManager:         {WCT{RemoteToken{5ed7a00 Task{b9bbb1e #15 type=standard A=10219:jakhar.aseem.diva}}} m=OPEN f=MOVE_TO_TOP leash=Surface(name=Task=15#728)/@0xda86894 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1 winMode=1 userId=0},
+11-10 19:31:00.302   687   708 V WindowManager:         {WCT{RemoteToken{f54c8b3 Task{aeac41a #14 type=standard A=10219:jakhar.aseem.diva}}} m=CLOSE f=NONE leash=Surface(name=Task=14#703)/@0x90db604 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1 winMode=1 userId=0}
+11-10 19:31:00.302   687   708 V WindowManager:     ]}
+11-10 19:31:00.308   687   709 D CoreBackPreview: Window{1cf900e u0 DeprecatedTargetSdkVersionDialog}: Setting back callback null
+11-10 19:31:00.308  1054  1136 V WindowManagerShell: onTransitionReady (#67) android.os.BinderProxy@c24f7c0: {id=67 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+11-10 19:31:00.308  1054  1136 V WindowManagerShell:         {m=OPEN f=MOVE_TO_TOP leash=Surface(name=Task=15#728)/@0xfd1e655 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1 winMode=1 userId=0},
+11-10 19:31:00.308  1054  1136 V WindowManagerShell:         {m=CLOSE f=NONE leash=Surface(name=Task=14#703)/@0x9792d1 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1 winMode=1 userId=0}
+11-10 19:31:00.308  1054  1136 V WindowManagerShell:     ]}
+11-10 19:31:00.316  1054  1136 V WindowManagerShell: Playing animation for (#67) android.os.BinderProxy@c24f7c0@0
+11-10 19:31:00.316  1054  1136 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+11-10 19:31:00.316  1054  1136 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=67 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=OPEN f=MOVE_TO_TOP leash=Surface(name=Task=15#728)/@0xfd1e655 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1 winMode=1 userId=0},{m=CLOSE f=NONE leash=Surface(name=Task=14#703)/@0x9792d1 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1 winMode=1 userId=0}]}
+11-10 19:31:00.316  1054  1136 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=undefined independent=true modes=[CLOSE,TO_BACK] flags=IN_TASK_WITH_EMBEDDED_ACTIVITY mustBeTask=false order=ANY topActivity=null launchCookie=null taskFragmentToken=android.os.BinderProxy@8d70b17 windowingMode=undefined isCrossDisplayMove=false}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@3baeb04, appThread = android.app.IApplicationThread$Stub$Proxy@34978ed, debugName = overlayBackTransition }}
+11-10 19:31:00.316  1054  1136 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=dream independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null windowingMode=undefined isCrossDisplayMove=false},{atype=home independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null windowingMode=undefined isCrossDisplayMove=false}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@d6ee322, appThread = android.app.IApplicationThread$Stub$Proxy@fb741b3, debugName = LauncherToDream }}
+11-10 19:31:00.316  1054  1136 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity} launchCookie=null windowingMode=undefined isCrossDisplayMove=false},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null windowingMode=undefined isCrossDisplayMove=false},{NOT atype=undefined independent=true modes=[] flags=NONE mustBeTask=true order=ANY topActivity=null launchCookie=null customAnim=true windowingMode=undefined isCrossDisplayMove=false}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@a7db370, appThread = android.app.IApplicationThread$Stub$Proxy@cd1b6e9, debugName = QuickstepLaunchHome }}
+11-10 19:31:00.316  1054  1136 V WindowManagerShell:  Delegate animation for (#67) to null
+11-10 19:31:00.316  1054  1136 V WindowManagerShell: start default transition animation, info = {id=67 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=OPEN f=MOVE_TO_TOP leash=Surface(name=Task=15#728)/@0xfd1e655 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1 winMode=1 userId=0},{m=CLOSE f=NONE leash=Surface(name=Task=14#703)/@0x9792d1 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) epz=Point(1080, 2400) d=0 taskParent=-1 winMode=1 userId=0}]}
+11-10 19:31:00.319  1064  1075 W ssioncontroller: Reducing the number of considered missed Gc histogram windows from 692 to 100
+11-10 19:31:00.324  1054  1136 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@3845ac2 animAttr=0xb type=CLOSE isEntrance=false
+11-10 19:31:00.344 15164 15164 D DesktopExperienceFlags: Toggle override initialized to: false
+11-10 19:31:00.348  1054  1136 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@7bcc72f animAttr=0xa type=CLOSE isEntrance=true
+11-10 19:31:00.349  1054  1136 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@daae99b
+11-10 19:31:00.349  1054  1136 V ShellTaskOrganizer: Task appeared taskId=15 listener=FullscreenTaskListener
+11-10 19:31:00.349  1054  1136 V ShellTaskOrganizer: Fullscreen Task Appeared: #15
+11-10 19:31:00.366 14476 14532 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=498: unexpected standardMetadataType=21
+11-10 19:31:00.375  1311  1311 D b/417220811: invalidateLoadedTasks - previous requestLoadId: -1
+11-10 19:31:00.399 14476 14532 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=501: unexpected standardMetadataType=21
+11-10 19:31:00.433 14476 14532 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=506: unexpected standardMetadataType=21
+11-10 19:31:00.434 15164 15164 D DesktopModeFlags: Toggle override initialized to: OVERRIDE_UNSET
+11-10 19:31:00.466 14476 14532 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=502: unexpected standardMetadataType=21
+11-10 19:31:00.471   587 14522 D BufferPoolAccessor2.0: bufferpool2 0xb400007abd80af08 : 2(7776000 size) total buffers - 1(3888000 size) used buffers - 119/132 (recycle/alloc) - 16/132 (fetch/transfer)
+11-10 19:31:00.500 14476 14532 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=499: unexpected standardMetadataType=21
+11-10 19:31:00.517 14476 14532 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=497: unexpected standardMetadataType=21
+11-10 19:31:00.551 14476 14532 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=509: unexpected standardMetadataType=21
+11-10 19:31:00.567 15164 15164 I khar.aseem.diva: hiddenapi: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (runtime_flags=0, domain=platform, api=unsupported) from Landroid/support/v7/internal/widget/ViewUtils; (domain=app, TargetSdkVersion=23) using reflection: allowed
+11-10 19:31:00.567 15164 15164 I khar.aseem.diva: hiddenapi: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (runtime_flags=0, domain=platform, api=unsupported) from Landroid/support/v7/internal/widget/ViewUtils; (domain=app, TargetSdkVersion=23) using reflection: allowed
+11-10 19:31:00.586 14476 14532 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=511: unexpected standardMetadataType=21
+11-10 19:31:00.596 15164 15178 I GFXSTREAM: [eglDisplay.cpp(297)] Opening libGLESv1_CM_emulation.so
+11-10 19:31:00.596 15164 15178 I GFXSTREAM: [eglDisplay.cpp(297)] Opening libGLESv2_emulation.so
+11-10 19:31:00.619 14476 14532 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=510: unexpected standardMetadataType=21
+11-10 19:31:00.652 14476 14532 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=514: unexpected standardMetadataType=21
+11-10 19:31:00.667 15164 15178 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+11-10 19:31:00.686 14476 14532 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=512: unexpected standardMetadataType=21
+11-10 19:31:00.695 15164 15178 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-10 19:31:00.718 14476 14532 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=513: unexpected standardMetadataType=21
+11-10 19:31:00.753 14476 14532 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=516: unexpected standardMetadataType=21
+11-10 19:31:00.756  7422  7422 I Finsky  : [2] Memory trim requested to level 40
+11-10 19:31:00.761  7422  7422 I Finsky  : [2] Flushing in-memory image cache
+11-10 19:31:00.788 14476 14532 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=515: unexpected standardMetadataType=21
+11-10 19:31:00.819 14476 14532 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=518: unexpected standardMetadataType=21
+11-10 19:31:00.823 15164 15164 W HWUI    : Unknown dataspace 0
+11-10 19:31:00.853 14476 14532 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=519: unexpected standardMetadataType=21
+11-10 19:31:00.886 14476 14532 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=517: unexpected standardMetadataType=21
+11-10 19:31:00.916 14476 14535 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=520: unexpected standardMetadataType=21
+11-10 19:31:00.932 14476 14535 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=498: unexpected standardMetadataType=21
+11-10 19:31:00.936  1054  1136 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#67) android.os.BinderProxy@c24f7c0@0
+11-10 19:31:00.938   687   718 I libprocessgroup: Removed cgroup /sys/fs/cgroup/apps/uid_10154/pid_15088
+11-10 19:31:00.940   471   471 I Zygote  : Process 15088 exited due to signal 9 (Killed)
+11-10 19:31:00.940   687   708 V WindowManager: Finish Transition (#67): created at 11-10 19:30:59.615 collect-started=0.015ms request-sent=0.055ms started=10.802ms ready=610.069ms sent=616.601ms commit=143.319ms finished=1324.779ms
+11-10 19:31:00.942 15164 15164 D VRI[APICredsActivity]: WindowInsets changed: 1080x2009 
+11-10 19:31:00.942 15164 15164 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.view.ViewRootImpl$$ExternalSyntheticLambda12@d691204
+11-10 19:31:00.948 15164 15164 I HWUI    : Using FreeType backend (prop=Auto)
+11-10 19:31:00.965 14476 14535 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=501: unexpected standardMetadataType=21
+11-10 19:31:00.966   687  2434 E libbinder.IPCThreadState: Binder transaction failure. id: 2885709, cmd: BR_DEAD_REPLY (29189), error: -22 (Invalid argument)
+11-10 19:31:00.966   687  2434 W ActivityManager: pid 687 system sent binder code 7 with flags 1 and got error -32
+11-10 19:31:00.966   687  2434 D ActivityManager: Too many transaction errors, throttling freezer binder callback.
+11-10 19:31:00.982 14476 14535 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=506: unexpected standardMetadataType=21
+11-10 19:31:00.985   687  2434 W WindowManager: Exception thrown during dispatchAppVisibility Window{6ff5da u0 jakhar.aseem.diva/jakhar.aseem.diva.MainActivity EXITING}
+11-10 19:31:00.985   687  2434 W WindowManager: android.os.DeadObjectException
+11-10 19:31:00.985   687  2434 W WindowManager: 	at android.os.BinderProxy.transactNative(Native Method)
+11-10 19:31:00.985   687  2434 W WindowManager: 	at android.os.BinderProxy.transact(BinderProxy.java:599)
+11-10 19:31:00.985   687  2434 W WindowManager: 	at android.view.IWindow$Stub$Proxy.dispatchAppVisibility(IWindow.java:535)
+11-10 19:31:00.985   687  2434 W WindowManager: 	at com.android.server.wm.WindowState.sendAppVisibilityToClients(WindowState.java:3266)
+11-10 19:31:00.985   687  2434 W WindowManager: 	at com.android.server.wm.WindowContainer.sendAppVisibilityToClients(WindowContainer.java:1218)
+11-10 19:31:00.985   687  2434 W WindowManager: 	at com.android.server.wm.WindowToken.setClientVisible(WindowToken.java:394)
+11-10 19:31:00.985   687  2434 W WindowManager: 	at com.android.server.wm.ActivityRecord.commitVisibility(ActivityRecord.java:5626)
+11-10 19:31:00.985   687  2434 W WindowManager: 	at com.android.server.wm.Transition.finishTransition(Transition.java:1500)
+11-10 19:31:00.985   687  2434 W WindowManager: 	at com.android.server.wm.TransitionController.finishTransition(TransitionController.java:1096)
+11-10 19:31:00.985   687  2434 W WindowManager: 	at com.android.server.wm.WindowOrganizerController.finishTransition(WindowOrganizerController.java:518)
+11-10 19:31:00.985   687  2434 W WindowManager: 	at android.window.IWindowOrganizerController$Stub.onTransact(IWindowOrganizerController.java:270)
+11-10 19:31:00.985   687  2434 W WindowManager: 	at com.android.server.wm.WindowOrganizerController.onTransact(WindowOrganizerController.java:233)
+11-10 19:31:00.985   687  2434 W WindowManager: 	at android.os.Binder.execTransactInternal(Binder.java:1473)
+11-10 19:31:00.985   687  2434 W WindowManager: 	at android.os.Binder.execTransact(Binder.java:1418)
+11-10 19:31:00.985   687  2434 W Process : Unable to open /proc/14922/status
+11-10 19:31:00.997  7246 14346 W PhBaseOp: Phenotype API error. Event: # hsop@86b0c9f8, EventCode: GET_STORAGE_INFO [CONTEXT service_id=51 ]
+11-10 19:31:00.997  7246 14346 W PhBaseOp: enow: 29514: Storage info not created for Play Store.
+11-10 19:31:00.997  7246 14346 W PhBaseOp: 	at entc.b(:com.google.android.gms@254730035@25.47.30 (260400-833691957):1084)
+11-10 19:31:00.997  7246 14346 W PhBaseOp: 	at enru.i(:com.google.android.gms@254730035@25.47.30 (260400-833691957):13)
+11-10 19:31:00.997  7246 14346 W PhBaseOp: 	at enqq.h(:com.google.android.gms@254730035@25.47.30 (260400-833691957):31)
+11-10 19:31:00.997  7246 14346 W PhBaseOp: 	at enqq.f(:com.google.android.gms@254730035@25.47.30 (260400-833691957):13)
+11-10 19:31:00.997  7246 14346 W PhBaseOp: 	at coag.fB(:com.google.android.gms@254730035@25.47.30 (260400-833691957):1)
+11-10 19:31:00.997  7246 14346 W PhBaseOp: 	at coak.run(:com.google.android.gms@254730035@25.47.30 (260400-833691957):118)
+11-10 19:31:00.997  7246 14346 W PhBaseOp: 	at gjql.run(:com.google.android.gms@254730035@25.47.30 (260400-833691957):19)
+11-10 19:31:00.997  7246 14346 W PhBaseOp: 	at bden.c(:com.google.android.gms@254730035@25.47.30 (260400-833691957):50)
+11-10 19:31:00.997  7246 14346 W PhBaseOp: 	at bden.run(:com.google.android.gms@254730035@25.47.30 (260400-833691957):73)
+11-10 19:31:00.997  7246 14346 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+11-10 19:31:00.997  7246 14346 W PhBaseOp: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+11-10 19:31:00.997  7246 14346 W PhBaseOp: 	at bdke.run(:com.google.android.gms@254730035@25.47.30 (260400-833691957):8)
+11-10 19:31:00.997  7246 14346 W PhBaseOp: 	at java.lang.Thread.run(Thread.java:1563)
+11-10 19:31:00.997  7246 14346 W AsyncOperation: operation=GetStorageInfoGmsOperation, opStatusCode=29514 [CONTEXT service_id=51 ]
+11-10 19:31:00.997  7246 14346 W AsyncOperation: OperationException[Status{statusCode=Storage info not created for Play Store., resolution=null}]
+11-10 19:31:00.997  7246 14346 W AsyncOperation: 	at enqq.h(:com.google.android.gms@254730035@25.47.30 (260400-833691957):73)
+11-10 19:31:00.997  7246 14346 W AsyncOperation: 	at enqq.f(:com.google.android.gms@254730035@25.47.30 (260400-833691957):13)
+11-10 19:31:00.997  7246 14346 W AsyncOperation: 	at coag.fB(:com.google.android.gms@254730035@25.47.30 (260400-833691957):1)
+11-10 19:31:00.997  7246 14346 W AsyncOperation: 	at coak.run(:com.google.android.gms@254730035@25.47.30 (260400-833691957):118)
+11-10 19:31:00.997  7246 14346 W AsyncOperation: 	at gjql.run(:com.google.android.gms@254730035@25.47.30 (260400-833691957):19)
+11-10 19:31:00.997  7246 14346 W AsyncOperation: 	at bden.c(:com.google.android.gms@254730035@25.47.30 (260400-833691957):50)
+11-10 19:31:00.997  7246 14346 W AsyncOperation: 	at bden.run(:com.google.android.gms@254730035@25.47.30 (260400-833691957):73)
+11-10 19:31:00.997  7246 14346 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+11-10 19:31:00.997  7246 14346 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+11-10 19:31:00.997  7246 14346 W AsyncOperation: 	at bdke.run(:com.google.android.gms@254730035@25.47.30 (260400-833691957):8)
+11-10 19:31:00.997  7246 14346 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:1563)
+11-10 19:31:01.016 14476 14535 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=502: unexpected standardMetadataType=21
+11-10 19:31:01.018   687  1815 D CoreBackPreview: Window{47201ad u0 jakhar.aseem.diva/jakhar.aseem.diva.APICredsActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@343825c, mPriority=0, mIsAnimationCallback=false, mOverrideBehavior=0}
+11-10 19:31:01.020  1054  1136 V WindowManagerShell: Track 0 became idle
+11-10 19:31:01.020  1054  1136 V WindowManagerShell: All active transition animations finished
+11-10 19:31:01.021  1054  1136 V ShellTaskOrganizer: Task vanished taskId=14
+11-10 19:31:01.024  1054  1136 V ShellTaskOrganizer: Fullscreen Task Vanished: #14
+11-10 19:31:01.024  1054  1136 D ShellDesktopMode: AppToWebRepository: Task 14 is vanishing. Removing task data from repository
+11-10 19:31:01.025  1311  1311 D b/417220811: invalidateLoadedTasks - previous requestLoadId: -1
+11-10 19:31:01.031  1311  1311 D RecentsView: onTaskRemoved: 14, not handling task stack changes
+11-10 19:31:01.031  1311  1311 D RecentsView: onTaskRemoved: 14, not handling task stack changes
+11-10 19:31:01.051 14476 14535 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=499: unexpected standardMetadataType=21
+11-10 19:31:01.066   687   711 V WindowManager: Unknown focus tokens, dropping reportFocusChanged
+11-10 19:31:01.068   545   545 E BpTransactionCompletedListener: Failed to transact (-32)
+11-10 19:31:01.083 14476 14535 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=497: unexpected standardMetadataType=21
+11-10 19:31:01.099 14476 14535 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=509: unexpected standardMetadataType=21
+11-10 19:31:01.116 14476 14532 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=511: unexpected standardMetadataType=21
+11-10 19:31:01.132   687   962 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+11-10 19:31:01.150 14476 14532 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=510: unexpected standardMetadataType=21
+11-10 19:31:01.162 15144 15144 D nativeloader: Configuring clns-9 for other apk /data/app/~~ZLPB1Iq-e4tmbCjPfA629g==/com.amazon.avod.thirdpartyclient-H7PQgkg1wKtbWJ_j_h2xaQ==/base.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~ZLPB1Iq-e4tmbCjPfA629g==/com.amazon.avod.thirdpartyclient-H7PQgkg1wKtbWJ_j_h2xaQ==/lib/arm64:/data/app/~~ZLPB1Iq-e4tmbCjPfA629g==/com.amazon.avod.thirdpartyclient-H7PQgkg1wKtbWJ_j_h2xaQ==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.amazon.avod.thirdpartyclient
+11-10 19:31:01.162 15144 15144 D CompatChangeReporter: Compat change id reported: 202956589; UID 10217; state: ENABLED
+11-10 19:31:01.205 14476 14517 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=512: unexpected standardMetadataType=21
+11-10 19:31:01.208 15144 15144 V GraphicsEnvironment: Currently set values for:
+11-10 19:31:01.212   687   709 W AppWarnings: Showing DeprecatedTargetSdkVersionDialog for package jakhar.aseem.diva
+11-10 19:31:01.212 15144 15144 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+11-10 19:31:01.212 15144 15144 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+11-10 19:31:01.212 15144 15144 V GraphicsEnvironment: com.amazon.avod.thirdpartyclient is not listed in per-application setting
+11-10 19:31:01.212 15144 15144 V GraphicsEnvironment: ANGLE allowlist from config: com.dreamgames.royalmatch com.dts.freefiremax com.dxx.firenow com.gramgames.mergedragons com.ludo.king com.mojang.minecraftpe com.my.defense com.nintendo.zaka com.os.airforce com.playrix.fishdomdd.gplay io.teslatech.callbreak jp.konami.prospia net.peakgames.toonblast
+11-10 19:31:01.212 15144 15144 V GraphicsEnvironment: No special selections for ANGLE, returning default driver choice
+11-10 19:31:01.212 15144 15144 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+11-10 19:31:01.216   687   709 W Looper  : Slow dispatch took 991ms android.ui app=system_server main=false group=TOP_APP h=com.android.server.wm.AppWarnings$UiHandler c=null m=5
+11-10 19:31:01.245   687   709 W Looper  : Slow delivery took 1020ms android.ui app=system_server main=false group=TOP_APP h=com.android.server.wm.AppWarnings$UiHandler c=null m=7
+11-10 19:31:01.246 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[territoryConfig_defaultVideoWebsite]. Returning defaultValue=[null].
+11-10 19:31:01.250 14476 14517 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=513: unexpected standardMetadataType=21
+11-10 19:31:01.251 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[territoryConfig_defaultVideoWebsite]. Returning defaultValue=[null].
+11-10 19:31:01.253   687   709 I Choreographer: Skipped 56 frames!  The application may be doing too much work on its main thread.
+11-10 19:31:01.253   687   709 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.app.Dialog$$ExternalSyntheticLambda2@90531f2
+11-10 19:31:01.257 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.257 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.257 15144 15144 E AmazonVideo: EXCEPTION IllegalStateException in DefaultConfigEditor.handleReadException: Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda4@92016c)] while reading secure storage for key=[BetaConfig_IsCustomerInBeta]. Returning defaultValue=[false].: ConfigRegistry must be initialized before accessing the config values.
+11-10 19:31:01.257 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.257 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.257 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.257 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.257 15144 15144 E AmazonVideo: EXCEPTION IllegalStateException in DefaultConfigEditor.handleReadException: Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda4@92016c)] while reading secure storage for key=[BetaConfig_IsCustomerInBeta]. Returning defaultValue=[false].: ConfigRegistry must be initialized before accessing the config values.
+11-10 19:31:01.257 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.257 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.257 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.257 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.257 15144 15144 E AmazonVideo: EXCEPTION IllegalStateException in DefaultConfigEditor.handleReadException: Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda4@92016c)] while reading secure storage for key=[BetaConfig_IsCustomerInBeta]. Returning defaultValue=[false].: ConfigRegistry must be initialized before accessing the config values.
+11-10 19:31:01.258 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.258 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.258 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.258 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.258 15144 15144 E AmazonVideo: EXCEPTION IllegalStateException in DefaultConfigEditor.handleReadException: Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda4@92016c)] while reading secure storage for key=[BetaConfig_IsCustomerInBeta]. Returning defaultValue=[false].: ConfigRegistry must be initialized before accessing the config values.
+11-10 19:31:01.258 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.258 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.258 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.258 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.258 15144 15144 E AmazonVideo: EXCEPTION IllegalStateException in DefaultConfigEditor.handleReadException: Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda4@92016c)] while reading secure storage for key=[BetaConfig_IsCustomerInBeta]. Returning defaultValue=[false].: ConfigRegistry must be initialized before accessing the config values.
+11-10 19:31:01.259 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.259 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.259 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.259 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.259 15144 15144 E AmazonVideo: EXCEPTION IllegalStateException in DefaultConfigEditor.handleReadException: Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda4@92016c)] while reading secure storage for key=[BetaConfig_IsCustomerInBeta]. Returning defaultValue=[false].: ConfigRegistry must be initialized before accessing the config values.
+11-10 19:31:01.259 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.259 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.267 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.267   687   709 D CoreBackPreview: Window{5458c53 u0 DeprecatedTargetSdkVersionDialog}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.WindowOnBackInvokedDispatcher$OnBackInvokedCallbackWrapper@f9a3043, mPriority=-1, mIsAnimationCallback=false, mOverrideBehavior=0}
+11-10 19:31:01.278 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.278 15144 15144 E AmazonVideo: EXCEPTION IllegalStateException in DefaultConfigEditor.handleReadException: Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda4@92016c)] while reading secure storage for key=[BetaConfig_IsCustomerInBeta]. Returning defaultValue=[false].: ConfigRegistry must be initialized before accessing the config values.
+11-10 19:31:01.278 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.278 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.278 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.278 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.278 15144 15144 E AmazonVideo: EXCEPTION IllegalStateException in DefaultConfigEditor.handleReadException: Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda4@92016c)] while reading secure storage for key=[BetaConfig_IsCustomerInBeta]. Returning defaultValue=[false].: ConfigRegistry must be initialized before accessing the config values.
+11-10 19:31:01.278 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.278 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.278 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.278 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.278 15144 15144 E AmazonVideo: EXCEPTION IllegalStateException in DefaultConfigEditor.handleReadException: Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda4@92016c)] while reading secure storage for key=[BetaConfig_IsCustomerInBeta]. Returning defaultValue=[false].: ConfigRegistry must be initialized before accessing the config values.
+11-10 19:31:01.278 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.278 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.278 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.278 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.278 15144 15144 E AmazonVideo: EXCEPTION IllegalStateException in DefaultConfigEditor.handleReadException: Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda4@92016c)] while reading secure storage for key=[BetaConfig_IsCustomerInBeta]. Returning defaultValue=[false].: ConfigRegistry must be initialized before accessing the config values.
+11-10 19:31:01.279 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.279 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.279 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.279 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.279 15144 15144 E AmazonVideo: EXCEPTION IllegalStateException in DefaultConfigEditor.handleReadException: Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda4@92016c)] while reading secure storage for key=[BetaConfig_IsCustomerInBeta]. Returning defaultValue=[false].: ConfigRegistry must be initialized before accessing the config values.
+11-10 19:31:01.279 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.279 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.279 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.279 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.279 15144 15144 E AmazonVideo: EXCEPTION IllegalStateException in DefaultConfigEditor.handleReadException: Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda4@92016c)] while reading secure storage for key=[BetaConfig_IsCustomerInBeta]. Returning defaultValue=[false].: ConfigRegistry must be initialized before accessing the config values.
+11-10 19:31:01.279 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.279 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.303 14476 14517 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=514: unexpected standardMetadataType=21
+11-10 19:31:01.313 15144 15190 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+11-10 19:31:01.325 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.328 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.328 15144 15144 E AmazonVideo: EXCEPTION IllegalStateException in DefaultConfigEditor.handleReadException: Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda4@92016c)] while reading secure storage for key=[BetaConfig_IsCustomerInBeta]. Returning defaultValue=[false].: ConfigRegistry must be initialized before accessing the config values.
+11-10 19:31:01.328 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.328 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.328 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.328 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.328 15144 15144 E AmazonVideo: EXCEPTION IllegalStateException in DefaultConfigEditor.handleReadException: Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda4@92016c)] while reading secure storage for key=[BetaConfig_IsCustomerInBeta]. Returning defaultValue=[false].: ConfigRegistry must be initialized before accessing the config values.
+11-10 19:31:01.328 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.328 15144 15144 E AmazonVideo: ERROR: OverrideServerConfigEditor Exception ConfigRegistry must be initialized before accessing the config values. caught in Prefs[Suppliers.memoize(amazon.android.config.ConfigRegistry$$ExternalSyntheticLambda2@404d17d)] while reading secure storage for key=[BetaConfig_IsBetaDisabled]. Returning defaultValue=[false].
+11-10 19:31:01.332   687   708 I ActivityTaskManager: Displayed jakhar.aseem.diva/.APICredsActivity for user 0: +1s416ms
+11-10 19:31:01.333 15144 15144 I AmazonVideo: Entered initialize for ConfigRegistry
+11-10 19:31:01.333 15144 15144 I AmazonVideo: Completed initialize for ConfigRegistry
+11-10 19:31:01.347 15144 15144 I AmazonVideo: Entered initialize for VersionProperties
+11-10 19:31:01.348 15144 15144 I AmazonVideo: Completed initialize for VersionProperties
+11-10 19:31:01.367 14476 14517 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=516: unexpected standardMetadataType=21
+11-10 19:31:01.399   687  2390 W libbinder.Binder: Binder transaction to android.app.IActivityManager code 1598246212 took 1504ms. Data bytes: 284 Reply bytes: 4 Flags: 16
+11-10 19:31:01.467 14476 14517 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=518: unexpected standardMetadataType=21
+11-10 19:31:01.484 15144 15144 I AmazonVideo: Entered initialize for MinervaListener
+11-10 19:31:01.499 15144 15144 I AmazonVideo: Initializing Minerva
+11-10 19:31:01.501 15144 15144 I AmazonVideo: Completed initialize for MinervaListener
+11-10 19:31:01.504 15144 15144 I AmazonVideo: Entered initialize for ConfigurationCache
+11-10 19:31:01.504 15144 15198 I AmazonVideo: Entered initialize for MinervaReporter
+11-10 19:31:01.504 15144 15198 I AmazonVideo: Waiting for DeviceProperties to initialize, current state NotInitialized
+11-10 19:31:01.505 15144 15193 I AmazonVideo: BackgroundThreadWriteSharedPreferences for FirebaseHeartBeatW0RFRkFVTFRd+MTozNTQ4MDA2NDUzMjk6YW5kcm9pZDo0YzY2NjQ0Zjg0NzUxNTBi initializeMemCache() took 0 ms
+11-10 19:31:01.506 15144 15144 D DesktopExperienceFlags: Toggle override initialized to: false
+11-10 19:31:01.507 15144 15144 D DesktopModeFlags: Toggle override initialized to: OVERRIDE_UNSET
+11-10 19:31:01.516 15144 15144 I AmazonVideo: Completed initialize for ConfigurationCache
+11-10 19:31:01.533 14476 14517 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=515: unexpected standardMetadataType=21
+11-10 19:31:01.533 15144 15144 I AmazonVideo: Entered initialize for QASettings
+11-10 19:31:01.533 15144 15144 I AmazonVideo: Completed initialize for QASettings
+11-10 19:31:01.533 15144 15144 I AmazonVideo: Entered initialize for PlaybackQASettings
+11-10 19:31:01.555 15144 15144 I AmazonVideo: Completed initialize for PlaybackQASettings
+11-10 19:31:01.555 15144 15144 I AmazonVideo: Qa mode is off.
+11-10 19:31:01.555 15144 15144 I AmazonVideo: Entered initialize for ParentalControls
+11-10 19:31:01.555 15144 15144 I AmazonVideo: Completed initialize for ParentalControls
+11-10 19:31:01.558 15144 15144 I AmazonVideo: Entered initialize for CacheComponent
+11-10 19:31:01.559 15144 15144 I AmazonVideo: Entered initialize for CachePersistence
+11-10 19:31:01.559 15144 15144 I AmazonVideo: Completed initialize for CachePersistence
+11-10 19:31:01.559 15144 15144 I AmazonVideo: Entered initialize for CacheExpiryTriggerer
+11-10 19:31:01.559 15144 15144 I AmazonVideo: Completed initialize for CacheExpiryTriggerer
+11-10 19:31:01.559 15144 15144 I AmazonVideo: Completed initialize for CacheComponent
+11-10 19:31:01.560 15144 15144 I AmazonVideo: Entered initialize for ServiceSessionManager
+11-10 19:31:01.560 15144 15144 I AmazonVideo: Completed initialize for ServiceSessionManager
+11-10 19:31:01.560 15144 15144 I AmazonVideo: Entered initialize for NetworkConnectionManager
+11-10 19:31:01.562 15144 15144 I AmazonVideo: Completed initialize for NetworkConnectionManager
+11-10 19:31:01.563 15144 15144 I AmazonVideo: Entered initialize for Localization:Primary
+11-10 19:31:01.567 15144 15144 I AmazonVideo: Entered initialize for SystemLocaleTracker
+11-10 19:31:01.567 15144 15144 I AmazonVideo: Completed initialize for SystemLocaleTracker
+11-10 19:31:01.582 15144 15144 I AmazonVideo: Completed initialize for Localization:Primary
+11-10 19:31:01.583 15144 15144 I AmazonVideo: Localization type at Initialization: InAppLocalization. Application locale: en_US. OS locale: en_US. Marketplace locale: Optional.of(en_US). Magellan V2 locale: Optional.of(en_US)
+11-10 19:31:01.583 15144 15144 I AmazonVideo: Entered initialize for PrimeVideoMediaSystemDependencies
+11-10 19:31:01.583 15144 15144 I AmazonVideo: Completed initialize for PrimeVideoMediaSystemDependencies
+11-10 19:31:01.583 15144 15206 I AmazonVideo: [AdvertisingId] Attempting to sync (from AdvertisingIdCache-update)...
+11-10 19:31:01.584 15144 15205 I AmazonVideo: Entered initialize for Localization:Secondary
+11-10 19:31:01.598   687  2390 I HWUI    : Davey! duration=1202ms; Flags=1, FrameTimelineVsyncId=235577, IntendedVsync=20160233658029, Vsync=20161166991325, InputEventId=0, HandleInputStart=20161169504099, AnimationStart=20161169504182, PerformTraversalsStart=20161169528516, DrawStart=20161372422307, FrameDeadline=20160250324695, FrameStartTime=20161169459349, FrameInterval=16666666, WorkloadTarget=16666666, SyncQueued=20161372721891, SyncStart=20161421255182, IssueDrawCommandsStart=20161421289932, SwapBuffers=20161426325349, FrameCompleted=20161484517974, DequeueBufferDuration=2417, QueueBufferDuration=57610250, GpuCompleted=20161433710974, SwapBuffersCompleted=20161484517974, DisplayPresentTime=0, CommandSubmissionCompleted=20161426325349, 
+11-10 19:31:01.608 15144 15205 I AmazonVideo: Entered initialize for StringOverridesFetcher
+11-10 19:31:01.608 15144 15205 I AmazonVideo: Completed initialize for StringOverridesFetcher
+11-10 19:31:01.609 15144 15144 I AmazonVideo: Entered initialize for LayoutInflaterFactoryHelper
+11-10 19:31:01.609 15144 15144 I AmazonVideo: Completed initialize for LayoutInflaterFactoryHelper
+11-10 19:31:01.609 15144 15144 I AmazonVideo: Entered initialize for AppVisibilityTracker
+11-10 19:31:01.611   687   709 W Looper  : Slow dispatch took 358ms android.ui app=system_server main=false group=TOP_APP h=android.view.Choreographer$FrameHandler c=android.view.Choreographer$FrameDisplayEventReceiver@d64b17c m=0
+11-10 19:31:01.612 15144 15203 I AmazonVideo: CachePersistence shared_prefs migration: skipping; complete with status: Final:Success
+11-10 19:31:01.615 14476 14517 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=519: unexpected standardMetadataType=21
+11-10 19:31:01.615 15144 15144 I AmazonVideo: Completed initialize for AppVisibilityTracker
+11-10 19:31:01.615 15144 15144 I AmazonVideo: Entered initialize for CustomerSessionManager
+11-10 19:31:01.615 15144 15203 I AmazonVideo: CachePersistence account migration: skipping; already done or not needed
+11-10 19:31:01.659 15144 15205 I AmazonVideo: DiskCacheHierarchy: created DiskCache for DiskSpec{location=FILES, owner=STRING_BUNDLES, customRoot=null}, null; now managing 1 instances. Root xxaivxx.
+11-10 19:31:01.667 15144 15204 I AmazonVideo: Network Change: DetailedNetworkInfo[type=NO_CONNECTION, class=NONE, state=NO_ACCESS, extra=0] --> DetailedNetworkInfo[type=WIFI, class=NONE, state=FULL_ACCESS, extra=0]
+11-10 19:31:01.667 15144 15144 I AmazonVideo: Completed initialize for CustomerSessionManager
+11-10 19:31:01.682 15144 15144 I AmazonVideo: Entered initialize for LocationStateMachineFactory
+11-10 19:31:01.702 15144 15144 I AmazonVideo: Completed initialize for LocationStateMachineFactory
+11-10 19:31:01.703 15144 15144 I AmazonVideo: Entered initialize for DialogBuilderFactory
+11-10 19:31:01.703 15144 15144 I AmazonVideo: Completed initialize for DialogBuilderFactory
+11-10 19:31:01.703 15144 15144 I AmazonVideo: Entered initialize for ToastProvider
+11-10 19:31:01.704 15144 15144 I AmazonVideo: Completed initialize for ToastProvider
+11-10 19:31:01.705 15144 15144 I AmazonVideo: Entered initialize for PlayerAudioFocusManager
+11-10 19:31:01.705 15144 15144 I AmazonVideo: Completed initialize for PlayerAudioFocusManager
+11-10 19:31:01.706 14476 14517 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=520: unexpected standardMetadataType=21
+11-10 19:31:01.706 15144 15144 I AmazonVideo: Entered initialize for CastContextSharedInstanceProvider
+11-10 19:31:01.706 15144 15144 I AmazonVideo: Completed initialize for CastContextSharedInstanceProvider
+11-10 19:31:01.707 15144 15209 I AmazonVideo: Entered initialize for DI:ThirdPartyApplication
+11-10 19:31:01.710   687  1013 D BackgroundInstallControlService: Package event received: 0
+11-10 19:31:01.715 15144 15209 I AmazonVideo: Entered initialize for MAPVersion
+11-10 19:31:01.715 15144 15209 I AmazonVideo: Completed initialize for MAPVersion
+11-10 19:31:01.715 15144 15209 I AmazonVideo: Entered initialize for AVODMAPPreinitialization:Dependencies
+11-10 19:31:01.715 15144 15209 I AmazonVideo: Completed initialize for AVODMAPPreinitialization:Dependencies
+11-10 19:31:01.715 15144 15209 I AmazonVideo: Entered initialize for AVODMAPInit:Dependencies
+11-10 19:31:01.715 15144 15209 I AmazonVideo: Completed initialize for AVODMAPInit:Dependencies
+11-10 19:31:01.715 15144 15209 I AmazonVideo: Entered initialize for AloysiusReportingExtensions:Dependencies
+11-10 19:31:01.716 15144 15209 I AmazonVideo: Completed initialize for AloysiusReportingExtensions:Dependencies
+11-10 19:31:01.717 15144 15205 I AmazonVideo: Successfully de-serialized model: StringBundleResponse
+11-10 19:31:01.742 15144 15205 I AmazonVideo: Fetching string overrides for locale en_US (en_US) which: updated strings were downloaded at runtime
+11-10 19:31:01.742 15144 15205 I AmazonVideo: BackgroundThreadWriteSharedPreferences for LocalizationPreferences initializeMemCache() took 0 ms
+11-10 19:31:01.743 15144 15205 I AmazonVideo: Waiting for Identity to initialize, current state NotInitialized
+11-10 19:31:01.743  1054  1186 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): null
+11-10 19:31:01.748 15144 15209 I AmazonVideo: Entered initialize for UIPlayerSdkHolder:Dependencies
+11-10 19:31:01.749 15144 15209 I AmazonVideo: Completed initialize for UIPlayerSdkHolder:Dependencies
+11-10 19:31:01.749 15144 15209 I AmazonVideo: Entered initialize for EventManager:Dependencies
+11-10 19:31:01.749 15144 15209 I AmazonVideo: Completed initialize for EventManager:Dependencies
+11-10 19:31:01.749 15144 15209 I AmazonVideo: Entered initialize for QueuedActionProcessor:Dependencies
+11-10 19:31:01.749 15144 15209 I AmazonVideo: Completed initialize for QueuedActionProcessor:Dependencies
+11-10 19:31:01.749 15144 15209 I AmazonVideo: Entered initialize for PurchaseComponents:Dependencies
+11-10 19:31:01.749 15144 15209 I AmazonVideo: Completed initialize for PurchaseComponents:Dependencies
+11-10 19:31:01.749 15144 15209 I AmazonVideo: Entered initialize for InAppBillingManagerSupplier:Dependencies
+11-10 19:31:01.749 15144 15209 I AmazonVideo: Completed initialize for InAppBillingManagerSupplier:Dependencies
+11-10 19:31:01.750   687  2434 D CoreBackPreview: Window{61f9493 u0 Splash Screen jakhar.aseem.diva EXITING}: Setting back callback null
+11-10 19:31:01.750   687   718 W ActivityManager: Rescheduling restart of crashed service com.android.settings/.SettingsDumpService in 40165748ms for other
+11-10 19:31:01.751 15144 15144 I AmazonVideo: Received CONNECTIVITY_ACTION intent. Refreshing network info.
+11-10 19:31:01.780 15144 15209 I AmazonVideo: Entered initialize for BookmarkCacheProxy:Dependencies
+11-10 19:31:01.780 15144 15209 I AmazonVideo: Completed initialize for BookmarkCacheProxy:Dependencies
+11-10 19:31:01.780 15144 15209 I AmazonVideo: Entered initialize for DownloadPersistenceInitializationTask:Dependencies
+11-10 19:31:01.780 15144 15209 I AmazonVideo: Completed initialize for DownloadPersistenceInitializationTask:Dependencies
+11-10 19:31:01.780 15144 15209 I AmazonVideo: Entered initialize for StorageHelper
+11-10 19:31:01.783 14476 14517 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=498: unexpected standardMetadataType=21
+11-10 19:31:01.809 15144 15209 D CompatChangeReporter: Compat change id reported: 312399441; UID 10217; state: ENABLED
+11-10 19:31:01.810   687   709 W Looper  : Drained
+11-10 19:31:01.816 15144 15209 I AmazonVideo: StorageHelper: An SD card slot has not been detected yet
+11-10 19:31:01.838 15144 15209 I AmazonVideo: Completed initialize for StorageHelper
+11-10 19:31:01.849 15144 15219 I AmazonVideo: BackgroundThreadWriteSharedPreferences for InternalPreferences initializeMemCache() took 0 ms
+11-10 19:31:01.850 15144 15219 I AmazonVideo: Waiting for Identity:MAPConnection to initialize, current state NotInitialized
+11-10 19:31:01.850 15144 15220 I AmazonVideo: Entered initialize for Identity:MAPConnection
+11-10 19:31:01.850 15144 15217 I AmazonVideo: Entered initialize for DeviceProperties
+11-10 19:31:01.850 15144 15217 I AmazonVideo: ATV PackageName: com.amazon.avod.thirdpartyclient
+11-10 19:31:01.850 15144 15217 I AmazonVideo: ATV Client Version: 3.0.435.4247
+11-10 19:31:01.850 15144 15217 I AmazonVideo: Waiting for AVODMAPInit to initialize, current state NotInitialized
+11-10 19:31:01.850 15144 15222 I AmazonVideo: Entered initialize for AVODMAPInit
+11-10 19:31:01.850 15144 15222 I AmazonVideo: Waiting for AVODMAPPreinitialization to initialize, current state NotInitialized
+11-10 19:31:01.850 15144 15221 I AmazonVideo: Entered initialize for ServiceClient
+11-10 19:31:01.851 15144 15223 I AmazonVideo: Entered initialize for AVODMAPPreinitialization
+11-10 19:31:01.851 15144 15223 I AmazonVideo: Entered initialize for ThirdPartyMetricsComponents
+11-10 19:31:01.871 15144 15224 I AmazonVideo: SessionId: retrieving latest sessionId.
+11-10 19:31:01.873 15144 15224 I AmazonVideo: Waiting for Identity to initialize, current state NotInitialized
+11-10 19:31:01.873 15144 15221 I AmazonVideo: Entered initialize for MetricsDebugger
+11-10 19:31:01.873 15144 15221 I AmazonVideo: Completed initialize for MetricsDebugger
+11-10 19:31:01.874 15144 15221 I AmazonVideo: Completed initialize for ServiceClient
+11-10 19:31:01.874 15144 15221 I AmazonVideo: Waiting for DeviceProperties to initialize, current state Initializing
+11-10 19:31:01.876 14476 14517 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=517: unexpected standardMetadataType=21
+11-10 19:31:01.876 15144 15220 I AmazonVideo: Entered initialize for PersistenceStore
+11-10 19:31:01.876 15144 15220 I AmazonVideo: Completed initialize for PersistenceStore
+11-10 19:31:01.877 15144 15220 I AmazonVideo: Last known value: Optional.of(IdentityPersistenceData{userId=null, profileId=null, marketplace=A2MFUE2XK8ZSSY, currentCountry=IN, vcr=IN})
+11-10 19:31:01.877 15144 15220 I AmazonVideo: Entered initialize for MobileWeblabManager
+11-10 19:31:01.877 15144 15220 I AmazonVideo: Waiting for DeviceProperties to initialize, current state Initializing
+11-10 19:31:01.877 15144 15223 W BaseMetricsServiceFacto: createMetricsService - Skipping batch pipeline setup for Priority NORMAL and Channel LOCATION because no configuration is provided.;
+11-10 19:31:01.878 15144 15223 W BaseMetricsServiceFacto: createMetricsService - Skipping batch pipeline setup for Priority NORMAL and Channel NON_ANONYMOUS because no configuration is provided.;
+11-10 19:31:01.878 15144 15223 W BaseMetricsServiceFacto: createMetricsService - Skipping batch pipeline setup for Priority HIGH and Channel LOCATION because no configuration is provided.;
+11-10 19:31:01.878 15144 15223 W BaseMetricsServiceFacto: createMetricsService - Skipping batch pipeline setup for Priority HIGH and Channel NON_ANONYMOUS because no configuration is provided.;
+11-10 19:31:01.878 15144 15223 W BaseMetricsServiceFacto: createMetricsService - Skipping batch pipeline setup for Priority CRITICAL and Channel LOCATION because no configuration is provided.;
+11-10 19:31:01.878 15144 15223 W BaseMetricsServiceFacto: createMetricsService - Skipping batch pipeline setup for Priority CRITICAL and Channel ANONYMOUS because no configuration is provided.;
+11-10 19:31:01.878 15144 15223 W BaseMetricsServiceFacto: createMetricsService - Skipping batch pipeline setup for Priority CRITICAL and Channel NON_ANONYMOUS because no configuration is provided.;
+11-10 19:31:01.880 15144 15223 I AmazonVideo: Completed initialize for ThirdPartyMetricsComponents
+11-10 19:31:01.880 15144 15223 I AmazonVideo: Completed initialize for AVODMAPPreinitialization
+11-10 19:31:01.881 15144 15222 W com.amazon.avod.thirdpartyclient/MetricsHelper: FireOS Minerva metrics not supported on this device.
+11-10 19:31:01.908 15144 15206 I AmazonVideo: [AdvertisingId] Updated successfully in 325 ms
+11-10 19:31:01.909 15144 15236 I AmazonVideo: Waiting for InsightsEventReporter to initialize, current state NotInitialized
+11-10 19:31:01.913 15144 15222 W com.amazon.avod.thirdpartyclient/AmazonAuthenticatorPluginHelper: AmazonAuthenticatorPlugin is not supported - not running in mShop app
+11-10 19:31:01.944   687  1034 W ImageReader_JNI: Unable to acquire a buffer item, very likely client tried to acquire more than maxImages buffers
+11-10 19:31:01.944 14476 14517 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=506: unexpected standardMetadataType=21
+11-10 19:31:01.950 15144 15214 E AmazonMinervaAndroidCli: Metric Event does not contain any key value pairs.
+11-10 19:31:01.998   687  3644 I WifiService: acquireWifiLock uid=10217 lockMode=3 packageName=com.amazon.avod.thirdpartyclient
+11-10 19:31:02.019  7247  7247 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.fido.fido2.regular.START xflg=0x4 pkg=com.google.android.gms }
+11-10 19:31:02.019  7247  7247 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.fido.fido2.regular.START xflg=0x4 pkg=com.google.android.gms }
+11-10 19:31:02.026 15144 15222 W com.amazon.avod.thirdpartyclient/WhatsAppAutoreadPluginHelper: WhatsAppAutoreadPlugin is not supported for this package: com.amazon.avod.thirdpartyclient
+11-10 19:31:02.027 15144 15222 I AmazonVideo: Completed initialize for AVODMAPInit
+11-10 19:31:02.034 15144 15252 I AmazonVideo: BackgroundThreadWriteSharedPreferences for Lambortish_Clock_Store initializeMemCache() took 0 ms
+11-10 19:31:02.036 14476 14517 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=502: unexpected standardMetadataType=21
+11-10 19:31:02.046 15144 15256 I AmazonVideo: BackgroundThreadWriteSharedPreferences for sync_dirty_data_store initializeMemCache() took 0 ms
+11-10 19:31:02.053 15144 15252 I AmazonVideo: BackgroundThreadWriteSharedPreferences for SSOInfo.config initializeMemCache() took 0 ms
+11-10 19:31:02.056 15144 15252 E com.amazon.avod.thirdpartyclient/MultipleAccountsLogic: No account mapping found for any account, returning null
+11-10 19:31:02.056 15144 15214 E com.amazon.avod.thirdpartyclient/MultipleAccountsLogic: No account mapping found for any account, returning null
+11-10 19:31:02.056 15144 15214 W TComm.DirectorServiceCl: updateMaketPlaceId - Could not get market place ID from MAP. We might have to use US Amazon market place id to talk to Director Service; ex
+11-10 19:31:02.056 15144 15214 W TComm.DirectorServiceCl: com.amazon.communication.directorservice.DirectorServiceClient$GetMarketplaceIdFailedException: Could not determine encrypted marketplace id as this device is not registered.
+11-10 19:31:02.056 15144 15214 W TComm.DirectorServiceCl: 	at com.amazon.communication.directorservice.DirectorServiceClient$PfmFactory.getMarketplaceId(DirectorServiceClient.java:527)
+11-10 19:31:02.056 15144 15214 W TComm.DirectorServiceCl: 	at com.amazon.communication.directorservice.DirectorServiceClient.updateInfoFromMAP(DirectorServiceClient.java:366)
+11-10 19:31:02.056 15144 15214 W TComm.DirectorServiceCl: 	at com.amazon.communication.directorservice.DirectorServiceClient.initialize(DirectorServiceClient.java:160)
+11-10 19:31:02.056 15144 15214 W TComm.DirectorServiceCl: 	at com.amazon.communication.TCommService.createDirectorServiceClient(TCommService.java:1359)
+11-10 19:31:02.056 15144 15214 W TComm.DirectorServiceCl: 	at com.amazon.communication.TCommService.backgroundInitialization(TCommService.java:531)
+11-10 19:31:02.056 15144 15214 W TComm.DirectorServiceCl: 	at com.amazon.communication.TCommService$5.call(TCommService.java:465)
+11-10 19:31:02.056 15144 15214 W TComm.DirectorServiceCl: 	at com.amazon.communication.TCommService$5.call(TCommService.java:463)
+11-10 19:31:02.056 15144 15214 W TComm.DirectorServiceCl: 	at com.amazon.communication.WakeLockHoldingScheduledThreadPoolExecutor$WakeLockHoldingCallable.call(WakeLockHoldingScheduledThreadPoolExecutor.java:218)
+11-10 19:31:02.056 15144 15214 W TComm.DirectorServiceCl: 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+11-10 19:31:02.056 15144 15214 W TComm.DirectorServiceCl: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:348)
+11-10 19:31:02.056 15144 15214 W TComm.DirectorServiceCl: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+11-10 19:31:02.056 15144 15214 W TComm.DirectorServiceCl: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+11-10 19:31:02.056 15144 15214 W TComm.DirectorServiceCl: 	at java.lang.Thread.run(Thread.java:1563)
+11-10 19:31:02.056 15144 15214 W TComm.DirectorServiceCl: 	at com.dp.utils.DpBackgroundThreadFactory$1.run(DpBackgroundThreadFactory.java:46)
+11-10 19:31:02.063 15144 15217 I AmazonVideo: Used packageDeviceTypeIdKey: (com.amazon.avod.thirdpartyclient/DeviceType) to set result: (A43PXU4ZN2AL1)
+11-10 19:31:02.070 15144 15217 I AmazonVideo: Finished initializing deviceProperties from MAP. deviceTypeId=A43PXU4ZN2AL1, deviceId=xxaivxx, devicePlatform=ThirdParty
+11-10 19:31:02.080   687  1096 D FileUtils: Rounded bytes from 2067193856 to 4000000000
+11-10 19:31:02.080 15144 15217 I AmazonVideo: Completed initialize for DeviceProperties
+11-10 19:31:02.085 15144 15198 I AmazonVideo: Completed initialize for MinervaReporter
+11-10 19:31:02.085 15144 15221 I AmazonVideo: Waiting for Identity:MAPConnection to initialize, current state Initializing
+11-10 19:31:02.086 15144 15220 I AmazonVideo: MobileWeblab: not supported for A2MFUE2XK8ZSSY/null; leaving as is
+11-10 19:31:02.086   687  1760 W TelephonyPermissions: reportAccessDeniedToReadIdentifiers:com.amazon.avod.thirdpartyclient:getSerial:-1
+11-10 19:31:02.088 15144 15220 I AmazonVideo: Completed initialize for MobileWeblabManager
+11-10 19:31:02.088 15144 15220 I AmazonVideo: Entered initialize for WeblabClientProxyProvider
+11-10 19:31:02.088 15144 15220 I AmazonVideo: Completed initialize for WeblabClientProxyProvider
+11-10 19:31:02.088 15144 15220 I AmazonVideo: Entered initialize for AccountManager
+11-10 19:31:02.088 15144 15220 I AmazonVideo: Completed initialize for AccountManager
+11-10 19:31:02.088 15144 15220 I AmazonVideo: Completed initialize for Identity:MAPConnection
+11-10 19:31:02.089 15144 15220 I AmazonVideo: Waiting for Identity to initialize, current state NotInitialized
+11-10 19:31:02.089 15144 15219 I AmazonVideo: Entered initialize for Identity
+11-10 19:31:02.090 15144 15221 I AmazonVideo: Entered initialize for ServiceClientSharedComponents
+11-10 19:31:02.090 15144 15221 I AmazonVideo: Completed initialize for ServiceClientSharedComponents
+11-10 19:31:02.090 15144 15221 I AmazonVideo: Entered initialize for ImageMemoryConfig
+11-10 19:31:02.090 15144 15221 I AmazonVideo: Completed initialize for ImageMemoryConfig
+11-10 19:31:02.090 15144 15221 I AmazonVideo: Entered initialize for PlaceholderImageCache
+11-10 19:31:02.090 15144 15221 I AmazonVideo: Completed initialize for PlaceholderImageCache
+11-10 19:31:02.090 15144 15221 I AmazonVideo: Entered initialize for LocationCoordinator
+11-10 19:31:02.091 15144 15221 I AmazonVideo: Completed initialize for LocationCoordinator
+11-10 19:31:02.091 15144 15221 I AmazonVideo: Entered initialize for AVODClickstream
+11-10 19:31:02.091 15144 15221 I AmazonVideo: Entered initialize for Clickstream
+11-10 19:31:02.092 15144 15257 E DSN     : Cannot get Build.getSerial(). No READ_PHONE_STATE or READ_PRIVILEGED_PHONE_STATE permission granted
+11-10 19:31:02.092 15144 15257 E TComm.RemoteSettingMana: AttributeUtils - Can't find DSN from Digisec;
+11-10 19:31:02.096 15144 15221 I AmazonVideo: Entered initialize for ClickstreamUILogger
+11-10 19:31:02.096 15144 15221 I AmazonVideo: Completed initialize for ClickstreamUILogger
+11-10 19:31:02.096 15144 15221 I AmazonVideo: Completed initialize for Clickstream
+11-10 19:31:02.096 15144 15221 I AmazonVideo: Completed initialize for AVODClickstream
+11-10 19:31:02.096 15144 15221 I AmazonVideo: Entered initialize for UserActivityHistoryProvider
+11-10 19:31:02.096 15144 15221 I AmazonVideo: Completed initialize for UserActivityHistoryProvider
+11-10 19:31:02.096 15144 15221 I AmazonVideo: Entered initialize for SunsetInitiatorSupplier
+11-10 19:31:02.096 15144 15221 I AmazonVideo: Completed initialize for SunsetInitiatorSupplier
+11-10 19:31:02.096 15144 15221 I AmazonVideo: Entered initialize for Downloads
+11-10 19:31:02.097 15144 15221 I AmazonVideo: Completed initialize for Downloads
+11-10 19:31:02.097 15144 15221 I AmazonVideo: Entered initialize for PostManifestService
+11-10 19:31:02.097 15144 15221 I AmazonVideo: Completed initialize for PostManifestService
+11-10 19:31:02.097 15144 15221 I AmazonVideo: Waiting for Identity to initialize, current state Initializing
+11-10 19:31:02.097 15144 15219 I AmazonVideo: Entered initialize for SingleAdultManager
+11-10 19:31:02.097 15144 15219 E com.amazon.avod.thirdpartyclient/MultipleAccountsLogic: No account mapping found for any account, returning null
+11-10 19:31:02.097 15144 15219 I AmazonVideo: Entered initialize for MarketplaceManagerHelper
+11-10 19:31:02.097 15144 15219 I AmazonVideo: Completed initialize for MarketplaceManagerHelper
+11-10 19:31:02.097 15144 15219 I AmazonVideo: Refreshing HouseholdInfo from app cache...
+11-10 19:31:02.098 15144 15219 I AmazonVideo: Identity successfully de-serialized household info from app cache: HouseholdInfo{users=Users{current=null, isOwner=true, device=null, externalMarketplace=null}, profiles=Profiles{currentProfile=null, numProfiles=0, canCreate=false, status=UNAVAILABLE_NOT_REGISTERED}, videoRegion=VideoRegion{vcr=IN, avMarketplace=A2MFUE2XK8ZSSY, currentCountry=IN, homeRegion=EU}}
+11-10 19:31:02.098 15144 15219 I AmazonVideo: Completed initialize for SingleAdultManager
+11-10 19:31:02.100 15144 15217 D nativeloader: Load /data/app/~~ZLPB1Iq-e4tmbCjPfA629g==/com.amazon.avod.thirdpartyclient-H7PQgkg1wKtbWJ_j_h2xaQ==/base.apk!/lib/arm64-v8a/libcrashmanager-ndk.so using class loader ns clns-9 (caller=/data/app/~~ZLPB1Iq-e4tmbCjPfA629g==/com.amazon.avod.thirdpartyclient-H7PQgkg1wKtbWJ_j_h2xaQ==/base.apk!classes9.dex): ok
+11-10 19:31:02.100 15144 15217 I AmazonVideo: ContactUs: initialized crash detection: full init
+11-10 19:31:02.100 15144 15217 I AmazonVideo: ContactUs: log reporting initialized
+11-10 19:31:02.100 15144 15252 W com.amazon.avod.thirdpartyclient/WhatsAppAutoreadPluginHelper: WhatsAppAutoreadPlugin is not supported for this package: com.amazon.avod.thirdpartyclient
+11-10 19:31:02.103 15144 15217 I AmazonVideo: Entered initialize for DeviceCapabilities
+11-10 19:31:02.103 15144 15217 I AmazonVideo: Completed initialize for DeviceCapabilities
+11-10 19:31:02.103 15144 15217 I AmazonVideo: Waiting for AloysiusReportingExtensions to initialize, current state NotInitialized
+11-10 19:31:02.103 15144 15259 I AmazonVideo: Entered initialize for AloysiusReportingExtensions
+11-10 19:31:02.103 15144 15259 I SQLiteDatabase: can't enable WAL for memory databases.
+11-10 19:31:02.103 15144 15259 E AmazonVideo: ERROR: Write ahead logging could not be enabled for a writable database connection: null
+11-10 19:31:02.103 15144 15259 I AmazonVideo: Creating table "mediaEvent" in database "null"
+11-10 19:31:02.103 15144 15259 I AmazonVideo: Creating indexes for table "mediaEvent"
+11-10 19:31:02.103 15144 15259 I SQLiteDatabase: can't enable WAL for memory databases.
+11-10 19:31:02.103 15144 15259 E AmazonVideo: ERROR: Write ahead logging could not be enabled for a writable database connection: null
+11-10 19:31:02.103 15144 15259 I AmazonVideo: Created database "null"
+11-10 19:31:02.103 15144 15259 I SQLiteDatabase: can't enable WAL for memory databases.
+11-10 19:31:02.103 15144 15259 E AmazonVideo: ERROR: Write ahead logging could not be enabled for a writable database connection: null
+11-10 19:31:02.103 15144 15259 I AmazonVideo: Completed initialize for AloysiusReportingExtensions
+11-10 19:31:02.104 15144 15219 I AmazonVideo: Last known value: Optional.of(IdentityPersistenceData{userId=null, profileId=null, marketplace=A2MFUE2XK8ZSSY, currentCountry=IN, vcr=IN})
+11-10 19:31:02.104 15144 15219 I AmazonVideo: Last known value: Optional.of(IdentityPersistenceData{userId=null, profileId=null, marketplace=A2MFUE2XK8ZSSY, currentCountry=IN, vcr=IN})
+11-10 19:31:02.104 15144 15219 I AmazonVideo: IdentityChangeTrigger{result=match, current=HouseholdInfo{users=Users{current=null, isOwner=true, device=null, externalMarketplace=null}, profiles=Profiles{currentProfile=null, numProfiles=0, canCreate=false, status=UNAVAILABLE_NOT_REGISTERED}, videoRegion=VideoRegion{vcr=IN, avMarketplace=A2MFUE2XK8ZSSY, currentCountry=IN, homeRegion=EU}}, persisted=IdentityPersistenceData{userId=null, profileId=null, marketplace=A2MFUE2XK8ZSSY, currentCountry=IN, vcr=IN}}
+11-10 19:31:02.104 15144 15219 I AmazonVideo: Completed initialize for Identity
+11-10 19:31:02.104 15144 15217 I AmazonVideo: Entered initialize for PVTelemetrySDK
+11-10 19:31:02.105 15144 15205 I AmazonVideo: Localization.Type set to IN_APP
+11-10 19:31:02.108 15144 15220 I AmazonVideo: Entered initialize for SyncScheduler
+11-10 19:31:02.108 15144 15220 I AmazonVideo: Completed initialize for SyncScheduler
+11-10 19:31:02.108 15144 15221 I AmazonVideo: Entered initialize for ResiliencyCoordinator
+11-10 19:31:02.109 15144 15221 I AmazonVideo: Completed initialize for ResiliencyCoordinator
+11-10 19:31:02.109 15144 15217 I System.out: [FileBasedOfflineStorage] Initialized with directory: /data/user/0/com.amazon.avod.thirdpartyclient/cache/telemetry/events_events, max storage: 500MB
+11-10 19:31:02.109 15144 15217 I System.out: [Timer-MemoryQueue-to-Storage] Stopped
+11-10 19:31:02.109 15144 15217 I System.out: [Timer-MemoryQueue-to-Storage] Started with period: 3000ms
+11-10 19:31:02.109 15144 15217 I System.out: [TelemetryQueue] Initialized with offline storage. Memory queue max: 5, flush interval: 3000ms, storage limit: 500MB
+11-10 19:31:02.110 15144 15261 I System.out: [FileBasedOfflineStorage] No pending files found to delete
+11-10 19:31:02.110 15144 15261 I System.out: [BackgroundCleanupService] Cleaned up 1 orphaned processing files
+11-10 19:31:02.110 15144 15261 I System.out: [BackgroundCleanupService] Background cleanup completed
+11-10 19:31:02.111 15144 15260 I AmazonVideo: DiskCacheHierarchy: created DiskCache for DiskSpec{location=CACHE, owner=DEFAULT, customRoot=null}, null; now managing 2 instances. Root xxaivxx.
+11-10 19:31:02.112 15144 15205 I AmazonVideo: Locale did not change (LocaleInfo{locale=en_US, localeResolutionReason=OS_LANGUAGE, supportedLocales=[es_419, es_ES, fr_FR, it_IT, pt_BR, en_US, de_DE, nl_NL, pl_PL, hi_IN, sv_SE, nb_NO, da_DK, ta_IN, te_IN, fi_FI, tr_TR, id_ID, zh_CN, zh_TW, ru_RU, ko_KR, th_TH, pt_PT, ja_JP, fil_PH, ms_MY, ar_AE, he_IL, el_GR, ro_RO, hu_HU, cs_CZ], localizationErrorCode=Optional.absent()}) no action required. Application locale: Optional.absent(), OS locale: en_US
+11-10 19:31:02.113 15144 15205 I AmazonVideo: Localization type at Secondary Initialization: InAppLocalization. Application locale: en_US. OS locale: en_US. Marketplace locale: Optional.of(en_US). Magellan V2 locale: Optional.of(en_US)
+11-10 19:31:02.113 15144 15205 I AmazonVideo: Completed initialize for Localization:Secondary
+11-10 19:31:02.116 15144 15260 I AmazonVideo: Successfully de-serialized model: ResiliencyResponse
+11-10 19:31:02.116 15144 15217 I System.out: [ContextPersistence] Sequence state loaded
+11-10 19:31:02.116 15144 15217 I System.out: [TelemetryLifecycle] App restart detected, loading saved state
+11-10 19:31:02.116 15144 15217 I System.out: [DeduplicationProcessor] Context map reset
+11-10 19:31:02.116 15144 15217 W System.err: [TelemetryLifecycle] Error during app restart handling: Attempt to invoke virtual method 'com.amazon.pvtelemetryclientsdkjava.contextual.PrefixProcessor com.amazon.pvtelemetryclientsdkjava.batching.TelemetryBatchManager.getPrefixProcessor()' on a null object reference
+11-10 19:31:02.116 15144 15217 I System.out: [ContextualEvents] Built 0 contextual events
+11-10 19:31:02.116 15144 15217 I System.out: [SequenceManager] First session initialized
+11-10 19:31:02.116 15144 15217 I System.out: [Timer-Storage-to-Network] Stopped
+11-10 19:31:02.116 15144 15217 I System.out: [Timer-Storage-to-Network] Started with period: 60000ms
+11-10 19:31:02.116 15144 15217 I System.out: [Timer-Context-Cleanup] Stopped
+11-10 19:31:02.116 15144 15217 I System.out: [Timer-Context-Cleanup] Started with period: 3600000ms
+11-10 19:31:02.116 15144 15217 I System.out: Bootstrapping with the telemetry endpoint...
+11-10 19:31:02.116 15144 15217 I System.out: [ResourceUsageCollector] Battery provider registered
+11-10 19:31:02.116 15144 15217 I System.out: [ResourceUsageCollector] Auto-starting collection - providers available
+11-10 19:31:02.116 15144 15217 I System.out: [ResourceUsage-Collector] Stopped
+11-10 19:31:02.116 15144 15217 I System.out: [ResourceUsage-Collector] Started with period: 60000ms
+11-10 19:31:02.116 15144 15217 I System.out: [ResourceUsageCollector] Started collection with interval: 60000ms
+11-10 19:31:02.116 15144 15217 I System.out: [ResourceUsageCollector] CPU provider registered
+11-10 19:31:02.116 15144 15217 I System.out: [ResourceUsageCollector] Memory provider registered
+11-10 19:31:02.116 15144 15217 I System.out: [ResourceUsageCollector] Storage provider registered
+11-10 19:31:02.116 15144 15217 I System.out: [TelemetryReporter] Android consolidated resource provider registered - all resource types required
+11-10 19:31:02.116 15144 15217 I AmazonVideo: Telemetry Resource Provider registered
+11-10 19:31:02.116 15144 15217 I AmazonVideo: Completed initialize for PVTelemetrySDK
+11-10 19:31:02.116 15144 15265 I System.out: Cannot yet emit batches since the bootstrap call has not returned.
+11-10 19:31:02.116 15144 15265 I System.out: Batch reporting cycle is complete. Waiting until next wake up...
+11-10 19:31:02.120 15144 15267 I AmazonVideo: Battery Info: BatteryInfo{Status=NOT_CHARGING, Health=GOOD, Power source=NOT_PLUGGED, Level=100.0, Temperature=250, Voltage=5000}
+11-10 19:31:02.121 15144 15260 I AmazonVideo: StalenessTracker(ResiliencyConfigRequest) loaded ResponseManifest{key={xxaivxx//}, status={NeverStale/Trigger:ClearCachedData}}
+11-10 19:31:02.123   687  3644 D FileUtils: Rounded bytes from 2067193856 to 4000000000
+11-10 19:31:02.128 15144 15267 I System.out: [ResourceUsageCollector] Reporting all available data: battery=true, cpu=true, memory=1, storage=2
+11-10 19:31:02.138 15144 15272 I AmazonVideo: Resiliency: Making network call to fetch ResiliencyConfig data
+11-10 19:31:02.139 15144 15272 D AmazonVideo.http: Received Request@48e003c[GET https://abxc3apcastp.zaz.api.amazonvideo.com/acm/GetConfiguration/AppResiliency?clientName=ATVAndroidThirdPartyClient&deviceGroup=android&<REMOVED>&deviceTypeID=A43PXU4ZN2AL1&firmware=fmw%3A36-app%3A3.0.435.4247&format=json&osLocale=en_US&screenDensity=DEFAULT&screenWidth=sw360dp&softwareVersion=435&supportsPKMZ=false&territory=in&uxLocale=en_US&version=v3&virtualStageBucket=14_100] from thread ServerDrivenCache:ResiliencyConfigRequest-0
+11-10 19:31:02.141   687  3644 I WifiService: acquireWifiLock uid=10217 lockMode=1 packageName=com.amazon.avod.thirdpartyclient
+11-10 19:31:02.154 15144 15277 I AmazonVideo.http: ConnectivityChecker: Network state changed: null --> CONNECTED
+11-10 19:31:02.154   687   717 W ActivityManager: Rescheduling restart of crashed service com.android.settings/.SettingsDumpService in 40165344ms for mem-pressure-event
+11-10 19:31:02.219 15144 15209 I AmazonVideo: Completed initialize for DI:ThirdPartyApplication
+11-10 19:31:02.219 15144 15219 I AmazonVideo: Entered initialize for AssociateTagProviderProxy
+11-10 19:31:02.219 15144 15219 I AmazonVideo: Completed initialize for AssociateTagProviderProxy
+11-10 19:31:02.219 15144 15221 I AmazonVideo: Entered initialize for AssociateTagManagerImpl
+11-10 19:31:02.219 15144 15221 I AmazonVideo: Entered initialize for PartnerNameRetriever
+11-10 19:31:02.219 15144 15221 I AmazonVideo: Completed initialize for PartnerNameRetriever
+11-10 19:31:02.219 15144 15221 I AmazonVideo: Completed initialize for AssociateTagManagerImpl
+11-10 19:31:02.220 15144 15144 I AmazonVideo: AppVisitTracker: Initialized
+11-10 19:31:02.220 15144 15144 I AmazonVideo: ContactUs: contact-us activity initialized
+11-10 19:31:02.220 15144 15144 I AmazonVideo: Battery Info: BatteryInfo{Status=NOT_CHARGING, Health=GOOD, Power source=NOT_PLUGGED, Level=100.0, Temperature=250, Voltage=5000}
+11-10 19:31:02.293   687  3644 D CompatChangeReporter: Compat change id reported: 297989574; UID 10217; state: ENABLED
+11-10 19:31:02.304 15144 15214 W TComm.MessageRouterImpl: deregisterMessageHandler - nothing to do; channel: 101
+11-10 19:31:02.310 15144 15214 E AmazonMinervaAndroidCli: Metric Event does not contain any key value pairs.
+11-10 19:31:02.313   687   703 W ActivityManager: Unable to start service Intent { xflg=0x4 cmp=com.amazon.avod.thirdpartyclient/com.amazon.communication.GatewayConnectionService } U=0: not found
+11-10 19:31:02.321   687   703 W ActivityManager: Unable to start service Intent { xflg=0x4 cmp=com.amazon.avod.thirdpartyclient/com.amazon.communication.S2DMService } U=0: not found
+11-10 19:31:02.323 15144 15214 E AmazonMinervaAndroidCli: Metric Event does not contain any key value pairs.
+11-10 19:31:02.514 15164 15169 I khar.aseem.diva: Compiler allocated 5145KB to compile void android.view.ViewRootImpl.performTraversals()
+11-10 19:31:02.522 15144 15261 I System.out: Bootstrap successful: appInstanceId=2b22933c-dd0f-11f1-8aba-71c06ee29d53, modifier=2
+11-10 19:31:02.522 15144 15261 I System.out: [Validation] Received unexpected response type, using default response
+11-10 19:31:02.522 15144 15261 I System.out: Bootstrap successful with appInstanceId: 2b22933c-dd0f-11f1-8aba-71c06ee29d53
+11-10 19:31:02.522 15144 15261 I System.out: Telemetry SDK (version 4.1) bootstrapping complete with appInstanceId: 2b22933c-dd0f-11f1-8aba-71c06ee29d53
+11-10 19:31:02.522 15144 15261 I System.out: [ContextPersistence] Sequence state loaded
+11-10 19:31:02.522 15144 15261 I System.out: [ContextPersistence] Sequence state loaded
+11-10 19:31:02.522 15144 15261 I System.out: [SequenceManager] Initialized after restart - oldBatchSeq=0, oldEventSeq=0, oldSequence=0, oldAppInstanceId=e0834c17-e490-11f0-a3d1-f7f55da57293, starting phase=OLD
+11-10 19:31:02.522 15144 15263 I System.out: [ContextPersistence] Sequence state loaded
+11-10 19:31:02.522 15144 15263 I System.out: [TelemetryLifecycle] Preserving potentially valid file that failed to parse: queued_1794319249120_3155_422.json
+11-10 19:31:02.523 15144 15263 I System.out: [TelemetryLifecycle] Deleted corrupted file: queued_1767023852201_3014_419.json
+11-10 19:31:02.523 15144 15263 I System.out: [TelemetryLifecycle] Startup cleanup complete: 0 orphaned files, 1 corrupted files deleted
+11-10 19:31:02.524 15144 15261 I System.out: Periodic batch reporting is now enabled.
+11-10 19:31:02.540 15144 15277 I AmazonVideo.http: FetchFromServer: (397ms, #1) Completed Request@48e003c[GET https://abxc3apcastp.zaz.api.amazonvideo.com/acm/GetConfiguration/AppResiliency?clientName=ATVAndroidThirdPartyClient&deviceGroup=android&<REMOVED>&deviceTypeID=A43PXU4ZN2AL1&firmware=fmw%3A36-app%3A3.0.435.4247&format=json&osLocale=en_US&screenDensity=DEFAULT&screenWidth=sw360dp&softwareVersion=435&supportsPKMZ=false&territory=in&uxLocale=en_US&version=v3&virtualStageBucket=14_100]
+11-10 19:31:02.541   687  3644 I WifiService: releaseWifiLock uid=10217
+11-10 19:31:02.548 15144 15289 D AmazonVideo.http: Non-CRC - ZAZ - abxc3apcastp.zaz.api.amazonvideo.com/acm/GetConfiguration/AppResiliency
+11-10 19:31:02.548 15144 15272 I AmazonVideo: StalenessTracker(ResiliencyConfigRequest) loaded ResponseManifest{key={xxaivxx//}, status={NeverStale/Trigger:ClearCachedData}}
+11-10 19:31:02.550 15144 15272 I AmazonVideo: StalenessTracker(ResiliencyConfigRequest) set fresh - ResponseManifest{key={xxaivxx//}, status={null/null}}
+11-10 19:31:02.561 15144 15144 D CompatChangeReporter: Compat change id reported: 311402873; UID 10217; state: ENABLED
+11-10 19:31:02.561 15144 15144 D CompatChangeReporter: Compat change id reported: 323349338; UID 10217; state: ENABLED
+11-10 19:31:02.561 15144 15144 W JobInfo : Job 'com.amazon.avod.thirdpartyclient/com.amazon.communication.remotesetting.ConfigurationSyncService#68439' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+11-10 19:31:02.561   687  3644 D CompatChangeReporter: Compat change id reported: 311402873; UID 10217; state: ENABLED
+11-10 19:31:02.561   687  3644 D CompatChangeReporter: Compat change id reported: 323349338; UID 10217; state: ENABLED
+11-10 19:31:02.561   687  3644 W JobInfo : Job 'com.amazon.avod.thirdpartyclient/com.amazon.communication.remotesetting.ConfigurationSyncService#68439' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+11-10 19:31:02.569 15144 15292 I AmazonVideo: BackgroundThreadWriteSharedPreferences for arn:aws:remote-config:us-west-2:487614624751:appConfig:acs83fgk_configuration.prefs initializeMemCache() took 0 ms
+11-10 19:31:02.890 14476 14532 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=501: unexpected standardMetadataType=21
+11-10 19:31:02.917 14476 14532 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=499: unexpected standardMetadataType=21
+11-10 19:31:02.919  7247  7247 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.feedback.internal.IFeedbackService dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+11-10 19:31:02.950 14476 14532 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=497: unexpected standardMetadataType=21
+11-10 19:31:02.983 14476 14532 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=509: unexpected standardMetadataType=21
+11-10 19:31:03.000 14476 14532 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=511: unexpected standardMetadataType=21
+11-10 19:31:03.016 14476 14535 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=510: unexpected standardMetadataType=21
+11-10 19:31:03.024  7422 14396 I Finsky  : [171] Successfully collected the device disk space info.
+11-10 19:31:03.024  7422 14398 I Finsky  : [172] Successfully collected the device disk space info.
+11-10 19:31:03.024  7422 15294 I Finsky  : [192] Successfully collected the device disk space info.
+11-10 19:31:03.026   687   703 I WifiService: releaseWifiLock uid=10217
+11-10 19:31:03.027   687  1013 D BackgroundInstallControlService: Package event received: 0
+11-10 19:31:03.050 14476 14535 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=512: unexpected standardMetadataType=21
+11-10 19:31:03.052   687  3644 I WifiService: acquireWifiLock uid=10217 lockMode=3 packageName=com.amazon.avod.thirdpartyclient
+11-10 19:31:03.082 14476 14535 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=513: unexpected standardMetadataType=21
+11-10 19:31:03.089 14304 14308 W droid.deskclock: userfaultfd: MOVE ioctl seems unsupported: Connection timed out
+11-10 19:31:03.097 15144 15240 I AmazonVideo: BackgroundThreadWriteSharedPreferences for com.amazon.minerva.client.thirdparty.persistedConfigValues initializeMemCache() took 0 ms
+11-10 19:31:03.116 14476 14535 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=514: unexpected standardMetadataType=21
+11-10 19:31:03.133 14476 14535 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=516: unexpected standardMetadataType=21
+11-10 19:31:03.148 14476 14535 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=518: unexpected standardMetadataType=21
+11-10 19:31:03.182 14476 14535 E mapper.ranchu: getStandardMetadataImpl:886 failure: UNSUPPORTED: id=515: unexpected standardMetadataType=21
+11-10 19:31:03.372  7422 15294 I Finsky  : [192] Successfully collected the device disk space info.
+11-10 19:31:03.431 15300 15300 W libbinder.BackendUnifiedServiceManager: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: activity
+11-10 19:31:03.489 15303 15303 W libbinder.BackendUnifiedServiceManager: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+11-10 19:31:03.489 15303 15303 W libbinder.BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+11-10 19:31:03.489 15303 15303 W libbinder.ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.

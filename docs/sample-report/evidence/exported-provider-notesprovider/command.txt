@@ -1,0 +1,21 @@
+$ adb shell content query --uri content://jakhar.aseem.diva.provider.notesprovider/notes
+
+$ adb shell content query --uri content://jakhar.aseem.diva.provider.notesprovider/notes
+Row: 0 _id=5, title=Exercise, note=Alternate days running
+Row: 1 _id=4, title=Expense, note=Spent too much on home theater
+Row: 2 _id=6, title=Weekend, note=b333333333333r
+Row: 3 _id=3, title=holiday, note=Either Goa or Amsterdam
+Row: 4 _id=2, title=home, note=Buy toys for baby, Order dinner
+Row: 5 _id=1, title=office, note=10 Meetings. 5 Calls. Lunch with CEO
+
+$ adb shell content query --uri content://jakhar.aseem.diva.provider.notesprovider/
+Error while accessing provider:jakhar.aseem.diva.provider.notesprovider
+java.lang.IllegalArgumentException: Divanotes(query): Unknown URI content://jakhar.aseem.diva.provider.notesprovider/
+	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:207)
+	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:177)
+	at android.content.ContentProviderProxy.query(ContentProviderNative.java:495)
+	at com.android.commands.content.Content$QueryCommand.onExecute(Content.java:661)
+	at com.android.commands.content.Content$Command.execute(Content.java:522)
+	at com.android.commands.content.Content.main(Content.java:735)
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:366)

@@ -25,6 +25,7 @@ class CheckContext:
     root: bool = False  # adbd runs as root (needed to read the app sandbox).
     session_logcat: str = ""  # logcat captured right after the app launched.
     frida_path: str | None = None
+    content_uris: list = field(default_factory=list)  # content:// literals found in the APK.
     sleep: Callable[[float], None] = field(default=time.sleep)
 
 

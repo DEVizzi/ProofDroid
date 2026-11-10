@@ -13,8 +13,8 @@ short, ranked report where every finding is **Confirmed**, **Unconfirmed** or **
 - [Install guide and usage](https://github.com/DEVizzi/ProofDroid#quick-start)
 - [Sample report (HTML)](sample-report/report.html) · [Markdown](sample-report/report.md)
 
-> The sample comes from a synthetic MobSF report run with `--no-dynamic`, so every item shows
-> *Not testable*. Run it against DIVA or InsecureBankv2 to see Confirmed findings with evidence.
+> Real run against DIVA on an Android 16 emulator (built-in static engine, no root):
+> 3 Confirmed with evidence, including private notes read from an exported content provider.
 
 ## What it verifies today
 

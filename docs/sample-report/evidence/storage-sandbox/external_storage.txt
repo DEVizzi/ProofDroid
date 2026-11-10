@@ -1,0 +1,5 @@
+$ ls -lR /sdcard/Android/data/jakhar.aseem.diva
+
+
+Files with sensitive keywords:
+(none)

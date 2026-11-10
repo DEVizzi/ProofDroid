@@ -55,6 +55,7 @@ def write_markdown(run_dir: Path, meta: dict, findings: list[Finding]) -> Path:
         f"- **Version:** {md(meta.get('version'))}",
         f"- **APK:** {md(meta.get('apk_name'))}",
         f"- **SHA-256:** `{md(meta.get('apk_sha256'))}`",
+        f"- **Static analysis:** {md(meta.get('static_engine'))}",
         f"- **Dynamic analysis:** {md(meta.get('dynamic'))}",
     ]
     if meta.get("device"):
@@ -137,7 +138,8 @@ def write_html(run_dir: Path, meta: dict, findings: list[Finding]) -> Path:
         "</table><h2>Target</h2><table>",
     ]
     for label, key in (("Package", "package"), ("Version", "version"), ("APK", "apk_name"),
-                       ("SHA-256", "apk_sha256"), ("Dynamic analysis", "dynamic")):
+                       ("SHA-256", "apk_sha256"), ("Static analysis", "static_engine"),
+                       ("Dynamic analysis", "dynamic")):
         parts.append(f"<tr><th>{label}</th><td>{e(str(meta.get(key) or ''))}</td></tr>")
     parts.append("</table><h2>Ranked findings</h2><table><tr><th>#</th><th>Status</th>"
                  "<th>Severity</th><th>Finding</th><th>Component</th></tr>")

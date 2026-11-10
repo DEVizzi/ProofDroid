@@ -1,0 +1,9 @@
+$ adb shell am start -W -n jakhar.aseem.diva/jakhar.aseem.diva.APICreds2Activity
+
+Starting: Intent { cmp=jakhar.aseem.diva/.APICreds2Activity }
+Status: ok
+LaunchState: COLD
+Activity: jakhar.aseem.diva/.APICreds2Activity
+TotalTime: 1497
+WaitTime: 1504
+Complete

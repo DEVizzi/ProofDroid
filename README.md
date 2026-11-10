@@ -42,6 +42,21 @@ Checks:
 
 Checks run as the `shell` user (uid 2000). It stands in for any other app on the device.
 
+## Three ways to use it
+
+1. **In your browser:** [devizzi.github.io/ProofDroid/scan](https://devizzi.github.io/ProofDroid/scan/) gives instant
+   manifest findings. The APK never leaves your browser.
+2. **On GitHub Actions:** full scan with evidence, nothing to install (see below).
+3. **Locally:** the CLI, described in the rest of this README.
+
+### Full scan on GitHub Actions
+
+1. Fork this repo.
+2. In your fork, open **Actions → ProofDroid scan → Run workflow** and paste a direct `https://` link to the APK.
+3. When it finishes (about 10–15 min), download the **proofdroid-report** file from the run page.
+
+It runs on a rooted `google_apis` emulator, so the sandbox checks work there too.
+
 ## Requirements
 
 - Python **3.11+**. ProofDroid uses only the standard library, so there's nothing to `pip install`.

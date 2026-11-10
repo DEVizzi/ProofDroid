@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<title>ProofDroid · Scan an APK in your browser</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <a href="../">← ProofDroid</a>
+  <h1>Scan an APK in your browser</h1>
+  <p class="muted">Free static check of the app's manifest. Your APK never leaves this page (no upload, no server).</p>
+</header>
+<label id="drop" for="apk">
+  <strong>Drop an APK here</strong> or click to choose a file
+  <input id="apk" type="file" accept=".apk,application/vnd.android.package-archive">
+</label>
+<p id="status" class="muted" role="status"></p>
+<section id="result"></section>
+<section class="next">
+  <h2>Want proof, not just a list?</h2>
+  <ul>
+    <li><strong>Full scan on GitHub Actions:</strong> fork the repo, open <em>Actions → ProofDroid scan → Run workflow</em>,
+      paste an https:// link to the APK, then download the report with screenshots and logs.</li>
+    <li><strong>Run locally:</strong> <code>proofdroid scan app.apk</code> (see the README).</li>
+  </ul>
+  <p class="muted">Only scan apps you own or are authorised to test.</p>
+</section>
+<script src="axml.js"></script>
+<script src="scan.js"></script>
+</body>
+</html>

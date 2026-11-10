@@ -13,3 +13,4 @@ reports/*
 
 # Test targets
 *.apk
+LAUNCH_NOTES.md

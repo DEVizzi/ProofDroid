@@ -1,0 +1,62 @@
+# Full ProofDroid run on GitHub's machines: boots an Android emulator, installs the
+# APK, runs every check and uploads the report folder as a downloadable artifact.
+#
+# Use: Actions tab -> "ProofDroid scan" -> Run workflow -> paste a direct https:// APK URL.
+# Anyone can do this in their own fork. Only test apps you own or are authorised to test.
+name: ProofDroid scan
+
+on:
+  workflow_dispatch:
+    inputs:
+      apk_url:
+        description: "Direct https:// link to the APK"
+        required: true
+      api_level:
+        description: "Android API level for the emulator"
+        default: "34"
+
+permissions:
+  contents: read
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Download and validate APK
+        env:
+          APK_URL: ${{ inputs.apk_url }}   # Passed via env, never interpolated into the script.
+        run: |
+          case "$APK_URL" in https://*) ;; *) echo "APK URL must start with https://"; exit 1;; esac
+          curl -fsSL --proto '=https' --max-filesize 314572800 -o target.apk "$APK_URL"
+          head -c 4 target.apk | od -An -tx1 | grep -q "50 4b 03 04" || { echo "Not an APK (no ZIP header)"; exit 1; }
+          sha256sum target.apk
+
+      - name: Enable KVM
+        run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules && sudo udevadm trigger --name-match=kvm
+
+      - name: Run ProofDroid on an emulator
+        # TODO(security): pin this third-party action to a full commit SHA before relying on it.
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: ${{ inputs.api_level }}
+          target: google_apis   # google_apis images allow adb root -> sandbox checks work.
+          arch: x86_64
+          emulator-options: -no-window -no-audio -no-boot-anim -no-snapshot-save
+          disable-animations: true
+          script: python -m proofdroid scan target.apk --static builtin --serial emulator-5554 --record || true
+
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: proofdroid-report
+          path: reports/
+          retention-days: 7

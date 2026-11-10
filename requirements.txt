@@ -1,0 +1,9 @@
+# ProofDroid v0.1 uses only the Python standard library (3.11+).
+# External tools are installed separately (see README):
+#   - MobSF (Docker image, talked to over its REST API)
+#   - Android SDK: platform-tools (adb) and emulator
+#
+# Planned, NOT yet added (each needs explicit approval first):
+#   frida-tools      runtime hooks (week 3)
+#   uiautomator2     UI automation for login flows (v2)
+#   pytest / ruff    nicer test runner and linting in CI

@@ -1,0 +1,16 @@
+# Runs MobSF as a separate service. ProofDroid only talks to it over HTTP,
+# so no GPLv3 MobSF code is ever bundled with ProofDroid.
+#
+#   export MOBSF_API_KEY=$(python3 -c "import secrets; print(secrets.token_hex(32))")
+#   docker compose up -d
+#
+# Bound to 127.0.0.1 only: MobSF is never exposed to your network.
+services:
+  mobsf:
+    # TODO: pin to a specific release tag (e.g. :v4.x.y) once you've validated one.
+    image: opensecurity/mobile-security-framework-mobsf:latest
+    ports:
+      - "127.0.0.1:8000:8000"
+    environment:
+      MOBSF_API_KEY: ${MOBSF_API_KEY:?Set MOBSF_API_KEY before starting MobSF}
+    restart: unless-stopped

@@ -1,0 +1,139 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src &#x27;none&#x27;; img-src &#x27;self&#x27; file:; style-src &#x27;sha256-kuBE04HwlYr81cEGp1jZN5JV/uTBhXIb0fKshpLS9G4=&#x27;; base-uri &#x27;none&#x27;; form-action &#x27;none&#x27;">
+<meta name="referrer" content="no-referrer">
+<title>ProofDroid Report: jakhar.aseem.diva</title>
+<style>body{font-family:-apple-system,Segoe UI,Roboto,sans-serif;max-width:980px;margin:2rem auto;padding:0 1rem;color:#1d2330}
+h1{margin-bottom:.2rem}table{border-collapse:collapse;width:100%;margin:1rem 0}
+th,td{border:1px solid #d5d9e0;padding:.4rem .6rem;text-align:left;vertical-align:top}th{background:#f3f5f8}
+.badge{display:inline-block;padding:.1rem .5rem;border-radius:.6rem;font-size:.85em;font-weight:600}
+.s-confirmed{background:#fde2e1;color:#a4161a}.s-unconfirmed{background:#fff1d6;color:#8a5a00}
+.s-not-testable{background:#e9ecf1;color:#4a5363}.sev-high{color:#a4161a}.sev-medium{color:#b35c00}
+.sev-low{color:#2b6cb0}.sev-info{color:#4a5363}.finding{border-top:1px solid #d5d9e0;padding-top:1rem;margin-top:1rem}
+img{max-width:320px;border:1px solid #d5d9e0;margin:.5rem 0}code{background:#f3f5f8;padding:0 .25rem}
+.muted{color:#6b7385;font-size:.9em}</style></head><body>
+<h1>ProofDroid Report: Diva &lt;script&gt;alert(1)&lt;/script&gt;</h1>
+<p class="muted">Generated 2026-11-10T18:29:50+05:30 by ProofDroid 0.1.0</p>
+<h2>Summary</h2><table><tr><th>Status</th><th>Count</th></tr>
+<tr><td>Confirmed</td><td>0</td></tr>
+<tr><td>Unconfirmed</td><td>0</td></tr>
+<tr><td>Not testable</td><td>13</td></tr>
+</table><h2>Target</h2><table>
+<tr><th>Package</th><td>jakhar.aseem.diva</td></tr>
+<tr><th>Version</th><td>1.0</td></tr>
+<tr><th>APK</th><td>diva-sample.apk</td></tr>
+<tr><th>SHA-256</th><td>74d89e416490b24a6aea74fa1bd616c31c0c406958d8121a6b4ce4c75c3822e1</td></tr>
+<tr><th>Dynamic analysis</th><td>skipped (--no-dynamic)</td></tr>
+</table><h2>Ranked findings</h2><table><tr><th>#</th><th>Status</th><th>Severity</th><th>Finding</th><th>Component</th></tr>
+<tr><td>1</td><td><span class="badge s-not-testable">Not testable</span></td><td class="sev-high">High</td><td><a href="#finding-1">Broadcast Receiver (jakhar.aseem.diva.BootReceiver) is not Protected.</a></td><td><code>jakhar.aseem.diva.BootReceiver</code></td></tr>
+<tr><td>2</td><td><span class="badge s-not-testable">Not testable</span></td><td class="sev-high">High</td><td><a href="#finding-2">Activity (jakhar.aseem.diva.MainActivity) is vulnerable to StrandHogg 2.0</a></td><td><code></code></td></tr>
+<tr><td>3</td><td><span class="badge s-not-testable">Not testable</span></td><td class="sev-high">High</td><td><a href="#finding-3">Debug Enabled For App [android:debuggable=true]</a></td><td><code></code></td></tr>
+<tr><td>4</td><td><span class="badge s-not-testable">Not testable</span></td><td class="sev-high">High</td><td><a href="#finding-4">Base config is insecurely configured to permit clear text traffic.</a></td><td><code></code></td></tr>
+<tr><td>5</td><td><span class="badge s-not-testable">Not testable</span></td><td class="sev-medium">Medium</td><td><a href="#finding-5">Application vulnerable to Janus Vulnerability</a></td><td><code></code></td></tr>
+<tr><td>6</td><td><span class="badge s-not-testable">Not testable</span></td><td class="sev-medium">Medium</td><td><a href="#finding-6">App uses SQLite Database and execute raw SQL query.</a></td><td><code></code></td></tr>
+<tr><td>7</td><td><span class="badge s-not-testable">Not testable</span></td><td class="sev-medium">Medium</td><td><a href="#finding-7">Activity (jakhar.aseem.diva.APICreds2Activity) is exported</a></td><td><code>jakhar.aseem.diva.APICreds2Activity</code></td></tr>
+<tr><td>8</td><td><span class="badge s-not-testable">Not testable</span></td><td class="sev-medium">Medium</td><td><a href="#finding-8">Activity (jakhar.aseem.diva.APICredsActivity) is not Protected. [android:exported=true]</a></td><td><code>jakhar.aseem.diva.APICredsActivity</code></td></tr>
+<tr><td>9</td><td><span class="badge s-not-testable">Not testable</span></td><td class="sev-medium">Medium</td><td><a href="#finding-9">Content Provider (jakhar.aseem.diva.NotesProvider) is not Protected.</a></td><td><code>jakhar.aseem.diva.NotesProvider</code></td></tr>
+<tr><td>10</td><td><span class="badge s-not-testable">Not testable</span></td><td class="sev-medium">Medium</td><td><a href="#finding-10">Service (.SyncService) is not Protected.</a></td><td><code>.SyncService</code></td></tr>
+<tr><td>11</td><td><span class="badge s-not-testable">Not testable</span></td><td class="sev-medium">Medium</td><td><a href="#finding-11">Possible hardcoded secrets (1)</a></td><td><code></code></td></tr>
+<tr><td>12</td><td><span class="badge s-not-testable">Not testable</span></td><td class="sev-medium">Medium</td><td><a href="#finding-12">Sensitive data stored insecurely on the device</a></td><td><code></code></td></tr>
+<tr><td>13</td><td><span class="badge s-not-testable">Not testable</span></td><td class="sev-info">Info</td><td><a href="#finding-13">The App logs information. Sensitive information should never be logged.</a></td><td><code></code></td></tr>
+</table><h2>Details</h2>
+<div class="finding" id="finding-1">
+<h3>1. <span class="badge s-not-testable">Not testable</span> Broadcast Receiver (jakhar.aseem.diva.BootReceiver) is not Protected.</h3>
+<p><b>Severity:</b> <span class="sev-high">High</span> &middot; <b>Category:</b> exported_receiver
+ &middot; <b>Component:</b> <code>jakhar.aseem.diva.BootReceiver</code>
+</p>
+<p><b>Result:</b> Dynamic verification was skipped (--no-dynamic).</p>
+<p>A receiver is exported.</p>
+</div>
+<div class="finding" id="finding-2">
+<h3>2. <span class="badge s-not-testable">Not testable</span> Activity (jakhar.aseem.diva.MainActivity) is vulnerable to StrandHogg 2.0</h3>
+<p><b>Severity:</b> <span class="sev-high">High</span> &middot; <b>Category:</b> manifest
+</p>
+<p><b>Result:</b> No automated verification check exists for this finding yet.</p>
+<p>StrandHogg.</p>
+</div>
+<div class="finding" id="finding-3">
+<h3>3. <span class="badge s-not-testable">Not testable</span> Debug Enabled For App [android:debuggable=true]</h3>
+<p><b>Severity:</b> <span class="sev-high">High</span> &middot; <b>Category:</b> manifest
+</p>
+<p><b>Result:</b> No automated verification check exists for this finding yet.</p>
+<p>Debugging was enabled on the app.</p>
+</div>
+<div class="finding" id="finding-4">
+<h3>4. <span class="badge s-not-testable">Not testable</span> Base config is insecurely configured to permit clear text traffic.</h3>
+<p><b>Severity:</b> <span class="sev-high">High</span> &middot; <b>Category:</b> network
+</p>
+<p><b>Result:</b> Dynamic verification was skipped (--no-dynamic).</p>
+<p>Scope: *</p>
+</div>
+<div class="finding" id="finding-5">
+<h3>5. <span class="badge s-not-testable">Not testable</span> Application vulnerable to Janus Vulnerability</h3>
+<p><b>Severity:</b> <span class="sev-medium">Medium</span> &middot; <b>Category:</b> certificate
+</p>
+<p><b>Result:</b> No automated verification check exists for this finding yet.</p>
+<p>Application is signed with v1 signature scheme.</p>
+</div>
+<div class="finding" id="finding-6">
+<h3>6. <span class="badge s-not-testable">Not testable</span> App uses SQLite Database and execute raw SQL query.</h3>
+<p><b>Severity:</b> <span class="sev-medium">Medium</span> &middot; <b>Category:</b> code
+</p>
+<p><b>Result:</b> No automated verification check exists for this finding yet.</p>
+<p><b>References:</b> CWE-89</p>
+<p>Matched in 1 source file(s) by MobSF static analysis.</p>
+</div>
+<div class="finding" id="finding-7">
+<h3>7. <span class="badge s-not-testable">Not testable</span> Activity (jakhar.aseem.diva.APICreds2Activity) is exported</h3>
+<p><b>Severity:</b> <span class="sev-medium">Medium</span> &middot; <b>Category:</b> exported_activity
+ &middot; <b>Component:</b> <code>jakhar.aseem.diva.APICreds2Activity</code>
+</p>
+<p><b>Result:</b> Dynamic verification was skipped (--no-dynamic).</p>
+<p>Listed by MobSF as an exported activity reachable by other apps.</p>
+</div>
+<div class="finding" id="finding-8">
+<h3>8. <span class="badge s-not-testable">Not testable</span> Activity (jakhar.aseem.diva.APICredsActivity) is not Protected. [android:exported=true]</h3>
+<p><b>Severity:</b> <span class="sev-medium">Medium</span> &middot; <b>Category:</b> exported_activity
+ &middot; <b>Component:</b> <code>jakhar.aseem.diva.APICredsActivity</code>
+</p>
+<p><b>Result:</b> Dynamic verification was skipped (--no-dynamic).</p>
+<p>An Activity is found to be shared with other apps on the device.</p>
+</div>
+<div class="finding" id="finding-9">
+<h3>9. <span class="badge s-not-testable">Not testable</span> Content Provider (jakhar.aseem.diva.NotesProvider) is not Protected.</h3>
+<p><b>Severity:</b> <span class="sev-medium">Medium</span> &middot; <b>Category:</b> exported_provider
+ &middot; <b>Component:</b> <code>jakhar.aseem.diva.NotesProvider</code>
+</p>
+<p><b>Result:</b> No automated verification check exists for this finding yet.</p>
+<p>A provider is exported.</p>
+</div>
+<div class="finding" id="finding-10">
+<h3>10. <span class="badge s-not-testable">Not testable</span> Service (.SyncService) is not Protected.</h3>
+<p><b>Severity:</b> <span class="sev-medium">Medium</span> &middot; <b>Category:</b> exported_service
+ &middot; <b>Component:</b> <code>.SyncService</code>
+</p>
+<p><b>Result:</b> Dynamic verification was skipped (--no-dynamic).</p>
+<p>A Service is exported.</p>
+</div>
+<div class="finding" id="finding-11">
+<h3>11. <span class="badge s-not-testable">Not testable</span> Possible hardcoded secrets (1)</h3>
+<p><b>Severity:</b> <span class="sev-medium">Medium</span> &middot; <b>Category:</b> secrets
+</p>
+<p><b>Result:</b> Dynamic verification was skipped (--no-dynamic).</p>
+<p>MobSF flagged 1 possible secrets. Masked samples: &quot;api_k…[masked]</p>
+</div>
+<div class="finding" id="finding-12">
+<h3>12. <span class="badge s-not-testable">Not testable</span> Sensitive data stored insecurely on the device</h3>
+<p><b>Severity:</b> <span class="sev-medium">Medium</span> &middot; <b>Category:</b> storage
+</p>
+<p><b>Result:</b> Dynamic verification was skipped (--no-dynamic).</p>
+<p>Runtime inspection of the app sandbox and shared external storage after launch.</p>
+</div>
+<div class="finding" id="finding-13">
+<h3>13. <span class="badge s-not-testable">Not testable</span> The App logs information. Sensitive information should never be logged.</h3>
+<p><b>Severity:</b> <span class="sev-info">Info</span> &middot; <b>Category:</b> code
+</p>
+<p><b>Result:</b> No automated verification check exists for this finding yet.</p>
+<p><b>References:</b> CWE-532: Insertion of Sensitive Information into Log File, MSTG-STORAGE-3</p>
+<p>Matched in 2 source file(s) by MobSF static analysis.</p>
+</div>
+<p class="muted">&quot;Confirmed&quot; means ProofDroid reproduced the issue on an emulator and captured evidence. &quot;Unconfirmed&quot; means a check ran but could not prove it. &quot;Not testable&quot; means no automated check exists yet or the dynamic stage could not run; these still deserve manual review. Only test apps you own or are explicitly authorised to test.</p></body></html>

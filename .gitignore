@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.env
+
+# Run outputs can contain client data and app secrets; never commit them.
+reports/*
+!reports/.gitkeep
+
+# Test targets
+*.apk

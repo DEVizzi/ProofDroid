@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "proofdroid"
+version = "0.1.0"
+description = "Scan an Android APK with MobSF and prove which findings are exploitable on an emulator."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.11"
+dependencies = []  # Standard library only. Ask before adding any dependency.
+keywords = ["android", "security", "mobsf", "pentest", "apk"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Security",
+  "Environment :: Console",
+]
+
+[project.scripts]
+proofdroid = "proofdroid.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["proofdroid*"]

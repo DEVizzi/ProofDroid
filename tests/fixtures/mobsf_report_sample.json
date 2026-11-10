@@ -1,0 +1,86 @@
+{
+  "app_name": "Diva &lt;script&gt;alert(1)&lt;/script&gt;",
+  "package_name": "jakhar.aseem.diva",
+  "version_name": "1.0",
+  "md5": "0123456789abcdef0123456789abcdef",
+  "manifest_analysis": {
+    "manifest_findings": [
+      {
+        "rule": "explicitly_exported",
+        "title": "<strong>Activity</strong> (jakhar.aseem.diva.APICredsActivity) is not Protected.<br>[android:exported=true]",
+        "severity": "warning",
+        "description": "An Activity is found to be shared with other apps on the device."
+      },
+      {
+        "rule": "explicitly_exported",
+        "title": "<strong>Service</strong> (.SyncService) is not Protected.",
+        "severity": "warning",
+        "description": "A Service is exported."
+      },
+      {
+        "rule": "explicitly_exported",
+        "title": "<strong>Broadcast Receiver</strong> (jakhar.aseem.diva.BootReceiver) is not Protected.",
+        "severity": "high",
+        "description": "A receiver is exported."
+      },
+      {
+        "rule": "explicitly_exported",
+        "title": "<strong>Content Provider</strong> (jakhar.aseem.diva.NotesProvider) is not Protected.",
+        "severity": "warning",
+        "description": "A provider is exported."
+      },
+      {
+        "rule": "app_is_debuggable",
+        "title": "Debug Enabled For App<br>[android:debuggable=true]",
+        "severity": "high",
+        "description": "Debugging was enabled on the app."
+      },
+      {
+        "rule": "strandhogg",
+        "title": "<strong>Activity</strong> (jakhar.aseem.diva.MainActivity) is vulnerable to StrandHogg 2.0",
+        "severity": "high",
+        "description": "StrandHogg."
+      },
+      {
+        "rule": "something_secure",
+        "title": "Everything fine",
+        "severity": "secure",
+        "description": "Not an issue."
+      }
+    ]
+  },
+  "exported_activities": "['jakhar.aseem.diva.APICredsActivity', 'jakhar.aseem.diva.APICreds2Activity']",
+  "code_analysis": {
+    "findings": {
+      "android_logging": {
+        "files": {"a/B.java": "10,12", "c/D.java": "3"},
+        "metadata": {
+          "description": "The App logs information. Sensitive information should never be logged.",
+          "severity": "info",
+          "cwe": "CWE-532: Insertion of Sensitive Information into Log File",
+          "masvs": "MSTG-STORAGE-3"
+        }
+      },
+      "android_sql_raw_query": {
+        "files": {"e/F.java": "40"},
+        "metadata": {
+          "description": "App uses SQLite Database and execute raw SQL query.",
+          "severity": "warning",
+          "cwe": "CWE-89"
+        }
+      }
+    },
+    "summary": {"high": 0}
+  },
+  "network_security": {
+    "network_findings": [
+      {"scope": ["*"], "description": "Base config is insecurely configured to permit clear text traffic.", "severity": "high"}
+    ]
+  },
+  "certificate_analysis": {
+    "certificate_findings": [
+      ["warning", "Application is signed with v1 signature scheme.", "Application vulnerable to Janus Vulnerability"]
+    ]
+  },
+  "secrets": ["\"api_key\" : \"AIzaSyD-SECRETVALUE1234567890\""]
+}
